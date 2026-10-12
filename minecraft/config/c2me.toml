@@ -194,7 +194,7 @@ globalExecutorParallelism = "default"
 	# 
 	filterFluidPostProcessing = "default"
 	# ================================================================
-	# (Default: false) Whether to use legacy scheduling for neighbor chunks
+	# (Default: true) Whether to use legacy scheduling for neighbor chunks
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
 	# 
