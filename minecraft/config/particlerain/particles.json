@@ -1,0 +1,22 @@
+{
+  "rain": {},
+  "vertical_fog_after_rain": {},
+  "splatter": {},
+  "skittering_dust": {},
+  "smoke": {},
+  "heavy_snow": {},
+  "vertical_fog": {},
+  "streak": {},
+  "fog_after_rain": {
+    "density": 0.20600002
+  },
+  "shrub": {},
+  "ripple": {},
+  "snow": {},
+  "heavy_rain": {},
+  "dust": {},
+  "dust_haze": {
+    "enabled": false
+  },
+  "fog": {}
+}

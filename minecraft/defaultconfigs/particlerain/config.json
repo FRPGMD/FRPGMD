@@ -1,7 +1,7 @@
 {
   "configVersion": 7,
   "perf": {
-    "maxParticleAmount": 1500,
+    "maxParticleAmount": 700,
     "particleDensity": 75,
     "particleStormDensity": 100,
     "particleDistance": 16,
@@ -21,11 +21,11 @@
   "compat": {
     "renderDefaultWeather": false,
     "doDefaultSplashing": false,
-    "waterTint": true,
+    "waterTint": false,
     "tintMix": 0.6,
     "shaderpackTint": true,
     "syncRegistries": true,
-    "crossBiomeBorder": false,
+    "crossBiomeBorder": true,
     "useHeightmapTemp": true,
     "weatherIgnoreBlocks": {
       "entries": [
