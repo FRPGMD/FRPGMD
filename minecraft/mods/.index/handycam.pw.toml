@@ -1,20 +1,20 @@
-filename = 'handycam-2.0.0-alpha+1.21.1-neoforge.jar'
+filename = 'handycam-2.0.1-beta+1.21.1-neoforge.jar'
 name = 'Handycam'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = '2.0.0+1.21.1'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.1+1.21.1'
 
 [download]
-hash = '0d35efeaf6ac40e4e3a21bb0d82bc3a811d21c7673d6e2b7a17d7d5fb1c136377dc8f6ac6d6e4c240077334699185fe1d385fbbcc17fec7fbc2e145a916af480'
+hash = '133ec29e110508174f42244cd82adb996cadd09610ccf14968765a65672aab4cf29c86dc3600a7d5aa859e8d3be8a2d085413c5197417fa0b748fa92d0973cee'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/kONpDzH3/versions/C7XGxqWT/handycam-2.0.0-alpha%2B1.21.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/kONpDzH3/versions/mdydX1Hs/handycam-2.0.1-beta%2B1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'kONpDzH3'
-version = 'C7XGxqWT'
+version = 'mdydX1Hs'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
