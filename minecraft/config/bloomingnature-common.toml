@@ -1,0 +1,111 @@
+[effects]
+	#Players near a placed Completionist Banner get its effect
+	bannerGiveEffect = true
+	#Radius of the Completionist Banner effect
+	# Default: 8
+	# Range: 1 ~ 32
+	bannerRadius = 8
+	#Level of the Completionist Banner effect, 0 is level I
+	# Default: 1
+	# Range: 0 ~ 4
+	bannerAmplifier = 1
+
+[gardener]
+	#The Wandering Gardener visits players now and then
+	gardenerEnabled = true
+	#The Wandering Gardener arrives with a leashed camel
+	gardenerBringsCamel = true
+	#Shortest time between two visits in ticks, 24000 ticks are one day
+	# Default: 24000
+	# Range: 1200 ~ 240000
+	gardenerMinDelay = 24000
+	#Longest time between two visits in ticks
+	# Default: 60000
+	# Range: 1200 ~ 480000
+	gardenerMaxDelay = 60000
+	#How long the Wandering Gardener stays in ticks
+	# Default: 48000
+	# Range: 1200 ~ 240000
+	gardenerVisitDuration = 48000
+
+[misc]
+	#Fireflies appear at night around lanterns, Wild Vines, Cattail, Reed and Flowering Lily Pads
+	firefliesEnabled = true
+	#Leaves drift down from the trees
+	fallingLeavesEnabled = true
+	#How many leaves fall, in percent
+	# Default: 100
+	# Range: 10 ~ 300
+	fallingLeavesDensity = 100
+
+[fog]
+	#Mist in damp and cold biomes, in the morning and when it rains
+	enabled = true
+	#Where the mist starts, in % of the render distance
+	# Default: 0
+	# Range: 0 ~ 100
+	startPercent = 0
+	#Mist from late night until shortly after sunrise
+	morning = true
+	#How far you can see in morning mist, in % of the render distance
+	# Default: 45
+	# Range: 1 ~ 100
+	morningEndPercent = 45
+	#Mist while it rains
+	rain = true
+	#How far you can see in rain mist, in % of the render distance
+	# Default: 30
+	# Range: 1 ~ 100
+	rainEndPercent = 30
+	#Thick mist gathers in hollows and low ground at night and in the morning
+	hollows = true
+	#How far you can see in a misty hollow, in % of the render distance
+	# Default: 20
+	# Range: 1 ~ 100
+	hollowEndPercent = 20
+	#Thick mist over the cold peat bogs
+	fogFen = true
+	#Mist rising from the reeds and pools
+	fogMarshland = true
+	#Mist hanging over the murky water
+	fogSwamp = true
+	#Humid haze between the mangrove roots
+	fogMangroveSwamp = true
+	#Mist rising from the water at dawn
+	fogRiver = true
+	#Cold mist over the frozen river
+	fogFrozenRiver = true
+	#Mist over the cold rivers of snowy regions
+	fogColdRiver = true
+	#Steamy haze over the jungle rivers
+	fogJungleRiver = true
+	#Light morning mist between the trees
+	fogForest = true
+	#Soft mist over the flower meadows
+	fogFlowerForest = true
+	#Pale mist between the birch trunks
+	fogBirchForest = true
+	#Mist between the tall birches
+	fogOldGrowthBirchForest = true
+	#Gloomy mist under the dense canopy
+	fogDarkForest = true
+	#Pink-tinted haze among the blossoms
+	fogCherryGrove = true
+	#Cool mist between the spruces
+	fogTaiga = true
+	#Thick mist in the ancient spruce forest
+	fogOldGrowthSpruceTaiga = true
+	#Thick mist in the ancient pine forest
+	fogOldGrowthPineTaiga = true
+	#Light mist between the aspens
+	fogAspenForest = true
+	#Cold mist between the larches
+	fogLarchForest = true
+	#Low clouds drifting through the woods
+	fogHighlandWoods = true
+	#Soft mist over the glade
+	fogFlowerGlade = true
+	#Golden morning haze over the glade
+	fogGoldenGlade = true
+	#Mist creeping out of the forest
+	fogForestEdge = true
