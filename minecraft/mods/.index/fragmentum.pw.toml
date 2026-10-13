@@ -1,18 +1,18 @@
-filename = 'fragmentum-5.2.0+1.21.1-neoforge.jar'
+filename = 'fragmentum-5.3.0+1.21.1-neoforge.jar'
 name = 'Fragmentum'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.2.0'
+x-prismlauncher-version-number = '5.3.0'
 
 [download]
-hash = 'f8db7ba5e83a3bd9957ae17de4a11f3abb934a164f474e272dcf151b2424b81d575145135f0763276c5c3e134f72bfa0e73bd41bbece0dcb19366e631903594f'
+hash = 'cc756d18a0ea903e32c1bd533620283c3b0fc4387d0d1df68cd399e964944493f4a702860b1035d3fc2f83446e6b0ce705a71dcd109322a40fe0ed49a8fa5cdd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/49C5QgTK/versions/Kh6I6ckR/fragmentum-5.2.0%2B1.21.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/49C5QgTK/versions/AyL8gHWw/fragmentum-5.3.0%2B1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = '49C5QgTK'
-version = 'Kh6I6ckR'
+version = 'AyL8gHWw'
