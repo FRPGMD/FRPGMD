@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip"]
 incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip"]
 lastServer:
 lang:ru_ru
