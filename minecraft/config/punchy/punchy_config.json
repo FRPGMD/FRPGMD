@@ -1,5 +1,5 @@
 {
-  "renderArmorArmsFP": true,
+  "renderArmorArmsFP": false,
   "interactiveStuffCompat": false,
   "spatialGuiCompat": true,
   "bettercombatCompat": true,
