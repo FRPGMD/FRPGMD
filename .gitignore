@@ -26,3 +26,8 @@ minecraft/fabricloader.log
 minecraft/options.txt
 minecraft/configureddefaults/README.md
 -minecraft/mods/.index/
+instance.cfg
+minecraft/config/asyncparticles/asyncparticles-mixin.properties
+minecraft/config/fabric/indigo-renderer.properties
+minecraft/config/packetfixer.properties
+minecraft/config/rsls.properties
