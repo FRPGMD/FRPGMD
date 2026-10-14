@@ -11,6 +11,8 @@
   "leaf_passthrough": "yes",
   "hoof_dust": "yes",
   "rear_neigh": "yes",
+  "horse_management": "yes",
+  "horse_revival": "yes",
   "horse_charge": "yes",
   "horse_kick": "yes",
   "horse_defend": "yes",
@@ -70,12 +72,19 @@
     "spawn_weight": 5,
     "spawn_group_min": 2,
     "spawn_group_max": 6,
-    "spawn_probability_floor": 0.1
+    "spawn_probability_floor": 0.1,
+    "revive_xp_levels": 10,
+    "revive_bond_loss": 20
   },
   "hud": {
     "charge_meter_side": "right",
     "charge_meter_gap": 4,
     "harness_gauge_side": "left",
     "harness_gauge_gap": 4
-  }
+  },
+  "breeding_foods": [
+    "minecraft:golden_carrot",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple"
+  ]
 }

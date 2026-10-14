@@ -1,18 +1,18 @@
-filename = 'takeaseat-1.0.3-1.21.1-neo.jar'
-name = 'Take a Seat!'
-side = 'both'
+filename = 'takeaseat-1.0.4-1.21.1-neoforge.jar'
+name = 'Take a Seat'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.3'
+x-prismlauncher-version-number = '1.0.4'
 
 [download]
-hash = 'ea200dc8fd735a150f898e2980db7424cf4cb86d1f7eacc87da5147c5c2f52a8c8f035f892600622b05c6d88ba66bc79da268039bde772282fcb7f0795478944'
+hash = '7dab4eecc557e57a14abf1ef29ed6b5fc3f79c6b573c8cfb8e32f116acbd766d27ad11050c8317593fd17153793edfdf1a25d7f223abcbc594ceb40b57e08387'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Gg7qMzxE/versions/zZZX4xZI/takeaseat-1.0.3-1.21.1-neo.jar'
+url = 'https://cdn.modrinth.com/data/Gg7qMzxE/versions/6qDGV9YV/takeaseat-1.0.4-1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'Gg7qMzxE'
-version = 'zZZX4xZI'
+version = '6qDGV9YV'
