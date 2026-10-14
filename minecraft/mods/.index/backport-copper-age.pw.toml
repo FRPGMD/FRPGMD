@@ -1,0 +1,18 @@
+filename = 'copperagebackport-neoforge-1.21.1-0.1.5.1-pre.jar'
+name = 'Copper Age Backport'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-0.1.5.1-pre'
+
+[download]
+hash = 'cb8df9de84b1ef24101d4f672c01a72c65192d60e76828e3ce1de65b206effbd3b3301b41d87e26082fb2415d6befa8021d72c055e50eba6a5a8705108e15b92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/a1llHwl4/versions/ZyjDScTQ/copperagebackport-neoforge-1.21.1-0.1.5.1-pre.jar'
+
+[update.modrinth]
+mod-id = 'a1llHwl4'
+version = 'ZyjDScTQ'
