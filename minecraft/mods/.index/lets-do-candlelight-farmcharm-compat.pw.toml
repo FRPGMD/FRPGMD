@@ -1,0 +1,25 @@
+filename = 'letsdo-candlelight-neoforge-2.1.15.jar'
+name = "[Let's Do] Candlelight - Farm&Charm compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.15'
+
+[download]
+hash = 'a0a596b445a46ea143205992ef8861ee6937ccdf38fcadcc1f2012c1145a99668870725406d2d3eb756b94766d89a960a2882670cc14a371ae9278777ccdf693'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qwbArkQk/versions/4QhmIK8c/letsdo-candlelight-neoforge-2.1.15.jar'
+
+[update.modrinth]
+mod-id = 'qwbArkQk'
+version = '4QhmIK8c'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HJetCzWo'
+type = 'REQUIRED'

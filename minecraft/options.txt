@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip"]
-incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen_Lets_Do_Support_1.0.zip"]
+incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen_Lets_Do_Support_1.0.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -126,6 +126,43 @@ key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.u
 key_accessories.key.open_accessories_screen:key.keyboard.h
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
+key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.transferRecipeGui:key.keyboard.unknown
+key_key.jei.maxTransferRecipeGui:key.keyboard.unknown
+key_key.jei.quickMove:key.mouse.left:SHIFT
+key_key.jei.shareToChat:key.keyboard.unknown
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.toggleCheatMode:key.keyboard.unknown
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.recipeForward:key.keyboard.unknown
+key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.nextRecipePage:key.keyboard.page.down
+key_key.jei.pauseRecipeCycling:key.keyboard.left.shift
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.closeRecipeGui:key.keyboard.escape
+key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.punchy.open_main_menu:key.keyboard.f8
 key_key.punchy.inspect:key.keyboard.i
 key_key.takeaseat.sit:key.keyboard.x
@@ -216,8 +253,8 @@ key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.r
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
+key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 soundCategory_master:0.297355824812178
 soundCategory_music:1.0
 soundCategory_record:1.0
