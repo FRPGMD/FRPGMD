@@ -31,3 +31,5 @@ minecraft/config/asyncparticles/asyncparticles-mixin.properties
 minecraft/config/fabric/indigo-renderer.properties
 minecraft/config/packetfixer.properties
 minecraft/config/rsls.properties
+minecraft/debug/
+minecraft/kubejsstudio/
