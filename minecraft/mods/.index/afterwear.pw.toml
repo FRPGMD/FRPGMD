@@ -1,0 +1,21 @@
+filename = 'afterwear-1.2.0+1.21.1-neoforge.jar'
+name = 'Afterwear'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Afterwear 1.2.0'
+
+[download]
+hash = 'a19c412afc37e463fbd92bb3419110c122cff8ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9192170
+project-id = 1740524
+
+[[x-prismlauncher-dependencies]]
+addonId = '1123977'
+type = 'REQUIRED'

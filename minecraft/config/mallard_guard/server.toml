@@ -317,7 +317,7 @@ configRevision = 102
 	#Chance to add assigned equipment to a fresh whitelisted vanilla humanoid. Existing melee gear and occupied armor slots are preserved. Independent of Difficulty. Default: 50%.
 	# Default: 50
 	# Range: 0 ~ 100
-	gearChance = 50
+	gearChance = 75
 	#Allowed mob spawn equipment. IDs, #tags, @mods and ! exceptions use the shared assignment rules. Only usable equipment enters the gear pool. Default: vanilla armor and swords/pickaxes/shovels/hoes, without netherite or turtle helmets.
 	gearWhitelist = "minecraft:leather_helmet,minecraft:leather_chestplate,minecraft:leather_leggings,minecraft:leather_boots,minecraft:chainmail_helmet,minecraft:chainmail_chestplate,minecraft:chainmail_leggings,minecraft:chainmail_boots,minecraft:iron_helmet,minecraft:iron_chestplate,minecraft:iron_leggings,minecraft:iron_boots,minecraft:golden_helmet,minecraft:golden_chestplate,minecraft:golden_leggings,minecraft:golden_boots,minecraft:diamond_helmet,minecraft:diamond_chestplate,minecraft:diamond_leggings,minecraft:diamond_boots,minecraft:wooden_sword,minecraft:wooden_pickaxe,minecraft:wooden_shovel,minecraft:wooden_hoe,minecraft:stone_sword,minecraft:stone_pickaxe,minecraft:stone_shovel,minecraft:stone_hoe,minecraft:iron_sword,minecraft:iron_pickaxe,minecraft:iron_shovel,minecraft:iron_hoe,minecraft:golden_sword,minecraft:golden_pickaxe,minecraft:golden_shovel,minecraft:golden_hoe,minecraft:diamond_sword,minecraft:diamond_pickaxe,minecraft:diamond_shovel,minecraft:diamond_hoe"
 	#Disallowed mob spawn equipment; overrides the whitelist. Default: empty. Items absent from the whitelist are not generated.

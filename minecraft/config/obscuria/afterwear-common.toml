@@ -1,0 +1,21 @@
+#=============[ Afterwear Common Config ]============
+# Please prefer editing the config through the in-game 
+# configuration menu (available via the mods list), as
+# it includes many hints and quality-of-life improvements!
+#====================================================
+[Degradation]
+	enable_degradation = true
+	integrity_formula = "1 - D^3"
+	degradation_attributes = ["minecraft:generic.attack_damage", "minecraft:generic.armor", "minecraft:generic.armor_toughness"]
+	degradation_whitelist = ["@armor", "@weapons", "@tools"]
+	degradation_blacklist = []
+
+[Breakage]
+	enable_breakage_rework = true
+	pass_interactions = true
+	breakage_whitelist = ["@armor", "@weapons", "@tools"]
+	breakage_blacklist = ["%wood", "%stone", "$leather"]
+
+[Repair]
+	enable_repair_rework = true
+	repair_cost_formula = "M + E"

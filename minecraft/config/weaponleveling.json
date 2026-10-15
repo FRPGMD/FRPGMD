@@ -1,0 +1,21 @@
+{
+  "holdShiftToShow": false,
+  "titleColor": 12517240,
+  "arrowColor": 12517240,
+  "textColor": 9736850,
+  "valuesColor": 15422034,
+  "shiftColor": 12517240,
+  "brokenColor": 15422034,
+  "apply_ranged_damage_attribute": true,
+  "send_registry_in_log": false,
+  "broken_items_wont_vanish": true,
+  "level_up_type": "TOAST",
+  "kill_xp": 1,
+  "levelable_items_auto_unbreakable": true,
+  "hit_xp_amount": 1,
+  "hit_xp_chance": 20,
+  "max_item_level": 500,
+  "starting_xp_amount": 100,
+  "xp_apply_chance": 50,
+  "value_per_level": 0.1
+}
