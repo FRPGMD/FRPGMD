@@ -1,0 +1,77 @@
+filename = 'betterdays-1.21.1-3.3.6.3-NEOFORGE.jar'
+name = 'Better Days'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.3.6.3-NEOFORGE'
+
+[download]
+hash = '0eb11977abb06a0c36764019a9299347480bfc728233a2df4e968b368487626728d546ade45a2edcb0e620485189e440c22fc7a99671888a86367514551ac78d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tPLE214j/versions/Ho93yCC3/betterdays-1.21.1-3.3.6.3-NEOFORGE.jar'
+
+[update.modrinth]
+mod-id = 'tPLE214j'
+version = 'Ho93yCC3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AwiAYDUq'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DvvYZ4Cd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RdiVEh3O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KRi6s8j8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hFW7KOhm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cqzqfZKX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aY8vAgyv'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sUbuUC7R'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0bNACJD'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'zrbKKaSr'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'j3xSC4PA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SaCpeal4'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ZPywkPEo'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mQdEVqSA'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oDobngty'
+type = 'OPTIONAL'
