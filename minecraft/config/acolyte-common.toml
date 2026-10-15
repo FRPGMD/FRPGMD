@@ -1,0 +1,62 @@
+	#Choose which village pool each tavern is added to.
+	#Valid values: "streets", "houses", "both", "disabled"
+	#These settings apply globally to all worlds.
+	[tavern_placement.plains]
+		#Plains village tavern pool placement.
+		pool = "streets"
+		#Weight in the streets pool.
+		# Default: 3
+		# Range: 1 ~ 100
+		streets_weight = 3
+		#Weight in the houses pool.
+		# Default: 12
+		# Range: 1 ~ 100
+		houses_weight = 12
+
+	[tavern_placement.desert]
+		#Desert village tavern pool placement.
+		pool = "streets"
+		#Weight in the streets pool.
+		# Default: 3
+		# Range: 1 ~ 100
+		streets_weight = 3
+		#Weight in the houses pool.
+		# Default: 12
+		# Range: 1 ~ 100
+		houses_weight = 12
+
+	[tavern_placement.taiga]
+		#Taiga village tavern pool placement.
+		pool = "streets"
+		#Weight in the streets pool.
+		# Default: 3
+		# Range: 1 ~ 100
+		streets_weight = 3
+		#Weight in the houses pool.
+		# Default: 12
+		# Range: 1 ~ 100
+		houses_weight = 12
+
+	[tavern_placement.savanna]
+		#Savanna village tavern pool placement.
+		pool = "streets"
+		#Weight in the streets pool.
+		# Default: 3
+		# Range: 1 ~ 100
+		streets_weight = 3
+		#Weight in the houses pool.
+		# Default: 12
+		# Range: 1 ~ 100
+		houses_weight = 12
+
+	[tavern_placement.snowy]
+		#Snowy village tavern pool placement.
+		pool = "streets"
+		#Weight in the streets pool.
+		# Default: 3
+		# Range: 1 ~ 100
+		streets_weight = 3
+		#Weight in the houses pool.
+		# Default: 12
+		# Range: 1 ~ 100
+		houses_weight = 12

@@ -1,0 +1,18 @@
+filename = 'irons_spellbooks-1.21.1-3.16.3.jar'
+name = "Iron's Spells 'n Spellbooks"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.16.3'
+
+[download]
+hash = 'fd782f98c6c59b193c4832f33775291d2a7e639e1e23dd47510bfb494d99d182bec1253566b9394f96c733a0d0108be34bd729614b82dc29e55e096fdeb96f5b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s4OWxYQQ/versions/slKLosTb/irons_spellbooks-1.21.1-3.16.3.jar'
+
+[update.modrinth]
+mod-id = 's4OWxYQQ'
+version = 'slKLosTb'

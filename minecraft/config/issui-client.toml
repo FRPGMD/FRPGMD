@@ -1,0 +1,27 @@
+[SpellBar]
+	# true = Modify SpellBar | false = Vanilla SpellBar
+	SpellBar = true
+	# 0 = Vertical | 1 = Horizontal
+	# Default: 0
+	# Range: 0 ~ 1
+	Arrangement = 0
+	# SpellBar Display Count
+	# Default: 5
+	# Range: 3 ~ 15
+	DisplayCount = 5
+	# 0 = Hold | 1 = Always
+	# Default: 0
+	# Range: 0 ~ 1
+	DisplayMode = 0
+	# 0 = Top | 1 = Left | 2 = Right
+	# Default: 1
+	# Range: 0 ~ 2
+	Location = 1
+	# X-axis Position Offset
+	# Default: 0
+	# Range: -10000 ~ 10000
+	OffsetX = 0
+	# Y-axis Position Offset
+	# Default: 0
+	# Range: -10000 ~ 10000
+	OffsetY = 0

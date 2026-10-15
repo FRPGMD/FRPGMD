@@ -281,7 +281,7 @@ configRevision = 102
 	#Whether the automatic Shield Expansion Item Only Mode notice has appeared on this client.
 	shieldExpansionNoticeShown = false
 	#Whether the Simply Swords keybind notice has already appeared in chat on this client.
-	simplySwordsNoticeShown = false
+	simplySwordsNoticeShown = true
 	#Show the simple blocking pose on yourself and other guarding players and humanoid mobs. Off hides this pose for everyone on your client; server guard mechanics do not change.
 	thirdPersonGuardPose = true
 	#Simple first-person weapon pose preference when Punchy guard integration is disabled. The simple pose is automatically enabled when Punchy is absent or its enabled integration is unavailable. Compatible Punchy animations take priority without changing this preference; shields use their own animation.
