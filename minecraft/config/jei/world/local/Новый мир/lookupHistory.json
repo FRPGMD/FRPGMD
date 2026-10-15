@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"bloomingnature:fan_palm_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nomansland:pine_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nomansland:stripped_pine_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

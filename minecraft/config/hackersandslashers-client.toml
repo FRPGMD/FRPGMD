@@ -1,0 +1,30 @@
+[UI]
+	#Allowed Values: CROSSHAIR, LEGACY, DISABLED
+	stealtho_meter_style = "CROSSHAIR"
+	enable_health_bar = false
+	enable_damage_numbers = true
+
+[Visuals]
+	enable_custom_damage_flash = true
+
+	[Visuals."Damage Flash Colors"]
+		# Default: 14669820
+		# Range: 0 ~ 16777215
+		critical_hit = 14669820
+		# Default: 16743447
+		# Range: 0 ~ 16777215
+		fire = 16743447
+		# Default: 16266239
+		# Range: 0 ~ 16777215
+		magic = 16266239
+		# Default: 16771453
+		# Range: 0 ~ 16777215
+		default = 16771453
+
+	[Visuals."Combat Particles"]
+		enable_attack_particles = true
+		enable_critical_burst = true
+		enable_speedlines = false
+
+[Debug]
+	debug_mob_detection = false

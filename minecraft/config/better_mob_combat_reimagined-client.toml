@@ -1,0 +1,8 @@
+#Add enhanced bow, crossbow, spear, and generic projectile-weapon animations to humanoid mobs.
+enableRangedAnimations = true
+#Apply Better Combat weapon idle poses to humanoid mobs, including two-handed bow and crossbow stances.
+enableWeaponIdlePoses = true
+#Fine visual-only adjustment (in ticks, 1 tick = 0.05s) to when the swing animation appears to make contact, relative to the server's actual damage tick. This does NOT change when damage is applied - the server tick rate can't be adjusted more finely than whole ticks - it only re-paces the client animation playback. Positive values make the visible swing reach its hit pose later (sound/damage happens first); negative values make it reach the hit pose earlier. Try small values like 0.1-0.3.
+# Default: 0.0
+# Range: -5.0 ~ 5.0
+clientHitTimingNudgeTicks = 0.0

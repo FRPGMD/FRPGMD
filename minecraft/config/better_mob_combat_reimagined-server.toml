@@ -1,0 +1,55 @@
+#Master switch for Better Combat attacks on mobs.
+enabled = true
+#Animate vanilla melee attacks for empty-handed mobs and mobs holding items without Better Combat attributes.
+enableFallbackMeleeAnimations = true
+#Ticks between a fallback melee attack starting and dealing damage. This applies to empty hands and held items without Better Combat attack attributes, such as shovels, hoes, and pickaxes. Set to 0 for vanilla instant damage.
+# Default: 6
+# Range: 0 ~ 40
+emptyHandedAttackDelayTicks = 6
+#Require line of sight for every target caught in an attack arc.
+requireLineOfSight = true
+#Allow a mob's attack arc to hit entities allied to that mob.
+allowFriendlyFire = false
+#Maximum number of living entities one mob swing may hit.
+# Default: 8
+# Range: 1 ~ 64
+maxTargets = 8
+#How much of the selected Better Combat attack range is used by the AI reach check. The original 1.20.1 mod used 1.0; the separate start delay lets the mob close distance before the visible swing begins.
+# Default: 1.0
+# Range: 0.25 ~ 1.0
+attackStartRangeMultiplier = 1.0
+#Extra blocks added to Better Combat mob melee reach and hit detection.
+# Default: 0.0
+# Range: 0.0 ~ 16.0
+additionalAttackRange = 0.0
+#Ticks between the AI deciding it is in range and the Better Combat upswing beginning. Matches the original 1.20.1 Better Mob Combat default and prevents attacks from visibly starting at maximum reach.
+# Default: 10
+# Range: 0 ~ 100
+attackStartDelayTicks = 10
+#Extra recovery ticks after a Better Combat attack interval. The original 1.20.1 default was 7.
+# Default: 7
+# Range: 0 ~ 100
+additionalAttackCooldownTicks = 7
+#Continuously force a mob to face its intended target during the entire windup. Disabled by default so telegraphed swings can be sidestepped.
+trackTargetDuringWindup = false
+#Fastest allowed attack interval, in ticks. Prevents extreme attack-speed values from creating hit spam.
+# Default: 5
+# Range: 1 ~ 40
+minimumAttackIntervalTicks = 5
+#Ticks without starting another attack before the mob returns to the first combo animation.
+# Default: 30
+# Range: 1 ~ 400
+comboResetTicks = 30
+#Amount added to Better Combat's own upswing multiplier for mob attacks. This matches the original 1.20.1 Better Mob Combat behavior: 0.0 uses Better Combat's normal timing, while positive values make the telegraphed upswing longer.
+# Default: 0.15
+# Range: 0.0 ~ 0.8
+additionalUpswingMultiplier = 0.15
+#Entity types that keep vanilla combat and vanilla animations entirely.
+#Accepts entity type ids, entity type tags (tags are prefixed with '#'), and namespace wildcards.
+#A bare id is assumed to be in the 'minecraft' namespace, so "warden" and
+#"minecraft:warden" both work. Use "minecolonies:*" to exclude every entity from a mod.
+#Entries are case-sensitive and must be lowercase.
+#Examples: ["minecraft:warden", "#minecraft:raiders", "minecolonies:*"]
+entityBlacklist = []
+#Log one-off diagnostics about resolved weapon poses and attack animations. Useful when reporting a bug; noisy otherwise.
+debugLogging = false

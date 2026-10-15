@@ -1,0 +1,15 @@
+{
+  "locked": false,
+  "name": "Default",
+  "overrides": {},
+  "packIds": [
+    "mod/atmospherics:resourcepacks/atmospherics_pack",
+    "generated/fragmentum_layer",
+    "file/FA+Player-v1.1.zip",
+    "file/JustExpressions_v1.2.1.zip",
+    "mod_resources",
+    "fabric",
+    "mod/punchy:resourcepacks/punchy",
+    "vanilla"
+  ]
+}

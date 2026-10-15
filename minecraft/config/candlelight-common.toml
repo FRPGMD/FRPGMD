@@ -1,0 +1,420 @@
+#Table Sets, courses and the dinner menu.
+[Dinner]
+	#Food eaten from a Table Set fills you up by this multiplier. 1.0 = no bonus.
+	# Default: 1.3
+	# Range: 1.0 ~ 3.0
+	tableSetFoodBonus = 1.3
+	#Food bonus from a Table Set while wearing a full Suit or Evening Dress. 1.0 = no bonus.
+	# Default: 1.5
+	# Range: 1.0 ~ 3.0
+	elegantFoodBonus = 1.5
+	#Extra Well Served for every Table Setting, in ticks. 20 ticks = 1 second.
+	# Default: 1200
+	# Range: 0 ~ 12000
+	wellServedTicksPerCourse = 1200
+	#Longest Well Served you can get from a Table Set, in ticks. 20 ticks = 1 second.
+	# Default: 12000
+	# Range: 0 ~ 72000
+	maxWellServedTicks = 12000
+	#Starter, main course and dessert in a row give a bonus.
+	enableDinnerMenu = true
+	#Extra Well Served and Refreshed for a full menu, in ticks. 20 ticks = 1 second.
+	# Default: 6000
+	# Range: 0 ~ 72000
+	menuBonusTicks = 6000
+	#Longest Well Served you can get from a full menu, in ticks. 20 ticks = 1 second.
+	# Default: 18000
+	# Range: 0 ~ 72000
+	maxMenuWellServedTicks = 18000
+	#How long you may wait between two courses, in ticks. 20 ticks = 1 second.
+	# Default: 6000
+	# Range: 200 ~ 72000
+	menuMaxTicksBetweenCourses = 6000
+	#A lit candle or lamp next to a Table Set counts as a Table Setting.
+	enableTableLights = true
+	#Radius in blocks in which a light counts for a Table Set.
+	# Default: 1
+	# Range: 1 ~ 4
+	tableLightRadius = 1
+	#Drinks can be poured into the glasses of a Table Set.
+	enableTableDrinks = true
+	#How many lines fit on a Table Sign.
+	# Default: 8
+	# Range: 1 ~ 12
+	tableSignMaxLines = 8
+
+#Villagers who come to dinner at your Table Sets.
+["Dinner Guests"]
+	#Villagers may eat dishes from Table Sets in the evening.
+	enableDinnerGuests = true
+	#Chance in percent per check that a villager comes to the table.
+	# Default: 30
+	# Range: 0 ~ 100
+	dinnerGuestChance = 30
+	#Radius in blocks in which villagers notice a served dish.
+	# Default: 16
+	# Range: 4 ~ 64
+	dinnerGuestRange = 16
+	#Every how many ticks a Table Set looks for a guest. 20 ticks = 1 second.
+	# Default: 200
+	# Range: 20 ~ 6000
+	dinnerGuestInterval = 200
+	#Time of day from which villagers come to dinner. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 9000
+	# Range: 0 ~ 24000
+	dinnerStart = 9000
+	#Time of day until which villagers come to dinner. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 12000
+	# Range: 0 ~ 24000
+	dinnerEnd = 12000
+	#Nitwits eat the dish but give no discount.
+	nitwitsEat = true
+	#Discount in percent on all trades after the dinner.
+	# Default: 10
+	# Range: 0 ~ 100
+	dinnerDiscountPercent = 10
+	#How long the discount lasts, in ticks. 24000 ticks = 1 day.
+	# Default: 24000
+	# Range: 1200 ~ 240000
+	dinnerDiscountTicks = 24000
+	#Only the player who served the dish gets the discount.
+	discountOnlyHost = false
+
+#Set bonuses of the Chef's Outfit, Suit and Evening Dress.
+[Clothing]
+	#Wearing the full Chef's Outfit gives a set bonus.
+	enableChefSetBonus = true
+	#Chance in percent of an extra portion from the Cooking Pan and Cooking Pot while wearing the full Chef's Outfit.
+	# Default: 25
+	# Range: 0 ~ 100
+	chefSetExtraPortionChance = 25
+	#Wearing a full Suit or Evening Dress gives a set bonus.
+	enableElegantSetBonus = true
+	#Clothing shows its set pieces and bonus in the item tooltip.
+	showSetBonusTooltips = true
+	#Chance in percent that a zombie spawns with a Cooking Hat.
+	# Default: 3
+	# Range: 0 ~ 100
+	zombieCookingHatChance = 3
+
+#Info tooltips that appear when looking at a block. Only affects your own screen.
+["Info Tooltips"]
+	#Shows an info tooltip when looking at a Table Set.
+	showTableSetInfo = true
+	#Shows an info tooltip when looking at a Side Table.
+	showSideTableInfo = true
+	#Shows an info tooltip when looking at a Table Sign.
+	showTableSignInfo = true
+
+#Fine-tuning of the effects.
+[Effects]
+
+	[Effects."Well Served Effect"]
+		#Your hunger never drops below this while Well Served is active. 2 points = 1 drumstick.
+		# Default: 8
+		# Range: 0 ~ 20
+		wellServedFoodFloor = 8
+
+	[Effects."Refreshed Effect"]
+		#How many harvests Refreshed covers.
+		# Default: 10
+		# Range: 1 ~ 64
+		refreshedMaxCharges = 10
+
+	[Effects."Gold Ring Effect"]
+		#Wearing the Gold Ring gives Luck.
+		enableRingLuck = true
+		#Luck level of the Gold Ring. 0 = Luck I.
+		# Default: 1
+		# Range: 0 ~ 4
+		ringLuckAmplifier = 1
+
+	[Effects."Completionist Banner Effect"]
+		#Players near a placed Completionist Banner get its effect.
+		bannerGiveEffect = true
+		#Radius in blocks of the Completionist Banner effect.
+		# Default: 8
+		# Range: 1 ~ 32
+		bannerEffectRadius = 8
+		#Level of the Completionist Banner effect. 0 = level I.
+		# Default: 0
+		# Range: 0 ~ 4
+		bannerEffectAmplifier = 0
+
+#Sounds and particles.
+[Misc]
+	#Plays a soft sound while dabbing with a Napkin.
+	enableNapkinSound = true
+	#Freshly served dishes on a Table Set steam for a while.
+	enableDishSteam = true
+	#How long freshly served dishes steam, in ticks. 20 ticks = 1 second.
+	# Default: 2400
+	# Range: 200 ~ 12000
+	dishSteamTicks = 2400
+
+#Hunger, saturation and effect duration in ticks of the food items. Changes need a game restart.
+[Food]
+	#Hunger points restored by Tomato Soup. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	tomatoSoupNutrition = 5
+	#Saturation given by Tomato Soup, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	tomatoSoupSaturation = 0.6
+	#Hunger points restored by Mushroom Soup. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	mushroomSoupNutrition = 6
+	#Saturation given by Mushroom Soup, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	mushroomSoupSaturation = 0.6
+	#Hunger points restored by Pasta with Mozzarella. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	pastaWithMozzarellaNutrition = 6
+	#Saturation given by Pasta with Mozzarella, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	pastaWithMozzarellaSaturation = 0.6
+	#Hunger points restored by Bolognese. 2 points = 1 drumstick.
+	# Default: 7
+	# Range: 0 ~ 20
+	bologneseNutrition = 7
+	#Saturation given by Bolognese, multiplied with its hunger points.
+	# Default: 0.7
+	# Range: 0.0 ~ 2.0
+	bologneseSaturation = 0.7
+	#Hunger points restored by Beef with Mushrooms, White Wine and Potatoes. 2 points = 1 drumstick.
+	# Default: 8
+	# Range: 0 ~ 20
+	beefWithMushroomInWineAndPotatoesNutrition = 8
+	#Saturation given by Beef with Mushrooms, White Wine and Potatoes, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	beefWithMushroomInWineAndPotatoesSaturation = 0.8
+	#Hunger points restored by Pasta with Bolognese. 2 points = 1 drumstick.
+	# Default: 12
+	# Range: 0 ~ 20
+	pastaWithBologneseNutrition = 12
+	#Saturation given by Pasta with Bolognese, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	pastaWithBologneseSaturation = 0.8
+	#Hunger points restored by Roast Beef with Carrots. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	roastbeefWithGlazedCarrotsNutrition = 6
+	#Saturation given by Roast Beef with Carrots, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	roastbeefWithGlazedCarrotsSaturation = 0.6
+	#Hunger points restored by Roasted Lamb with Lettuce. 2 points = 1 drumstick.
+	# Default: 7
+	# Range: 0 ~ 20
+	roastedLambWithLettuceNutrition = 7
+	#Saturation given by Roasted Lamb with Lettuce, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	roastedLambWithLettuceSaturation = 0.8
+	#Hunger points restored by Fillet Steak. 2 points = 1 drumstick.
+	# Default: 11
+	# Range: 0 ~ 20
+	filletSteakNutrition = 11
+	#Saturation given by Fillet Steak, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	filletSteakSaturation = 0.8
+	#Hunger points restored by Tropical Fish Supreme. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	tropicalFishSupremeNutrition = 5
+	#Saturation given by Tropical Fish Supreme, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	tropicalFishSupremeSaturation = 0.6
+	#Hunger points restored by Chicken Alfredo. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	chickenAlfredoNutrition = 6
+	#Saturation given by Chicken Alfredo, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	chickenAlfredoSaturation = 0.6
+	#Hunger points restored by Salmon with White Wine Sauce. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	salmonOnWhiteWineNutrition = 6
+	#Saturation given by Salmon with White Wine Sauce, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	salmonOnWhiteWineSaturation = 0.8
+	#Hunger points restored by Chicken with Vegetables. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	chickenWithVegetablesNutrition = 6
+	#Saturation given by Chicken with Vegetables, multiplied with its hunger points.
+	# Default: 0.7
+	# Range: 0.0 ~ 2.0
+	chickenWithVegetablesSaturation = 0.7
+	#Hunger points restored by Pork Ribs. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	porkRibsNutrition = 5
+	#Saturation given by Pork Ribs, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	porkRibsSaturation = 0.8
+	#Hunger points restored by Lasagne. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	lasagneNutrition = 5
+	#Saturation given by Lasagne, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	lasagneSaturation = 0.8
+	#Hunger points restored by Beef Wellington. 2 points = 1 drumstick.
+	# Default: 9
+	# Range: 0 ~ 20
+	beefWellingtonNutrition = 9
+	#Saturation given by Beef Wellington, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	beefWellingtonSaturation = 0.8
+	#Hunger points restored by Mozzarella. 2 points = 1 drumstick.
+	# Default: 3
+	# Range: 0 ~ 20
+	mozzarellaNutrition = 3
+	#Saturation given by Mozzarella, multiplied with its hunger points.
+	# Default: 0.4
+	# Range: 0.0 ~ 2.0
+	mozzarellaSaturation = 0.4
+	#Hunger points restored by Pot Roast. 2 points = 1 drumstick.
+	# Default: 12
+	# Range: 0 ~ 20
+	potroastNutrition = 12
+	#Saturation given by Pot Roast, multiplied with its hunger points.
+	# Default: 0.9
+	# Range: 0.0 ~ 2.0
+	potroastSaturation = 0.9
+	#Hunger points restored by Beetroot Salad. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	beetrootSaladNutrition = 5
+	#Saturation given by Beetroot Salad, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	beetrootSaladSaturation = 0.6
+	#How long the effect of Beetroot Salad lasts in ticks. 20 ticks = 1 second.
+	# Default: 2400
+	# Range: 0 ~ 72000
+	beetrootSaladEffectDuration = 2400
+	#Hunger points restored by Chicken Teriyaki. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	chickenTeriyakiNutrition = 5
+	#Saturation given by Chicken Teriyaki, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	chickenTeriyakiSaturation = 0.6
+	#How long the effect of Chicken Teriyaki lasts in ticks. 20 ticks = 1 second.
+	# Default: 6000
+	# Range: 0 ~ 72000
+	chickenTeriyakiEffectDuration = 6000
+	#Hunger points restored by Salad. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	saladNutrition = 5
+	#Saturation given by Salad, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	saladSaturation = 0.6
+	#How long the effect of Salad lasts in ticks. 20 ticks = 1 second.
+	# Default: 3600
+	# Range: 0 ~ 72000
+	saladEffectDuration = 3600
+	#Hunger points restored by Beef Tartare. 2 points = 1 drumstick.
+	# Default: 7
+	# Range: 0 ~ 20
+	beefTartareNutrition = 7
+	#Saturation given by Beef Tartare, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	beefTartareSaturation = 0.8
+	#How long the effect of Beef Tartare lasts in ticks. 20 ticks = 1 second.
+	# Default: 3000
+	# Range: 0 ~ 72000
+	beefTartareEffectDuration = 3000
+	#Hunger points restored by Pasta Primavera. 2 points = 1 drumstick.
+	# Default: 9
+	# Range: 0 ~ 20
+	pastaWithLettuceNutrition = 9
+	#Saturation given by Pasta Primavera, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	pastaWithLettuceSaturation = 0.8
+	#How long the effect of Pasta Primavera lasts in ticks. 20 ticks = 1 second.
+	# Default: 3600
+	# Range: 0 ~ 72000
+	pastaWithLettuceEffectDuration = 3600
+	#Hunger points restored by Omelette. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	omeletNutrition = 5
+	#Saturation given by Omelette, multiplied with its hunger points.
+	# Default: 0.5
+	# Range: 0.0 ~ 2.0
+	omeletSaturation = 0.5
+	#How long the effect of Omelette lasts in ticks. 20 ticks = 1 second.
+	# Default: 4800
+	# Range: 0 ~ 72000
+	omeletEffectDuration = 4800
+	#Hunger points restored by Harvest Plate. 2 points = 1 drumstick.
+	# Default: 5
+	# Range: 0 ~ 20
+	harvestPlateNutrition = 5
+	#Saturation given by Harvest Plate, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	harvestPlateSaturation = 0.6
+	#How long the effect of Harvest Plate lasts in ticks. 20 ticks = 1 second.
+	# Default: 4800
+	# Range: 0 ~ 72000
+	harvestPlateEffectDuration = 4800
+	#Hunger points restored by Mousse au Chocolat. 2 points = 1 drumstick.
+	# Default: 4
+	# Range: 0 ~ 20
+	chocolateMousseNutrition = 4
+	#Saturation given by Mousse au Chocolat, multiplied with its hunger points.
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	chocolateMousseSaturation = 0.3
+	#How long the effect of Mousse au Chocolat lasts in ticks. 20 ticks = 1 second.
+	# Default: 2400
+	# Range: 0 ~ 72000
+	chocolateMousseEffectDuration = 2400
+	#Hunger points restored by Fresh Garden Salad. 2 points = 1 drumstick.
+	# Default: 3
+	# Range: 0 ~ 20
+	freshGardenSaladNutrition = 3
+	#Saturation given by Fresh Garden Salad, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	freshGardenSaladSaturation = 0.6
+	#How long the effect of Fresh Garden Salad lasts in ticks. 20 ticks = 1 second.
+	# Default: 3600
+	# Range: 0 ~ 72000
+	freshGardenSaladEffectDuration = 3600
+	#Hunger points restored by Tomato Mozzarella Salad. 2 points = 1 drumstick.
+	# Default: 3
+	# Range: 0 ~ 20
+	tomatoMozzarellaSaladNutrition = 3
+	#Saturation given by Tomato Mozzarella Salad, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	tomatoMozzarellaSaladSaturation = 0.6
+	#How long the effect of Tomato Mozzarella Salad lasts in ticks. 20 ticks = 1 second.
+	# Default: 4800
+	# Range: 0 ~ 72000
+	tomatoMozzarellaSaladEffectDuration = 4800

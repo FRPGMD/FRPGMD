@@ -1,0 +1,253 @@
+	[AnimatedHearts.HeartAnimation]
+		#Replace the vanilla half heart with a full animated heart.
+		replaceHalfHeart = true
+		#Animated half-heart speed. Lower = slower, higher = faster.
+		# Default: 3.0
+		# Range: 1.0 ~ 40.0
+		animationSpeed = 3.0
+		#Animated half-heart FPS limit. 0 = unlimited and fully smooth.
+		# Default: 0
+		# Range: 0 ~ 240
+		animationFPS = 0
+		#Minimum opacity of the animated heart.
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		minAlpha = 0.3
+		#Maximum opacity of the animated heart.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		maxAlpha = 1.0
+		#The animated heart is shown only when health is less than or equal to this value.
+		# Default: 20.0
+		# Range: 0.5 ~ 20.0
+		blinkFromHealth = 20.0
+
+	[AnimatedHearts.EnvironmentEffects]
+		#Fill the lower part of hearts with animated water while underwater. Less air means a higher water level.
+		underwaterHeartFill = true
+		#Opacity of the underwater water overlay.
+		# Default: 0.88
+		# Range: 0.0 ~ 1.0
+		underwaterHeartFillAlpha = 0.88
+		#Show small animated rain droplets on hearts while the player is directly exposed to rain.
+		rainHeartDrops = true
+		#Opacity of rain droplets on hearts.
+		# Default: 0.82
+		# Range: 0.0 ~ 1.0
+		rainHeartDropsAlpha = 0.82
+		#Movement speed of rain droplets on hearts.
+		# Default: 0.85
+		# Range: 0.2 ~ 3.0
+		rainHeartDropsSpeed = 0.85
+		#Base interval between random rain droplets. Higher values make droplets rarer. 20 ticks = 1 second.
+		# Default: 90
+		# Range: 40 ~ 300
+		rainHeartDropsInterval = 90
+
+	[AnimatedHearts.FireHearts]
+		#Enable animated fire hearts while the player is burning.
+		fireHearts = true
+		#Fire animation speed in ticks. Lower = faster.
+		# Default: 4
+		# Range: 1 ~ 40
+		fireHeartAnimationSpeed = 4
+		#Minimum opacity of the fire overlay while an animated heart fades.
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		fireHeartMinAlpha = 0.3
+		#Draw fire above the heart.
+		fireHeartTop = true
+		#Draw fire inside the heart.
+		fireHeartInside = true
+		#Allow fire on normal hearts.
+		fireHeartOnNormal = true
+		#Allow fire on poisoned hearts.
+		fireHeartOnPoison = true
+		#Allow fire on hearts while Regeneration is active.
+		fireHeartOnRegeneration = true
+		#Allow fire on withered hearts.
+		fireHeartOnWither = true
+		#Allow fire on frozen hearts.
+		fireHeartOnFrozen = true
+		#Allow fire on absorption hearts.
+		fireHeartOnAbsorption = true
+		#Allow fire while the player has modded status effects.
+		fireHeartOnModdedEffects = true
+
+	[AnimatedHearts.StatusEffects]
+		#Fade the vanilla frozen-heart sprite in and out continuously as Minecraft's freeze meter changes.
+		frozenHeartGradual = true
+		#Visual freezing speed multiplier. 1.0 follows Minecraft's freeze progress exactly; higher values make frost appear earlier.
+		# Default: 1.0
+		# Range: 0.25 ~ 3.0
+		frozenHeartFreezeSpeed = 1.0
+		#Visual thawing speed multiplier. 1.0 follows Minecraft's thaw progress exactly; higher values remove frost earlier.
+		# Default: 1.0
+		# Range: 0.25 ~ 3.0
+		frozenHeartThawSpeed = 1.0
+		#Maximum opacity of the frozen-heart layer at full freeze.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		frozenHeartMaxAlpha = 1.0
+		#Show animated bubbles rising from health hearts while the player is poisoned.
+		poisonBubbles = true
+		#Use the green poison flame palette while poisoned. Disable to keep normal red-orange fire.
+		poisonColoredFire = true
+		#Use the red-pink regeneration flame palette while Regeneration is active. Disable to keep normal red-orange fire.
+		regenerationColoredFire = true
+		#Use the black wither flame palette while Wither is active. Disable to keep normal red-orange fire.
+		witherColoredFire = true
+		#Use the icy-blue frozen flame palette on frozen hearts. Disable to keep normal red-orange fire.
+		frozenColoredFire = true
+		#Use the golden flame palette on absorption hearts. Disable to keep normal red-orange fire.
+		absorptionColoredFire = true
+		#Fade newly gained absorption hearts in smoothly instead of showing them instantly.
+		absorptionAppearAnimation = true
+		#Duration of one absorption-heart fade-in in ticks. Higher = slower. 20 ticks = 1 second.
+		# Default: 10.0
+		# Range: 1.0 ~ 60.0
+		absorptionAppearDuration = 10.0
+		#Delay in ticks between several absorption hearts gained at the same time.
+		# Default: 1.25
+		# Range: 0.0 ~ 10.0
+		absorptionAppearStagger = 1.25
+		#Initial size of a newly appearing absorption heart. 1.0 starts at full size.
+		# Default: 0.62
+		# Range: 0.2 ~ 1.0
+		absorptionAppearStartScale = 0.62
+		#Extra bounce and overshoot while an absorption heart appears.
+		# Default: 0.16
+		# Range: 0.0 ~ 0.4
+		absorptionAppearPopStrength = 0.16
+		#How many HUD pixels an absorption heart rises while appearing.
+		# Default: 3.0
+		# Range: 0.0 ~ 8.0
+		absorptionAppearRiseDistance = 3.0
+		#Enable the slow solar shine on absorption hearts.
+		absorptionSolarGradient = true
+		#Absorption shine speed. Lower = slower, higher = faster.
+		# Default: 2.45
+		# Range: 0.05 ~ 5.0
+		absorptionSolarGradientSpeed = 2.45
+		#Brightness of the absorption shine.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		absorptionSolarGradientStrength = 1.0
+		#Enable the custom regeneration wave and heart bounce effect.
+		customRegenerationEffect = true
+
+	[AnimatedHearts.HealthFeedback]
+		#Enable the soft pulse on remaining health hearts at 4 HP or lower.
+		lowHealthPulse = true
+		#Make the last filled heart beat faster at low health when a hostile mob is nearby.
+		dangerHeartbeat = true
+		#Enable the short crack effect after taking damage.
+		damageHeartCrack = true
+		#After the local player uses a Totem of Undying, draw golden particles that gather back into the surviving health and absorption hearts.
+		totemHeartRebuild = true
+		#Duration of one heart's totem rebuild animation in ticks. 20 ticks = 1 second.
+		# Default: 24.0
+		# Range: 8.0 ~ 80.0
+		totemHeartRebuildDuration = 24.0
+		#Delay in ticks between hearts during the totem rebuild animation.
+		# Default: 1.25
+		# Range: 0.0 ~ 8.0
+		totemHeartRebuildStagger = 1.25
+		#Number of golden particles used to rebuild each visible heart.
+		# Default: 7
+		# Range: 2 ~ 18
+		totemHeartRebuildParticles = 7
+		#Starting spread of the golden particles around each heart, in HUD pixels.
+		# Default: 14.0
+		# Range: 5.0 ~ 36.0
+		totemHeartRebuildSpread = 14.0
+		#Reveal health hearts one after another after the player respawns.
+		respawnHeartReveal = true
+		#Speed of the sequential heart reveal after respawning. Higher = faster.
+		# Default: 3.0
+		# Range: 0.5 ~ 10.0
+		respawnHeartRevealSpeed = 3.0
+		#Smoothly dissolve hearts when entering creative mode and rebuild them when returning to survival.
+		gameModeHeartTransition = true
+		#Speed of the heart HUD transition when changing game mode. Higher = faster.
+		# Default: 2.5
+		# Range: 0.5 ~ 10.0
+		gameModeHeartTransitionSpeed = 2.5
+		#Play one shine across all health hearts when health becomes full.
+		fullHealthShine = true
+		#Full-health shine duration in ticks. Higher = slower. 20 ticks = 1 second.
+		# Default: 42
+		# Range: 12 ~ 120
+		fullHealthShineDuration = 42
+		#Brightness of the full-health shine.
+		# Default: 0.82
+		# Range: 0.0 ~ 1.0
+		fullHealthShineStrength = 0.82
+		#Give filled health hearts a clearly visible golden glow after enough hits or kills without taking damage.
+		noDamageComboGlow = true
+		#Kills required to activate the no-damage combo glow. Zero disables the kill trigger.
+		# Default: 5
+		# Range: 0 ~ 50
+		noDamageComboKills = 5
+		#Successful attack attempts required to activate the no-damage combo glow. Zero disables the hit trigger.
+		# Default: 15
+		# Range: 0 ~ 100
+		noDamageComboHits = 15
+		#Brightness of the golden combo glow. The default is clearly visible without recoloring the heart.
+		# Default: 0.42
+		# Range: 0.0 ~ 1.0
+		noDamageComboGlowStrength = 0.42
+		#Speed of the very slow breathing motion in the combo glow. Zero keeps a steady glow.
+		# Default: 0.7
+		# Range: 0.0 ~ 4.0
+		noDamageComboPulseSpeed = 0.7
+		#Fade-in and fade-out duration of the combo glow in ticks. 20 ticks = 1 second.
+		# Default: 12.0
+		# Range: 1.0 ~ 80.0
+		noDamageComboFadeDuration = 12.0
+
+	[AnimatedHearts.ArmorEffects]
+		#Smoothly move the armor HUD when absorption adds or removes heart rows
+		armorShiftAnimation = true
+		#Speed of the armor HUD row transition. Higher values are faster
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		armorShiftSpeed = 1.0
+		#Play one silver shine across the armor HUD after a complete four-piece armor set is equipped.
+		fullArmorShine = true
+		#Full-armor shine duration in ticks. Higher = slower. 20 ticks = 1 second.
+		# Default: 38
+		# Range: 16 ~ 120
+		fullArmorShineDuration = 38
+		#Brightness of the silver shine across the armor icons.
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		fullArmorShineStrength = 0.9
+
+	[AnimatedHearts.ExperienceEffects]
+		#Play a moving wave across the experience bar whenever the configured level milestone is reached.
+		xpLevelWave = true
+		#Trigger the experience wave every N levels. Default 5 means levels 5, 10, 15, 20, and so on.
+		# Default: 5
+		# Range: 1 ~ 100
+		xpWaveLevelInterval = 5
+		#Do not play the experience wave before this level. The reached level must also match the configured interval.
+		# Default: 5
+		# Range: 0 ~ 10000
+		xpWaveMinimumLevel = 5
+		#Experience-wave movement speed. 1.0 keeps the original speed; higher values are faster.
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		xpWaveSpeed = 1.0
+		#Brightness and opacity of the experience wave.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.5
+		xpWaveStrength = 1.0
+		#Length of the green trail behind the bright wave head, in GUI pixels.
+		# Default: 42
+		# Range: 8 ~ 182
+		xpWaveTrailLength = 42
+
+	[AnimatedHearts.Compatibility]
+		#Enable support for vanilla and modded heart effects.
+		effectSupport = true

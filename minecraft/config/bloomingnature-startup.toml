@@ -1,0 +1,18 @@
+#Biomes placed in new chunks. Changes need a restart and only affect new chunks
+[biomes]
+	forestEdge = true
+	flowerGlade = true
+	brushland = true
+	cypressFields = true
+	goldenGlade = true
+	baobabSavanna = true
+	desertOasis = true
+	desertRiver = true
+	jungleRiver = true
+	coldRiver = true
+	coldGrassland = true
+	larchForest = true
+	marshland = true
+	aspenForest = true
+	fen = true
+	highlandWoods = true

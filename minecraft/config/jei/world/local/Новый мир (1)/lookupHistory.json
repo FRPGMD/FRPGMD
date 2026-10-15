@@ -1,0 +1,22 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:stove"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"candlelight:bamboo_stove"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:stove"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:dough"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:raw_pasta"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:pasta_with_onion_sauce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:carrot_crate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:carrot_bag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:flour_bag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:strawberry"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:onion"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"candlelight:jewelry_box"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bakery:strawberry_cake"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:ribwort_tea"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:smoker"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:minced_beef"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:lettuce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:tomato_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

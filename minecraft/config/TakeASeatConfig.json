@@ -1,0 +1,9 @@
+{
+  "enableClickToSit": true,
+  "enableThirdPersonOnSit": true,
+  "enableSitCameraFocus": true,
+  "cameraFocusOffset": 0.55,
+  "onlyLowerCameraInFirstPerson": false,
+  "enableAfkSit": false,
+  "afkSitDelaySeconds": 60
+}

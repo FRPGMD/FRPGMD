@@ -1,0 +1,52 @@
+{
+  "spawning": {
+    "enableChunkLoadSpawning": true,
+    "enableAmbientSpawning": true,
+    "enableMidairBorderSpawning": false,
+    "spawnRangeFromPlayer": 96,
+    "spawnTickDelay": 200,
+    "attemptsPerTick": 15,
+    "searchRadius": 12,
+    "spawnBelowSeaLevel": false,
+    "spawnAroundSpectators": true
+  },
+  "visuals": {
+    "enableBirdDistanceFadeOut": true
+  },
+  "birds": {
+    "maxActiveBirds": 100,
+    "enableBlueJaySpawning": true,
+    "maxActiveBlueJays": 10,
+    "disableBlueJaySpawnBiomeChecks": false,
+    "disableBlueJaySpawnBlockChecks": false,
+    "minPackSizeBlueJay": 1,
+    "maxPackSizeBlueJay": 2,
+    "maxFlockSizeBlueJay": 3,
+    "enableCommonSwiftSpawning": true,
+    "maxActiveCommonSwifts": 12,
+    "disableCommonSwiftSpawnBiomeChecks": false,
+    "disableCommonSwiftSpawnBlockChecks": false,
+    "minPackSizeCommonSwift": 4,
+    "maxPackSizeCommonSwift": 12,
+    "maxFlockSizeCommonSwift": 12,
+    "enableCrowSpawning": true,
+    "maxActiveCrows": 50,
+    "disableCrowSpawnBiomeChecks": false,
+    "disableCrowSpawnBlockChecks": false,
+    "minPackSizeCrow": 3,
+    "maxPackSizeCrow": 9,
+    "maxFlockSizeCrow": 0,
+    "enableNorthernCardinalSpawning": true,
+    "maxActiveNorthernCardinals": 10,
+    "disableNorthernCardinalSpawnBiomeChecks": false,
+    "disableNorthernCardinalSpawnBlockChecks": false,
+    "minPackSizeNorthernCardinal": 1,
+    "maxPackSizeNorthernCardinal": 3,
+    "maxFlockSizeNorthernCardinal": 3
+  },
+  "debug": {
+    "debugText": false,
+    "debugBirds": false,
+    "enableDebugScreenOnJoin": false
+  }
+}

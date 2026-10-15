@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "generateBedrockFloor": false,
+  "bedrockFloorY": -64,
+  "stoneDeepslateBlendRange": 32,
+  "verticalViewDistanceSameAsHorizontal": true,
+  "verticalViewDistance": 8,
+  "minWorldHeight": -64,
+  "maxWorldHeight": 320,
+  "endVoidDamageY": -512,
+  "adaptOldChunks": false,
+  "higherEnd": true,
+  "higherNether": true,
+  "enable3DVerticalBiomes": false,
+  "verticalBiomeFrequency": 0.015,
+  "verticalBiomeHorizontalScale": 0.005,
+  "verticalBiomeHumidityAmplitude": 4000.0,
+  "verticalBiomePhaseOffset": 1.570796,
+  "verticalBiomePhaseOffset_placeholder": 0.0,
+  "verticalBiomeMinDepthScale": 0.0,
+  "version": "0.0.6"
+}

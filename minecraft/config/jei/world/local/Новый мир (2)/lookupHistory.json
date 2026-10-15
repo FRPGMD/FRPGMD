@@ -1,0 +1,22 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farm_and_charm:simple_tomato_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:onion"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:roasted_corn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:onion_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:potato_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:goulash"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:tomato_crate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:farmer_salad"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:baked_lamb_ham"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:dog_food"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:feeding_trough"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:pasta_with_onion_sauce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"candlelight:tomato_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:oatmeal_with_strawberries"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farm_and_charm:barley_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:tomato_sauce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:rotten_tomato"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:tomato_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
