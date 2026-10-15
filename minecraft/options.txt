@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen_Lets_Do_Support_1.0.zip"]
-incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen_Lets_Do_Support_1.0.zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip"]
+incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -163,6 +163,10 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.mallardguard.guard:key.mouse.right
+key_key.mallardguard.open_config:key.keyboard.right.control
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.punchy.open_main_menu:key.keyboard.f8
 key_key.punchy.inspect:key.keyboard.i
 key_key.takeaseat.sit:key.keyboard.x
@@ -206,6 +210,7 @@ key_key.inventoryessentials.sort_inventory:key.mouse.middle
 key_key.inventoryessentials.restock_container:key.keyboard.unknown
 key_key.inventoryessentials.restock_inventory:key.keyboard.unknown
 key_key.inventoryessentials.dump_to_container:key.keyboard.unknown
+key_key.antique_atlas.open:key.keyboard.m
 key_key.handycam.toggle_effects:key.keyboard.f10
 key_key.kubejs.kubedex:key.keyboard.k
 key_key.kubejsstudio.open:key.keyboard.k
