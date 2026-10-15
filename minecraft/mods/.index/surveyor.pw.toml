@@ -1,0 +1,26 @@
+filename = 'surveyor-1.1.2+1.21.jar'
+name = 'Surveyor Map Framework'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2+1.21'
+
+[download]
+hash = 'd452d5929103f7ef3fdab76f31076f048aca61d8911e6fea0c60f64e3528f669411f03cfa8b71578b208c569973d766f13c719d4ab80663b55e7e9214c47a4a2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4KjqhPc9/versions/iLOZqG06/surveyor-1.1.2%2B1.21.jar'
+
+[update.modrinth]
+mod-id = '4KjqhPc9'
+version = 'iLOZqG06'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'qKPgBeHl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'REQUIRED'
