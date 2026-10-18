@@ -1,18 +1,18 @@
-filename = 'mallardguard-1.56a.jar'
+filename = 'mallardguard-1.56c.jar'
 name = 'Mallard Guard - Immersive Parrying'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'mallardguard-1.56a.jar'
+x-prismlauncher-version-number = 'mallardguard-1.56c.jar'
 
 [download]
-hash = '4c0ecb76e81d8920f30ff56fb854240ab4522f96'
+hash = '2c212adbf993d0119ebf20c60d8e75babad00e11'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9168911
+file-id = 9238532
 project-id = 1712570

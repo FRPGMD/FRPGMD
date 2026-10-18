@@ -74,7 +74,8 @@
     "spawn_group_max": 6,
     "spawn_probability_floor": 0.1,
     "revive_xp_levels": 10,
-    "revive_bond_loss": 20
+    "revive_bond_loss": 20,
+    "whistle_range": 0
   },
   "hud": {
     "charge_meter_side": "right",

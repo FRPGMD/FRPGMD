@@ -1,18 +1,18 @@
-filename = 'forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar'
+filename = 'forgified-fabric-api-0.116.15+2.3.6+1.21.1.jar'
 name = 'Forgified Fabric API'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.116.15+2.3.5+1.21.1'
+x-prismlauncher-version-number = '0.116.15+2.3.6+1.21.1'
 
 [download]
-hash = '2b44ecd839544e3668a02f8de86433d507417d068dcafeee7f698744fc2b12fd888a1bba509da57c8e2884d01dbaf344f49bbac0f22cdae599507356ed0cbe30'
+hash = '470ae4e8569484e6942a2f7e09a37ae58a58e0ad44f49f0d483db88024db19d41bfac3c68221c38623829871ade9d89bc5aa31cf0e682e798b2f9029b808011d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Aqlf1Shp/versions/V9WdDUTx/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/Aqlf1Shp/versions/C4eskNuR/forgified-fabric-api-0.116.15%2B2.3.6%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'Aqlf1Shp'
-version = 'V9WdDUTx'
+version = 'C4eskNuR'

@@ -1,20 +1,20 @@
-filename = 'letsdo-furniture-neoforge-1.1.9.jar'
+filename = 'letsdo-furniture-neoforge-1.1.10.jar'
 name = "[Let's Do] Furniture"
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.9'
+x-prismlauncher-version-number = '1.1.10'
 
 [download]
-hash = '27b1936e31f578b75e4b55cb4ce662fff109cf937ab41df7ca8d2b4a0c7c13cf6834d0fac8abbeb9f822ab81a64d5f8cc1eb0980a6d3b160faaa936e6d6affae'
+hash = '8dee0bb12bdccef1dbabff2c3106abfaedd7ae4f469e89a24f99327c3ac366c1f104ea3a8971be5f3929bd97246b00634abb156c6d41d54c00aaca6ac34a1a32'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3JQDJrYW/versions/Ei03nFcO/letsdo-furniture-neoforge-1.1.9.jar'
+url = 'https://cdn.modrinth.com/data/3JQDJrYW/versions/FxbGZtS6/letsdo-furniture-neoforge-1.1.10.jar'
 
 [update.modrinth]
 mod-id = '3JQDJrYW'
-version = 'Ei03nFcO'
+version = 'FxbGZtS6'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'

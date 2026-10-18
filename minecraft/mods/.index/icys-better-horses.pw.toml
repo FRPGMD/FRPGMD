@@ -1,18 +1,18 @@
-filename = 'icys-better-horses-2.1.2-neo-1.21.1.jar'
+filename = 'icys-better-horses-2.1.4-neo-1.21.1.jar'
 name = "Icy's Better Horses"
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.1.2'
+x-prismlauncher-version-number = '2.1.4'
 
 [download]
-hash = '09ab2b1567013f175c471b30e4349fc2d0b515d86b6ce359fd13d5b9b0ce89e5163a29b69e33f0855eb4649ce045f6ac22f15cd2a82e1e7f5a6fd7993d27cdb8'
+hash = 'f60a3edd09439a53af6d5b6934899a8c88120770b3ba4e1805e94349c0fd825093c3961ea356d32d5baa04f2b4ecd9737b3f60dd3679892f15934f77d0cc6100'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/XlUm5I57/versions/DlXsNzFS/icys-better-horses-2.1.2-neo-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/XlUm5I57/versions/YeYTQuzN/icys-better-horses-2.1.4-neo-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'XlUm5I57'
-version = 'DlXsNzFS'
+version = 'YeYTQuzN'

@@ -1,25 +1,25 @@
-filename = 'aquamirae-neoforge-1.21.1-7.2.12.jar'
+filename = 'aquamirae-neoforge-1.21.1-7.2.13.jar'
 name = 'Aquamirae'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '7.2.12'
+x-prismlauncher-version-number = '7.2.13'
 
 [download]
-hash = 'e47d75ff50f1d7861749fc982360165c16aa3963a205879986cc23bfc571dbc7b9eed34b7a2dd18a777c7cbc97423aaa3aadd34ccb0be4cbd713fbaea02f8e47'
+hash = '90fe46c41a0f44b1cdc64cf59e4000b7e20af3edbde8695b5c1350fe044123f02f6ba1f2b50f435bd1e12c5587a21be3cf77f078060a2029a943f8da6d9f9395'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/k23mNPhZ/versions/RSbxcVPE/aquamirae-neoforge-1.21.1-7.2.12.jar'
+url = 'https://cdn.modrinth.com/data/k23mNPhZ/versions/lKu7coya/aquamirae-neoforge-1.21.1-7.2.13.jar'
 
 [update.modrinth]
 mod-id = 'k23mNPhZ'
-version = 'RSbxcVPE'
-
-[[x-prismlauncher-dependencies]]
-addonId = '8BmcQJ2H'
-type = 'REQUIRED'
+version = 'lKu7coya'
 
 [[x-prismlauncher-dependencies]]
 addonId = '49C5QgTK'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
 type = 'REQUIRED'

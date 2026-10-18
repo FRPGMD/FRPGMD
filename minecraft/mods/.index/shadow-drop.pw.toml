@@ -1,20 +1,20 @@
-filename = 'shadowdrop-3.0.2+1.21.1-neoforge.jar'
+filename = 'shadowdrop-3.0.4+1.21.1-neoforge.jar'
 name = 'Shadow Drop'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.2+1.21.1-neoforge'
+x-prismlauncher-version-number = '3.0.4+1.21.1-neoforge'
 
 [download]
-hash = '5a00c50cb8a3e5694b36a557dec4611edd1fcb10a1aa9130b2acd9ede389c437ec2ec1af0399b4d3c7510a21b319e7d989bd1555a20ff27526c7b779b7e5fff9'
+hash = '56ea2c35aa36dac7c113eb6c98d0abfedc9a341ba50a6e2a85b5a6680ab95c41390c0aaca83da436a33c16ddcab81f4d95f0830e19ddb4952550d7ec41e194a5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/COZRUliI/versions/vOxUD464/shadowdrop-3.0.2%2B1.21.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/COZRUliI/versions/pIJm1sTM/shadowdrop-3.0.4%2B1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'COZRUliI'
-version = 'vOxUD464'
+version = 'pIJm1sTM'
 
 [[x-prismlauncher-dependencies]]
 addonId = '1eAoo2KR'
