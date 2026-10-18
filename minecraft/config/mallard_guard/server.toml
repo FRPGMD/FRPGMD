@@ -1,5 +1,5 @@
 #Mallard Guard config format revision. This changes only when settings or their defaults change.
-# Default: 102
+# Default: 103
 # Range: > 0
 configRevision = 102
 
@@ -24,12 +24,12 @@ configRevision = 102
 	toolMaxBlocks = 3
 
 [timing]
-	#Perfect parry duration for tools; zero disables perfect parries.
-	# Default: 2
+	#Perfect parry duration for tools; zero disables perfect parries. Default: 6 ticks.
+	# Default: 6
 	# Range: 0 ~ 10
 	perfectTicks = 2
-	#Total weapon parry duration in ticks, including perfect parry ticks.
-	# Default: 4
+	#Total weapon parry duration, including perfect ticks. Default: 9 ticks (6 perfect, then 3 regular).
+	# Default: 9
 	# Range: 1 ~ 10
 	parryTicks = 4
 	#Time before another attempt; continues during held guard.
@@ -186,30 +186,30 @@ configRevision = 102
 	shieldBlacklist = ""
 
 [parried]
-	#When your attack is parried: 0 off, 1 stun, 2 guard break. Stun restricts movement, attacks and guarding; guard break delays guarding only.
+	#When your attack is parried: 0 off, 1 stun, 2 guard break, 3 both. Both applies the guard-break penalty and stun together, using their separate durations.
 	# Default: 1
-	# Range: 0 ~ 2
+	# Range: 0 ~ 3
 	reaction = 1
-	#Enable the selected Stun or Guard Break reaction when your attack is parried. The current attack is interrupted automatically.
+	#Enable the selected Stun, Guard Break or Both reaction when your attack is parried. The current attack is interrupted automatically.
 	enabled = true
-	#Recharge penalty when the selected reaction is Guard Break. 20 ticks = one second.
-	# Default: 10
+	#Recharge penalty in Guard Break or Both mode. 20 ticks = one second. Default: 15 ticks.
+	# Default: 15
 	# Range: 0 ~ 60
 	guardBreakTicks = 10
-	#Duration when the selected reaction is Stun. Stops movement, attack and guarding; 20 ticks = one second.
-	# Default: 10
+	#Duration in Stun or Both mode. Stops movement, attack and guarding; 20 ticks = one second. Default: 15 ticks.
+	# Default: 15
 	# Range: 0 ~ 60
 	stunTicks = 10
 
 [shields]
 	#Enable shield perfect-parry area effects without changing their stored angle.
 	perfectConeEnabled = true
-	#Shield perfect parry window, in ticks. 0 turns off shield perfect parries; cannot exceed total shield parry ticks.
-	# Default: 2
+	#Shield perfect parry window, in ticks. 0 disables shield perfect parries; cannot exceed total shield parry ticks. Default: 6 ticks.
+	# Default: 6
 	# Range: 0 ~ 10
 	perfectTicks = 2
-	#Total shield parry window in ticks, including perfect ticks; blocking follows without restarting shield use.
-	# Default: 4
+	#Total shield parry window, including perfect ticks. Default: 9 ticks (6 perfect, then 3 regular). Blocking follows without restarting shield use.
+	# Default: 9
 	# Range: 1 ~ 10
 	parryTicks = 4
 	#Shield parry recharge after leaving guard; separate from guard break recharge. Regular shield parries halve it and perfect shield parries reset it, like tool parries.

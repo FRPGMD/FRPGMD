@@ -1,0 +1,20 @@
+#Internal config schema revision.
+# Default: 103
+# Range: > 0
+configRevision = 102
+#Render eligible guard items through Punchy when its required animation API is available, including compatible newer versions. The simple first-person pose is used when Punchy is absent or integration fails. Saved animation preferences are preserved. Default: true.
+enabled = true
+#Extra hold after client hitlag finishes. Releases without hitlag have no extra delay. Applies to every preset. 0 removes the delay. Default: 50 ms.
+# Default: 50
+# Range: 0 ~ 1000
+releaseDelayMillis = 50
+#Preset 1: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
+pose1 = "1,17,13,-28,7,-14,74,10,25,-16,23,30,-18,0,0,0,36,-7,-19,150,360,2,150"
+#Preset 2: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
+pose2 = "1,91,10,-30,22,-6,-10,-5,5,3,10,-8,-18,0,0,0,55,9,13,150,360,2,150"
+#Preset 3: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
+pose3 = "1,8,100,-12,-23,11,54,-5,8,3,10,-8,-18,0,0,0,38,-29,11,150,360,2,150"
+#Preset 4: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
+pose4 = "1,68,19,-24,4,-33,80,-5,8,3,10,-8,-18,0,0,0,24,180,10,150,360,3,100"
+#Preset 5: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
+pose5 = "1,39,3,-34,-39,-10,43,-26,24,45,-54,-11,-66,0,0,0,0,-8,10,150,360,2,100"
