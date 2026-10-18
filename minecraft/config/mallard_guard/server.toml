@@ -293,7 +293,7 @@ configRevision = 102
 	# Range: 20 ~ 1200
 	tacticalCooldownTicks = 100
 	#Only these exact entity IDs can guard or receive generated gear. Comma-separated; bosses remain excluded. Empty means none.
-	whitelist = "minecraft:skeleton,minecraft:zombie,minecraft:piglin,minecraft:zombified_piglin,minecraft:bogged,minecraft:husk"
+	whitelist = "irons_spellbooks:keeper,aquamirae:captain_cornelia,acolyte:lieutenant,acolyte:human_warrior,acolyte:human_mage,acolyte:demon,acolyte:demon_archer,acolyte:demon_warrior,acolyte:demon_mage,acolyte:human,acolyte:human_archer,minecraft:skeleton,minecraft:zombie,minecraft:piglin,minecraft:zombified_piglin,minecraft:bogged,minecraft:husk"
 	#Return damage on regular mob parries using the regular server multiplier. Shield regular parries return no damage. Default: true.
 	regularRetaliation = true
 	#Return damage on perfect mob parries using the perfect server multiplier, or shield retaliation for shields. Default: true.
