@@ -9,7 +9,7 @@ configRevision = 102
 	#Per-damage-type parry rules, stored as damage_type_id=1 or =0, separated by commas. Configure in game.
 	damageRules = "minecraft:generic_kill=1,minecraft:arrow=1,minecraft:lava=0,minecraft:hot_floor=0"
 	#Automatically learned projectile entity ID to damage type ID associations. Updated after players are hit; used to honor modded projectile source rules at impact.
-	observedProjectileSources = "minecraft:arrow=minecraft:arrow"
+	observedProjectileSources = "minecraft:arrow=minecraft:arrow,irons_spellbooks:magic_missile=irons_spellbooks:ender_magic,irons_spellbooks:icicle=irons_spellbooks:ice_magic"
 	#Keep weapons and shields guarding after the parry window while the guard key is held. Off also lowers shields after successful parries.
 	block = true
 	#Players and guarding mobs restore health once per successful parry attempt. Blocking and follow-up safety hits do not heal. Off by default.
