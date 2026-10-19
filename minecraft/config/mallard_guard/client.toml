@@ -1,7 +1,7 @@
 #Mallard Guard config format revision. This changes only when settings or their defaults change.
-# Default: 103
+# Default: 105
 # Range: > 0
-configRevision = 103
+configRevision = 105
 
 [debug]
 	#Local diagnostic flags: 1 guard, 2 damage, 4 animation, 8 config, 16 mob, 32/64/128 Punchy, 256 collision profiling, 512 screen effects, 1024 prediction, 2048 particle bursts, 4096 assignments. Zero disables all logging and profiling. Collision profiling is opt-in; summaries every 100 game ticks.
@@ -25,7 +25,7 @@ configRevision = 103
 	#Highlight the opposing participant and dim the world. Only the two participants see it.
 	# Default: 0
 	# Range: 0 ~ 1
-	targetHighlightEnabled = 1
+	targetHighlightEnabled = 0
 	#How visible the brief white flash is on a regular parry.
 	# Default: 82
 	# Range: 0 ~ 100
@@ -335,19 +335,19 @@ configRevision = 103
 
 	[particles.shootingSparks]
 		#Base amount. 100% produces 100 tracer heads; 0% disables Spark Tracers completely.
-		# Default: 8
+		# Default: 6
 		# Range: 0 ~ 100
-		baseIntensity = 8
+		baseIntensity = 6
 		#Color halfway through fading.
 		#Also colors the middle of the center impact.
 		# Default: 16777215
 		# Range: 0 ~ 16777215
 		middleColor = 16777215
 		#Visual size; physics stay the same. 0% disables this particle.
-		#100% is the original size. Default: 150%.
-		# Default: 150
+		#100% is the original size. Default: 125%.
+		# Default: 125
 		# Range: 0 ~ 400
-		overallSize = 150
+		overallSize = 125
 		#Final color near disappearance.
 		#Also colors the end of the center impact.
 		# Default: 16777215
@@ -359,9 +359,9 @@ configRevision = 103
 		# Range: 1 ~ 80
 		lifetimeTicks = 12
 		#Extra amount on perfect parries. 0% keeps the base; 100% doubles it. Base 0% disables the effect.
-		# Default: 32
-		# Range: 0 ~ 100
-		perfectIntensity = 32
+		# Default: 125
+		# Range: 0 ~ 200
+		perfectIntensity = 125
 		#Increase amount per damage point: 10% × 5 damage adds 50%. 0% adds nothing. All particles share burst and active head caps.
 		# Default: 2
 		# Range: 0 ~ 100
@@ -384,23 +384,23 @@ configRevision = 103
 
 	[particles.flyingSparks]
 		#Regular-parry spark amount as a percentage of 100 sparks. Zero disables regular-parry sparks. Electric and animated appearances share this amount.
-		# Default: 8
+		# Default: 6
 		# Range: 0 ~ 100
-		baseIntensity = 8
+		baseIntensity = 6
 		#Visual size; physics stay the same. 0% disables this particle.
-		#100% is the original size. Default: 100%.
-		# Default: 100
+		#100% is the original size. Default: 80%.
+		# Default: 80
 		# Range: 0 ~ 400
-		size = 100
+		size = 80
 		#Base lifetime before the existing per-particle variance.
 		#20 ticks = 1 second; tails finish separately. Default: 20 ticks.
 		# Default: 20
 		# Range: 1 ~ 80
 		lifetimeTicks = 20
 		#Additional percentage of Base Intensity on perfect parries. 0% adds nothing; 100% doubles the base. Base Intensity 0 disables the effect completely.
-		# Default: 32
-		# Range: 0 ~ 100
-		perfectIntensity = 32
+		# Default: 125
+		# Range: 0 ~ 200
+		perfectIntensity = 125
 		#Extra percentage of the selected amount per intercepted damage point. Zero disables damage scaling. Counts are capped at 512 per burst; projectile hits use an estimate when exact damage is unavailable.
 		# Default: 2
 		# Range: 0 ~ 100
@@ -423,23 +423,23 @@ configRevision = 103
 
 	[particles.dotStreaks]
 		#Regular-parry spark debris amount as a percentage of 100 debris sparks. Zero disables regular-parry spark debris.
-		# Default: 8
+		# Default: 6
 		# Range: 0 ~ 100
-		baseIntensity = 8
+		baseIntensity = 6
 		#Visual size; physics stay the same. 0% disables this particle.
-		#100% is the original size. Default: 120%.
-		# Default: 120
+		#100% is the original size. Default: 100%.
+		# Default: 100
 		# Range: 0 ~ 400
-		size = 120
+		size = 100
 		#Base lifetime before the existing per-particle variance.
 		#20 ticks = 1 second; tails finish separately. Default: 30 ticks.
 		# Default: 30
 		# Range: 1 ~ 80
 		lifetimeTicks = 30
 		#Additional percentage of Base Intensity on perfect parries. 0% adds nothing; 100% doubles the base. Base Intensity 0 disables the effect completely.
-		# Default: 32
-		# Range: 0 ~ 100
-		perfectIntensity = 32
+		# Default: 125
+		# Range: 0 ~ 200
+		perfectIntensity = 125
 		#Extra percentage of the selected debris amount per intercepted damage point. Zero disables scaling. Flying Sparks and Spark Debris share the burst and active budgets.
 		# Default: 2
 		# Range: 0 ~ 100
@@ -583,4 +583,4 @@ configRevision = 103
 	#Whether the automatic Shield Expansion Item Only Mode notice has appeared on this client.
 	shieldExpansionNoticeShown = false
 	#Whether the Simply Swords keybind notice has already appeared in chat on this client.
-	simplySwordsNoticeShown = true
+	simplySwordsNoticeShown = false

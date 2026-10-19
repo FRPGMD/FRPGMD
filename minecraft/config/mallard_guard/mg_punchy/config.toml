@@ -3,9 +3,9 @@ pose5 = "1,39,3,-34,-39,-10,43,-26,24,45,-54,-11,-66,0,0,0,0,-8,10,150,360,2,100
 #Preset 3: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
 pose3 = "1,8,100,-12,-23,11,54,-5,8,3,10,-8,-18,0,0,0,38,-29,11,150,360,2,150"
 #Internal config schema revision.
-# Default: 103
+# Default: 105
 # Range: > 0
-configRevision = 103
+configRevision = 105
 #Preset 4: enabled, active hand position/rotation, supporting hand position/rotation, weapon position/rotation, raise/lower milliseconds, easing curve, easing strength. Positions use tenths of a model pixel; rotations use degrees. Curves: 0 linear, 1 ease in, 2 ease out, 3 ease in/out.
 pose4 = "1,68,19,-24,4,-33,80,-5,8,3,10,-8,-18,0,0,0,24,180,10,150,360,3,100"
 #Render eligible guard items through Punchy when its required animation API is available, including compatible newer versions. The simple first-person pose is used when Punchy is absent or integration fails. Saved animation preferences are preserved. Default: true.

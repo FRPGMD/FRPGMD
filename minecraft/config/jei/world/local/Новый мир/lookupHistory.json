@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"block_factorys_bosses:dragon_bones_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"block_factorys_bosses:dragon_bone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"bloomingnature:fan_palm_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"nomansland:pine_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"nomansland:stripped_pine_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
