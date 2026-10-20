@@ -1,0 +1,18 @@
+filename = 'StreamsReflowing-1.21.1-neoforge-2.15.2.jar'
+name = 'Streams Reflowing'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'StreamsReflowing-1.21.1-neoforge-2.15.2.jar'
+
+[download]
+hash = '4e1c4e542b589fd0d1212005dbbfa1af60201df4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9216744
+project-id = 1581408

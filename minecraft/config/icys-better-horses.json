@@ -9,7 +9,7 @@
   "gender_breeding": "yes",
   "cart_pickup": "yes",
   "leaf_passthrough": "yes",
-  "hoof_dust": "yes",
+  "hoof_dust": "no",
   "rear_neigh": "yes",
   "horse_management": "yes",
   "horse_revival": "yes",

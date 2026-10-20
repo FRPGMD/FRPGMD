@@ -151,7 +151,10 @@ key_key.jei.cheatOneItem:key.mouse.left
 key_key.jei.cheatOneItem2:key.mouse.right
 key_key.jei.cheatItemStack:key.mouse.left:SHIFT
 key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.cheatOneItemToInventory:key.mouse.right:ALT
+key_key.jei.cheatItemStackToInventory:key.mouse.left:ALT
 key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.toggleHideIngredientsWhenNotSearching:key.mouse.right:CONTROL
 key_key.jei.toggleEditMode:key.keyboard.unknown
 key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
 key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL

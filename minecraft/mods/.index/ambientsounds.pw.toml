@@ -1,20 +1,20 @@
-filename = 'AmbientSounds_NEOFORGE_v6.3.10_mc1.21.1.jar'
+filename = 'AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar'
 name = 'AmbientSounds'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '6.3.10'
+x-prismlauncher-version-number = '6.3.11'
 
 [download]
-hash = '4cc8e10a28f346cd4d08831a95f0225473f1377777cbc490300315d99a8cdb35f42135c388d5d041c633e354fc1bba985c59f6ac4a52cb9c2f947f904090cdd9'
+hash = '1e615137f1e4d4e2cd0f366560922304f6d96ce7a73e9e55bae2572a1f03916efccc633b249026826471162d498a2eecba10b712f20ecfd540cb818915d8e227'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fM515JnW/versions/P48d3fOf/AmbientSounds_NEOFORGE_v6.3.10_mc1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/fM515JnW/versions/WGalCQAo/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'fM515JnW'
-version = 'P48d3fOf'
+version = 'WGalCQAo'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'OsZiaDHq'
