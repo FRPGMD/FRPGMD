@@ -1,0 +1,384 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:witch",
+    "minecraft:pillager",
+    "minecraft:ravager",
+    "minecraft:evoker",
+    "minecraft:illusioner",
+    "minecraft:vindicator",
+    "minecraft:villager",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:player",
+    "minecraft:drowned",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:elder_guardian",
+    "minecraft:guardian",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:zombified_piglin",
+    "minecraft:zombie_villager",
+    "minecraft:zombie_horse",
+    "minecraft:polar_bear",
+    {
+      "required": false,
+      "id": "#simpleblood:compat/mutantmonsters_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/takesapillage_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/illagerinvasion_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/valarian_conquest_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/betternether_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/naturalist_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/benssharks_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/letsdo_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/undead_revamp2_bleeds"
+    },
+     {
+      "required": false,
+      "id": "#simpleblood:compat/fowlplay_bleeds"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/crittersandcompanions_bleeds"
+    },
+    {
+      "required": false,
+      "id": "netherman:doctor"
+    },
+    {
+      "required": false,
+      "id": "netherman:azazel"
+    },
+    {
+      "required": false,
+      "id": "netherman:trader"
+    },
+    {
+      "required": false,
+      "id": "netherman:ghastly"
+    },
+    {
+      "required": false,
+      "id": "netherman:believer"
+    },
+    {
+      "required": false,
+      "id": "netherman:believer_villager"
+    },
+    {
+      "required": false,
+      "id": "netherman:blacksmith"
+    },
+    {
+      "required": false,
+      "id": "netherman:gilded_golem"
+    },
+    {
+      "id": "mowziesmobs:elokosa_howler",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:elokosa",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sculptor",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:wroughtnaut",
+      "required": false
+    },
+	{
+	  "id": "spider_overhaul:taiga_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:ocean_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:cavern_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:mushroom_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:sculk_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:jungle_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:ice_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:desert_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:swamp_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:savanna_spider",
+	  "required": false
+	},
+	{
+	  "id": "spider_overhaul:birch_spider",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:mole",
+	  "required": false
+	},
+	{
+	  "id": "primal:snake",
+	  "required": false
+	},
+	{
+	  "id": "primal:lion",
+	  "required": false
+	},
+	{
+	  "id": "primal:walrus",
+	  "required": false
+	},
+	{
+	  "id": "primal:cassowary",
+	  "required": false
+	},
+	{
+	  "id": "primal:shark",
+	  "required": false
+	},
+	{
+	  "id": "primal:eagle",
+	  "required": false
+	},
+	{
+	  "id": "primal:crocodile",
+	  "required": false
+	},
+	{
+	  "id": "primal:bear",
+	  "required": false
+	},
+	{
+	  "id": "primal:deer",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:frigid_gator",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:arid_yeti",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:coral_sea_viper",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:sea_viper",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:rare_viper",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:eel",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:spinefish",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:shellback",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:yeti",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:sandworm",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:crossbow_pirate",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:pirate_rook",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:pirate_captain",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:beetroot_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:potato_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:pumpkin_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:carrot_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:cocoa_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:melon_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:wheat_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:pitcher_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:nether_wart_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:poisonous_potato_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:torchflower_critter",
+	  "required": false
+	},
+	{
+	  "id": "bloomingnature:wandering_gardener",
+	  "required": false
+	},
+	{
+	  "id": "quark:toretoise",
+	  "required": false
+	},
+	{
+	  "id": "quark:stoneling",
+	  "required": false
+	},
+	{
+	  "id": "quark:shiba",
+	  "required": false
+	},
+	{
+	  "id": "quark:foxhound",
+	  "required": false
+	},
+	{
+	  "id": "quark:crab",
+	  "required": false
+	},
+	{
+	  "id": "supplementaries:plunderer",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_grunt",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_grunt_captain",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_brute",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_archer",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_guard",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_merchant",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_lord",
+	  "required": false
+	},
+	{
+	  "required": false,
+	  "id": "ypfundamentals:cherry_bird"
+	},
+	{
+	  "required": false,
+	  "id": "ypfundamentals:runear"
+	},
+	{
+	  "required": false,
+	  "id": "vampirism:vampire"
+	},
+	{
+	  "required": false,
+	  "id": "vampirism:vampire_baron"
+	},
+	{
+	  "required": false,
+	  "id": "vampirism:vampire_hunter"
+	},
+	{
+	  "required": false,
+	  "id": "vampirism:advanced_vampire"
+	}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "entity_tag": "#simpleblood:incision_green",
+  "color": "#0F8F20",
+  "min_damage": 3.0,
+  "damage_intensity_multiplier": 0.083,
+  "base_speed": 9.0,
+  "speed_per_particle": 0.5,
+  "is_graphic": true
+}

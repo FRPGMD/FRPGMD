@@ -1,0 +1,194 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither",
+    "minecraft:magma_cube",
+    "minecraft:squid",
+    "minecraft:glow_squid",
+    "minecraft:warden",
+    {
+      "required": false,
+      "id": "irons_spellbooks:dead_king"
+    },
+    {
+      "required": false,
+      "id": "incision:see"
+    },
+    {
+      "required": false,
+      "id": "incision:thump"
+    },
+    {
+      "required": false,
+      "id": "irons_spellbooks:ice_spider"
+    },
+    {
+      "required": false,
+      "id": "netherman:statue_bossunit"
+    },
+    {
+      "required": false,
+      "id": "netherman:guardian"
+    },
+    {
+      "required": false,
+      "id": "netherman:manipulator"
+    },
+    {
+      "required": false,
+      "id": "netherman:statue_entity"
+    },
+    	{
+  	"id": "creeperoverhaul:swamp_creeper",
+  	"required": false
+	},
+	{
+	  "id": "creeperoverhaul:mushroom_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:savannah_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:hills_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:badlands_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:desert_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:bamboo_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:jungle_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:birch_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:ocean_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:snowy_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:beach_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:spruce_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:dark_oak_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:cave_creeper",
+	  "required": false
+	},
+	{
+	  "id": "creeperoverhaul:dripstone_creeper",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:bone_stalker",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:bogged_bone_stalker",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:shadow",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:bogged_shadow",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:red_mummy",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:horseless_headsman",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:revenant_skeleton",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:zombie_cultist_rider",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:zombie_piglin_cultist",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:zombie_piglin_cultist_leader",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:pottergeist",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:piglin_ghost",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:tortured_soul",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:captain_cornelia",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:flaming_skeleton_guard_fireball",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:flaming_skeleton_guard_sword",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:underworld_knight",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:soul_knight_wither_skeleton",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:soul_skeleton",
+	  "required": false
+	},
+	{
+	  "id": "darkerdepths:body_snatcher",
+	  "required": false
+	},
+	{
+	  "id": "quark:forgotten",
+	  "required": false
+	},
+	{
+	  "id": "quark:wraith",
+	  "required": false
+	}
+  ]
+}

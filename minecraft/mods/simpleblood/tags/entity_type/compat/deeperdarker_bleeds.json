@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "deeperdarker:angler_fish"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:sculk_centipede"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:sculk_leech"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:sculk_snapper"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:shattered"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:shriek_worm"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:sludge"
+    },
+    {
+      "required": false,
+      "id": "deeperdarker:stalker"
+    }
+  ]
+}

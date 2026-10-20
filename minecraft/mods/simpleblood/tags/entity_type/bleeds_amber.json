@@ -1,0 +1,109 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "#simpleblood:compat/brewery_bleeds"
+    },
+	{
+	  "id": "luminous_beasts:crimson_mushlin_king",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:piglin_executioner",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:the_furnace",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:soul_furnace",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:soul_ember",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:ember",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:basalt_executioner",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:glider",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:mushlin_king",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:mushlin_bumper",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:piglin_cultist",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:piglin_cultist_leader",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:cultist_rider",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:the_furnace",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:ember",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:warped_mushlin_king",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:basalt_executioner",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:soul_furnace",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:soul_ember",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:piglin_executioner",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:golden_moth",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:dragon_guard_sword",
+	  "required": false
+	},
+	{
+	  "id": "darkerdepths:scorcher",
+	  "required": false
+	},
+	{
+	  "id": "kingsandmonsters:ogre_mage",
+	  "required": false
+	},
+	{
+	  "required": false,
+	  "id": "ypfundamentals:imp"
+	}
+  ]
+}

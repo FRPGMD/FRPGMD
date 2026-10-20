@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "takesapillage:archer"
+    },
+    {
+      "required": false,
+      "id": "takesapillage:clay_golem"
+    },
+    {
+      "required": false,
+      "id": "takesapillage:legioner"
+    },
+    {
+      "required": false,
+      "id": "takesapillage:skirmisher"
+    }
+  ]
+}

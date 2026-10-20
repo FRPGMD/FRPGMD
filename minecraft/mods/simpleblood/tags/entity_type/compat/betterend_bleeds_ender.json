@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "betterend:dragonfly"
+    },
+    {
+      "required": false,
+      "id": "betterend:end_fish"
+    },
+    {
+      "required": false,
+      "id": "betterend:shadow_walker"
+    },
+    {
+      "required": false,
+      "id": "betterend:silk_moth"
+    }
+  ]
+}

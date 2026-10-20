@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "#simpleblood:compat/deeperdarker_bleeds"
+    },
+	{
+	  "id": "luminous_beasts:spectre",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:guzzleghast",
+	  "required": false
+	},
+	{
+	  "id": "luminous_nether:spirit",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:abyssal_scyphoid",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:anglerfish",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:maw",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:maze_mother",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:kraken",
+	  "required": false
+	},
+	{
+	  "id": "block_factorys_bosses:infernal_dragon",
+	  "required": false
+	},
+	{
+	  "id": "darkerdepths:void_soul",
+	  "required": false
+	},
+	{
+	  "id": "darkerdepths:void_soul_knight",
+	  "required": false
+	},
+	{
+	  "id": "darkerdepths:glowshroom_monster",
+	  "required": false
+	},
+	{
+	  "required": false,
+	  "id": "hazennstuff:void_wanderer"
+	}
+  ]
+}

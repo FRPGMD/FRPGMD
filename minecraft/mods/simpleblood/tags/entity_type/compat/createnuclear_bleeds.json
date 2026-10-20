@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "createnuclear:irradiated_cat"
+    },
+    {
+      "required": false,
+      "id": "createnuclear:irradiated_chicken"
+    },
+    {
+      "required": false,
+      "id": "createnuclear:irradiated_wolf"
+    }
+  ]
+}

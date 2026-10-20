@@ -1,0 +1,9 @@
+{
+  "entity_tag": "#simpleblood:bleeds_abyssal",
+  "color": "#0D1B4B",
+  "min_damage": 2.0,
+  "damage_intensity_multiplier": 0.083,
+  "base_speed": 7.0,
+  "speed_per_particle": 0.3,
+  "is_graphic": true
+}

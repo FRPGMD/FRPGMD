@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mowziesmobs:umvuthana",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_raptor",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_crane",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthi",
+      "required": false
+    },
+    {
+  "id": "luminous_beasts:phoenix",
+  "required": false
+},
+{
+  "id": "luminous_beasts:baby_phoenix",
+  "required": false
+},
+{
+  "id": "luminous_beasts:wind_phoenix",
+  "required": false
+},
+{
+  "id": "luminous_beasts:baby_wind_phoenix",
+  "required": false
+},
+{
+  "id": "luminous_beasts:golden_hermit_king",
+  "required": false
+}
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "#simpleblood:compat/letsdo_bleeds_hemolymph"
+    },
+    {
+      "required": false,
+      "id": "#simpleblood:compat/crittersandcompanions_bleeds_hemolymph"
+    },
+	{
+	  "id": "endermanoverhaul:scarab",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:sparkle",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:specterpillar",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:spectre",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:preserved",
+	  "required": false
+	},
+	{
+	  "id": "galosphere:berserker",
+	  "required": false
+	},
+	{
+	  "id": "minecraft:silverfish",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:scuttler",
+	  "required": false
+	},
+	{
+	  "id": "aquamirae:golden_moth",
+	  "required": false
+	}
+  ]
+}

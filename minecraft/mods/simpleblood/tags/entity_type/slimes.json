@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime",
+    {
+      "id": "mowziesmobs:foliaath",
+      "required": false
+    }
+  ]
+}

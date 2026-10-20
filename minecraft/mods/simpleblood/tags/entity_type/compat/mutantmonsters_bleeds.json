@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "mutantmonsters:mutant_zombie"
+    },
+    {
+      "required": false,
+      "id": "mutantmonsters:spider_pig"
+    },
+    {
+      "required": false,
+      "id": "mutantmonsters:mutant_creeper"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "undead_revamp2:axestrom"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:bomber"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:clogger"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:coppertar"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:crackleball"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:deadclogger"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:flame"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:invisiblebidy"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:invisiclogger"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:invisiimmortal"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:propball_1"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:slaveman"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:smokesmitter"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:sucker"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:the_moonflower"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thebeartamer"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thebidy"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thebidyupside"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thegliter"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:theheavy"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thehorrors"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thehunter"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:theimmortal"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thelurker"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:theordure"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thepregnant"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:therod"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:theskeeper"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thesmoker"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thesomnolence"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thespectre"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thespitter"
+    },
+    {
+      "required": false,
+      "id": "undead_revamp2:thewolf"
+    }
+  ]
+}

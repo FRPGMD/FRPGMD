@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "required": false,
+      "id": "naturalist:alligator"
+    },
+    {
+      "required": false,
+      "id": "naturalist:bass"
+    },
+    {
+      "required": false,
+      "id": "naturalist:bear"
+    },
+    {
+      "required": false,
+      "id": "naturalist:bluejay"
+    },
+    {
+      "required": false,
+      "id": "naturalist:boar"
+    },
+    {
+      "required": false,
+      "id": "naturalist:canary"
+    },
+    {
+      "required": false,
+      "id": "naturalist:cardinal"
+    },
+    {
+      "required": false,
+      "id": "naturalist:catfish"
+    },
+    {
+      "required": false,
+      "id": "naturalist:coral_snake"
+    },
+    {
+      "required": false,
+      "id": "naturalist:deer"
+    },
+    {
+      "required": false,
+      "id": "naturalist:duck"
+    },
+    {
+      "required": false,
+      "id": "naturalist:elephant"
+    },
+    {
+      "required": false,
+      "id": "naturalist:finch"
+    },
+    {
+      "required": false,
+      "id": "naturalist:giraffe"
+    },
+    {
+      "required": false,
+      "id": "naturalist:hippo"
+    },
+    {
+      "required": false,
+      "id": "naturalist:lion"
+    },
+    {
+      "required": false,
+      "id": "naturalist:lizard"
+    },
+    {
+      "required": false,
+      "id": "naturalist:rattlesnake"
+    },
+    {
+      "required": false,
+      "id": "naturalist:rhino"
+    },
+    {
+      "required": false,
+      "id": "naturalist:robin"
+    },
+    {
+      "required": false,
+      "id": "naturalist:snake"
+    },
+    {
+      "required": false,
+      "id": "naturalist:sparrow"
+    },
+    {
+      "required": false,
+      "id": "naturalist:zebra"
+    },
+    {
+      "required": false,
+      "id": "naturalist:vulture"
+    },
+    {
+      "required": false,
+      "id": "naturalist:tortoise"
+    }
+  ]
+}

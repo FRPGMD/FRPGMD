@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "incision:seer",
+      "required": false
+    },
+    {
+      "id": "incision:purger",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:naga",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:lantern",
+      "required": false
+    },
+	{
+	  "id": "luminous_beasts:witch_doctor",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:woodland_witch_doctor",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:scarecrow_minion",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:pumpkin_minion",
+	  "required": false
+	},
+	{
+	  "id": "luminous_beasts:cherry_tree_ent",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:beetroot_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:potato_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:pumpkin_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:carrot_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:cocoa_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:melon_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:wheat_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:pitcher_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:nether_wart_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:poisonous_potato_critter",
+	  "required": false
+	},
+	{
+	  "id": "cropcritters:torchflower_critter",
+	  "required": false
+	},
+	{
+	  "id": "bloomingnature:wandering_gardener",
+	  "required": false
+	},
+	{
+	  "id": "oddities:queen_of_orchid",
+	  "required": false
+	}
+  ]
+}
