@@ -1,0 +1,21 @@
+filename = 'arcaneessenceblock-1.0.1-neoforge-1.21.1.jar'
+name = "iron's spellbooks arcane essence blocks"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'd3552483a71090ee034b863dd32304f52f07f3b67deec7a097e692ded29d25315a609fa492beeae800d94ecadd07e405794849d33a7bd97db4d8060c48bf1ae1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Pkj2hNRk/versions/Amnk4kDG/arcaneessenceblock-1.0.1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'Pkj2hNRk'
+version = 'Amnk4kDG'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'
