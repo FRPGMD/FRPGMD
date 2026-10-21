@@ -11,6 +11,8 @@
 	torchExtinguishing = true
 	#If snow and grass can combine to form snowlogged frosted grass.
 	allowGrassFrosting = true
+	#If using a hoe/shovel on plants tills/paths the blocks below it
+	farmlandPathTweaks = true
 
 [biomes]
 	#If any custom biomes are enabled
@@ -155,6 +157,8 @@
 	# Default: 2500
 	# Range: > 0
 	maxMeetingPointDistance = 2500
+	#Dimensions the Friend Moon watches over, as full dimension ids such as "minecraft:overworld". Leave empty to use every dimension that shares the overworld's dimension type, which covers most custom overworld-like dimensions.
+	friendMoonDimensions = []
 
 [bell_sanctuaries]
 	#The minimum distance allowed between a pair of bell sanctuaries. Should NOT be changed after world has generated. Has NO impact on how close two DIFFERENT pairs of bell sanctuaries can be. This must be smaller than max distance
@@ -182,7 +186,6 @@
 [recipe_tweaks]
 	#Toggle changes to vanilla crafting recipes.
 	andesite = true
-	bookshelf = true
 	diorite = true
 	granite = true
 	lectern = true
@@ -190,12 +193,9 @@
 	light_gray_dye_from_white_tulip = true
 	lodestone = true
 	mushroom_stew = true
-	polished_deepslate = true
 	rabbit_stew_from_red_mushroom = true
 	red_dye_from_rose_bush = true
 	red_sandstone = true
 	sandstone = true
 	scaffolding = true
 	smoker = true
-	stone_bricks = true
-	tnt = true

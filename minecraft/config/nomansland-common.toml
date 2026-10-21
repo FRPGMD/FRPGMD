@@ -60,10 +60,6 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	fillingSpeedMultiplier = 1.0
-	#The time it takes to fill a cauldron with honey using a tap.
-	# Default: 80
-	# Range: 1 ~ 400
-	ticksToFillCauldron = 80
 
 [monster_anchor]
 	#The time between each resurrection from a monster anchor.

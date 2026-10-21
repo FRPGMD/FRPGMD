@@ -127,6 +127,23 @@
 			verdant_pietraforte_brick = true
 			smooth_verdant_pietraforte = true
 			cut_verdant_pietraforte = true
+			bleached_chalk = true
+			white_chalk = true
+			orange_chalk = true
+			magenta_chalk = true
+			light_blue_chalk = true
+			yellow_chalk = true
+			lime_chalk = true
+			pink_chalk = true
+			gray_chalk = true
+			light_gray_chalk = true
+			cyan_chalk = true
+			purple_chalk = true
+			blue_chalk = true
+			brown_chalk = true
+			green_chalk = true
+			red_chalk = true
+			black_chalk = true
 
 		[types.cut_block_type.bloomingnature]
 			aspen = true
@@ -282,6 +299,9 @@
 			shale_bricks = true
 			myalite_bricks = true
 
+		[types.cut_block_type.primal]
+			weaved_straw = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -361,6 +381,9 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.primal]
+			thorny_acacia = true
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true

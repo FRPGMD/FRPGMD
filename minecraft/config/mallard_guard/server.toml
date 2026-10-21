@@ -301,7 +301,7 @@ configRevision = 105
 	# Range: 0 ~ 5
 	toolMaxBlocks = 3
 	#Automatically learned projectile entity ID to damage type ID associations. Updated after players are hit; used to honor modded projectile source rules at impact.
-	observedProjectileSources = "minecraft:arrow=minecraft:arrow,block_factorys_bosses:blazing_fire_ball=minecraft:arrow"
+	observedProjectileSources = "minecraft:arrow=minecraft:arrow,block_factorys_bosses:blazing_fire_ball=minecraft:arrow,nomansland:explosive=minecraft:player_explosion"
 	#Keep weapons and shields guarding after the parry window while the guard key is held. Off also lowers shields after successful parries.
 	block = true
 	#Per-damage-type parry rules, stored as damage_type_id=1 or =0, separated by commas. Configure in game.
