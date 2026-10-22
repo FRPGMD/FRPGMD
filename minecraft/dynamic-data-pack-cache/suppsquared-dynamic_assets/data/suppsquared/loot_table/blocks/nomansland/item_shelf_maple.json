@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "suppsquared:nomansland/item_shelf_maple",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ]
+}

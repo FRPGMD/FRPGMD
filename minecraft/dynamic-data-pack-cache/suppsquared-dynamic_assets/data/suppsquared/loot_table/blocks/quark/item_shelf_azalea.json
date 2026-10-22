@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "suppsquared:quark/item_shelf_azalea",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ]
+}

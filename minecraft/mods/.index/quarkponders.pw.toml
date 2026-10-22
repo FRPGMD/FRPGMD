@@ -1,0 +1,22 @@
+filename = 'QuarkPonders-1.5.1_NeoForge-1.21.1.jar'
+name = 'QuarkPonders'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.1-1.21.1'
+
+[download]
+hash = '51d01eb8d2a90ad5e2ae27c4f348ceeab979e5af9dd5e399780ae109db6b231e8f2336c2f1a187fe7417eaf0cd1542eb69146400b022d18dad57b447fab86061'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JY7his81/versions/9ptDs4Is/QuarkPonders-1.5.1_NeoForge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'JY7his81'
+version = '9ptDs4Is'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'REQUIRED'
+version = '4yh9kJFj'

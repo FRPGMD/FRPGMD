@@ -1,0 +1,25 @@
+filename = 'wxvbmvc-0.1.jar'
+name = 'Windswept x Vanilla Backport Mob Variant Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1+mod'
+
+[download]
+hash = '570cfb2c37f551f080682ddd33d7eb157594447cc6f681f24cdc490e3eee1e05127fb68f736e3aed59bb700e53a644cf11f176d316a9184a11d6a94c01b70ddb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DWsXixHS/versions/7thAFIr3/wxvbmvc-0.1.jar'
+
+[update.modrinth]
+mod-id = 'DWsXixHS'
+version = '7thAFIr3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'l0h5MtkA'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6xwxDTgf'
+type = 'REQUIRED'

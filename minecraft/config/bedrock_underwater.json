@@ -1,0 +1,23 @@
+{
+  "fogStart": 0.0,
+  "fogEnd": 36.0,
+  "fogRed": 0.02,
+  "fogGreen": 0.38,
+  "fogBlue": 0.55,
+  "disableWaterOverlay": true,
+  "creativeWaterBobbing": true,
+  "boostUnderwaterBrightness": true,
+  "underwaterBrightnessScale": 0.4,
+  "enableSunGlow": true,
+  "maxGlowIntensity": 0.65,
+  "enableSoundMuffling": true,
+  "muffledVolumeFactor": 0.5,
+  "muffledPitchFactor": 0.8,
+  "enableSuspendedParticles": true,
+  "particleSpawnRate": 2,
+  "waterOpacityFactor": 0.65,
+  "clearSwampWater": false,
+  "enablePressureVignette": true,
+  "enableAmbientSounds": true,
+  "enableSplashEffects": true
+}

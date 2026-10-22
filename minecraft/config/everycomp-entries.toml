@@ -1,4 +1,34 @@
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.nomansland]
+			bookshelf = true
+			trimmed_planks = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			hollow_log = true
+			vertical_slab = true
+
+		[entries.wood_type.vanillabackport]
+			shelf = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
 		[types.cut_block_type.arts_and_crafts]
+			bleached_chalk = true
 			gypsum = true
 			gypsum_brick = true
 			polished_gypsum = true
@@ -12,81 +42,97 @@
 			white_soapstone = true
 			white_soapstone_brick = true
 			white_polished_soapstone = true
+			white_chalk = true
 			orange_mud_brick = true
 			orange_terracotta_shingle = true
 			orange_soapstone = true
 			orange_soapstone_brick = true
 			orange_polished_soapstone = true
+			orange_chalk = true
 			magenta_mud_brick = true
 			magenta_terracotta_shingle = true
 			magenta_soapstone = true
 			magenta_soapstone_brick = true
 			magenta_polished_soapstone = true
+			magenta_chalk = true
 			light_blue_mud_brick = true
 			light_blue_terracotta_shingle = true
 			light_blue_soapstone = true
 			light_blue_soapstone_brick = true
 			light_blue_polished_soapstone = true
+			light_blue_chalk = true
 			yellow_mud_brick = true
 			yellow_terracotta_shingle = true
 			yellow_soapstone = true
 			yellow_soapstone_brick = true
 			yellow_polished_soapstone = true
+			yellow_chalk = true
 			lime_mud_brick = true
 			lime_terracotta_shingle = true
 			lime_soapstone = true
 			lime_soapstone_brick = true
 			lime_polished_soapstone = true
+			lime_chalk = true
 			pink_mud_brick = true
 			pink_terracotta_shingle = true
 			pink_soapstone = true
 			pink_soapstone_brick = true
 			pink_polished_soapstone = true
+			pink_chalk = true
 			gray_mud_brick = true
 			gray_terracotta_shingle = true
 			gray_soapstone = true
 			gray_soapstone_brick = true
 			gray_polished_soapstone = true
+			gray_chalk = true
 			light_gray_mud_brick = true
 			light_gray_terracotta_shingle = true
 			light_gray_soapstone = true
 			light_gray_soapstone_brick = true
 			light_gray_polished_soapstone = true
+			light_gray_chalk = true
 			cyan_mud_brick = true
 			cyan_terracotta_shingle = true
 			cyan_soapstone = true
 			cyan_soapstone_brick = true
 			cyan_polished_soapstone = true
+			cyan_chalk = true
 			purple_mud_brick = true
 			purple_terracotta_shingle = true
 			purple_soapstone = true
 			purple_soapstone_brick = true
 			purple_polished_soapstone = true
+			purple_chalk = true
 			blue_mud_brick = true
 			blue_terracotta_shingle = true
 			blue_soapstone = true
 			blue_soapstone_brick = true
 			blue_polished_soapstone = true
+			blue_chalk = true
 			brown_mud_brick = true
 			brown_terracotta_shingle = true
 			brown_soapstone = true
 			brown_soapstone_brick = true
 			brown_polished_soapstone = true
+			brown_chalk = true
 			green_mud_brick = true
 			green_terracotta_shingle = true
 			green_soapstone = true
 			green_soapstone_brick = true
 			green_polished_soapstone = true
+			green_chalk = true
 			red_mud_brick = true
 			red_terracotta_shingle = true
 			red_soapstone = true
 			red_soapstone_brick = true
 			red_polished_soapstone = true
+			red_chalk = true
 			black_mud_brick = true
 			black_terracotta_shingle = true
 			black_soapstone = true
 			black_soapstone_brick = true
 			black_polished_soapstone = true
+			black_chalk = true
 			cobbled_beige_pietraforte = true
 			beige_pietraforte = true
 			beige_pietraforte_brick = true
@@ -127,23 +173,6 @@
 			verdant_pietraforte_brick = true
 			smooth_verdant_pietraforte = true
 			cut_verdant_pietraforte = true
-			bleached_chalk = true
-			white_chalk = true
-			orange_chalk = true
-			magenta_chalk = true
-			light_blue_chalk = true
-			yellow_chalk = true
-			lime_chalk = true
-			pink_chalk = true
-			gray_chalk = true
-			light_gray_chalk = true
-			cyan_chalk = true
-			purple_chalk = true
-			blue_chalk = true
-			brown_chalk = true
-			green_chalk = true
-			red_chalk = true
-			black_chalk = true
 
 		[types.cut_block_type.bloomingnature]
 			aspen = true
@@ -198,6 +227,16 @@
 			polished_grimestone = true
 			grimestone_bricks = true
 
+		[types.cut_block_type.incision]
+			carrion = true
+			goreshed = true
+			weatherrack = true
+			clottage = true
+			clottage_brick = true
+			stitched_carrion = true
+			incision_carrion = true
+			tarnished_shingle = true
+
 		[types.cut_block_type.lilis_pottery]
 			red_brick = true
 			yellow_brick = true
@@ -209,6 +248,23 @@
 		[types.cut_block_type.mynethersdelight]
 			powdery = true
 			powdery_mosaic = true
+
+		[types.cut_block_type.netherexp]
+			soul_slate = true
+			soul_slate_brick = true
+			soul_slate_tile = true
+			smooth_netherrack = true
+			netherrack_brick = true
+			basalt = true
+			polished_basalt = true
+			polished_basalt_brick = true
+			claret = true
+			blue_nether_brick = true
+			weeping_polished_blackstone_brick = true
+			twisting_polished_blackstone_brick = true
+			stacked_bone = true
+			stacked_wither_bone = true
+			pyroclast = true
 
 		[types.cut_block_type.nomansland]
 			mundane_tile = true
@@ -233,6 +289,9 @@
 			walnut = true
 			willow = true
 			thatch = true
+
+		[types.cut_block_type.primal]
+			weaved_straw = true
 
 		[types.cut_block_type.quark]
 			ancient_planks = true
@@ -299,8 +358,173 @@
 			shale_bricks = true
 			myalite_bricks = true
 
-		[types.cut_block_type.primal]
-			weaved_straw = true
+		[types.cut_block_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			lavender_thatch = true
+			pinecone_shingle = true
+			white_pinecone_shingle = true
+			light_gray_pinecone_shingle = true
+			gray_pinecone_shingle = true
+			black_pinecone_shingle = true
+			brown_pinecone_shingle = true
+			red_pinecone_shingle = true
+			orange_pinecone_shingle = true
+			yellow_pinecone_shingle = true
+			lime_pinecone_shingle = true
+			green_pinecone_shingle = true
+			cyan_pinecone_shingle = true
+			light_blue_pinecone_shingle = true
+			blue_pinecone_shingle = true
+			purple_pinecone_shingle = true
+			magenta_pinecone_shingle = true
+			pink_pinecone_shingle = true
+			shale = true
+			polished_shale = true
+			polished_shale_brick = true
+			arkose = true
+			polished_arkose = true
+			arkose_brick = true
+			arkose_tile = true
+			packed_ice = true
+			packed_ice_brick = true
+			blue_ice = true
+			blue_ice_brick = true
+			snow = true
+			snow_brick = true
+			gingerbread_brick = true
+			glazed_gingerbread_brick = true
+			lunalite = true
+			cut_lunalite = true
+			cut_lunalite_brick = true
+			smooth_lunalite = true
+			dry_mossy_cobblestone = true
+			dry_mossy_stone_brick = true
+			dry_mossy_cobblestone_brick = true
+			dry_mossy_cobblestone_tile = true
+
+		[types.cut_block_type.create]
+			copper_shingle = true
+			exposed_copper_shingle = true
+			weathered_copper_shingle = true
+			oxidized_copper_shingle = true
+			waxed_copper_shingle = true
+			waxed_exposed_copper_shingle = true
+			waxed_weathered_copper_shingle = true
+			waxed_oxidized_copper_shingle = true
+			copper_tile = true
+			exposed_copper_tile = true
+			weathered_copper_tile = true
+			oxidized_copper_tile = true
+			waxed_copper_tile = true
+			waxed_exposed_copper_tile = true
+			waxed_weathered_copper_tile = true
+			waxed_oxidized_copper_tile = true
+			cut_granite = true
+			polished_cut_granite = true
+			cut_granite_brick = true
+			small_granite_brick = true
+			cut_diorite = true
+			polished_cut_diorite = true
+			cut_diorite_brick = true
+			small_diorite_brick = true
+			cut_andesite = true
+			polished_cut_andesite = true
+			cut_andesite_brick = true
+			small_andesite_brick = true
+			cut_calcite = true
+			polished_cut_calcite = true
+			cut_calcite_brick = true
+			small_calcite_brick = true
+			cut_dripstone = true
+			polished_cut_dripstone = true
+			cut_dripstone_brick = true
+			small_dripstone_brick = true
+			cut_deepslate = true
+			polished_cut_deepslate = true
+			cut_deepslate_brick = true
+			small_deepslate_brick = true
+			cut_tuff = true
+			polished_cut_tuff = true
+			cut_tuff_brick = true
+			small_tuff_brick = true
+			cut_asurine = true
+			polished_cut_asurine = true
+			cut_asurine_brick = true
+			small_asurine_brick = true
+			cut_crimsite = true
+			polished_cut_crimsite = true
+			cut_crimsite_brick = true
+			small_crimsite_brick = true
+			cut_limestone = true
+			polished_cut_limestone = true
+			cut_limestone_brick = true
+			small_limestone_brick = true
+			cut_ochrum = true
+			polished_cut_ochrum = true
+			cut_ochrum_brick = true
+			small_ochrum_brick = true
+			cut_scoria = true
+			polished_cut_scoria = true
+			cut_scoria_brick = true
+			small_scoria_brick = true
+			cut_scorchia = true
+			polished_cut_scorchia = true
+			cut_scorchia_brick = true
+			small_scorchia_brick = true
+			cut_veridium = true
+			polished_cut_veridium = true
+			cut_veridium_brick = true
+			small_veridium_brick = true
+
+		[types.cut_block_type.mowziesmobs]
+			painted_acacia = true
+
+		[types.cut_block_type.supplementaries]
+			fine_wood = true
+			lapis_bricks = true
+			ash_bricks = true
+			stone_tile = true
+			blackstone_tile = true
+
+		[types.cut_block_type.hearth_and_timber]
+			oak_shingle = true
+			spruce_shingle = true
+			birch_shingle = true
+			jungle_shingle = true
+			acacia_shingle = true
+			dark_oak_shingle = true
+			mangrove_shingle = true
+			cherry_shingle = true
+			pale_oak_shingle = true
+			terracotta_shingle = true
+			patchwork_shingle = true
+			splitstone = true
+			mossy_splitstone = true
+			covered_rubblestone = true
+			plastered_rubblestone = true
+			pointed_rubblestone = true
+			groutless_rubblestone = true
+			thatch = true
+			weathered_thatch = true
+			drying_thatch = true
+			aged_thatch = true
+			waxed_thatch = true
+			waxed_weathered_thatch = true
+			waxed_drying_thatch = true
+			waxed_aged_thatch = true
+			aspen_shingle = true
+			larch_shingle = true
+			baobab_shingle = true
+			cypress_shingle = true
+			ebony_shingle = true
+			chestnut_shingle = true
+			fan_palm_shingle = true
+			fir_shingle = true
+			swamp_oak_shingle = true
+			swamp_cypress_shingle = true
+			cactus_shingle = true
 
 		[types.wood_type.arts_and_crafts]
 			cork = true
@@ -327,6 +551,9 @@
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
+		[types.wood_type.netherexp]
+			claret = true
+
 		[types.wood_type.nomansland]
 			pine = true
 			maple = true
@@ -337,6 +564,11 @@
 			azalea = true
 			ancient = true
 			blossom = true
+
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -374,6 +606,9 @@
 			apple_fruit = true
 			pear_fruit = true
 
+		[types.leaves_type.primal]
+			thorny_acacia = true
+
 		[types.leaves_type.quark]
 			ancient = true
 			blue_blossom = true
@@ -382,30 +617,28 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.primal]
-			thorny_acacia = true
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			flowering_acacia = true
 
-		[entries.wood_type.farmersdelight]
-			cabinet = true
+		[types.cake.nomansland]
+			fruit_cake = true
 
-		[entries.wood_type.nomansland]
-			bookshelf = true
-			trimmed_planks = true
+		[types.lantern.candlelight]
+			lamp = true
 
-		[entries.wood_type.quark]
-			vertical_planks = true
-			post = true
-			trapped_chest = true
-			bookshelf = true
-			chest = true
-			stripped_post = true
-			ladder = true
-			hollow_log = true
-			vertical_slab = true
+		[types.lantern.darkerdepths]
+			glowshroom_lantern = true
 
-		[entries.wood_type.vanillabackport]
-			shelf = true
+		[types.lantern.netherexp]
+			treacherous_lantern = true
 
-		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
+		[types.lantern.suppsquared]
+			copper_lantern = true
+			brass_lantern = true
+			crimson_lantern = true
+
+		[types.lantern.windswept]
+			ice_lantern = true

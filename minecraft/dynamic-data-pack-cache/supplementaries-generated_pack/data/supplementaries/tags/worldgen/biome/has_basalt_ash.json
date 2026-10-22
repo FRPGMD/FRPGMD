@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:basalt_deltas",
+    {
+      "id": "incendium:volcanic_deltas",
+      "required": false
+    }
+  ],
+  "remove": []
+}

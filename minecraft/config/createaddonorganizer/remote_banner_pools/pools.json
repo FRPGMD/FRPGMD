@@ -1,0 +1,145 @@
+{
+  "create:base": [
+    "res:createaddonorganizer:textures/banner/create1.png"
+  ],
+  "create:palettes": [
+    "remote:Createbuildingblock1.png"
+  ],
+  "aeroworks:main": [
+    "remote:aeroworks1.png"
+  ],
+  "bits_n_bobs:bnb_based": [
+    "remote:bnb1.png"
+  ],
+  "bits_n_bobs:bnb_palettes": [
+    "remote:bnbBuilding1.png"
+  ],
+  "createbigcannons:base": [
+    "remote:cbc1.png"
+  ],
+  "createdeco:bricks_tab": [
+    "remote:decobricks1.png"
+  ],
+  "createdeco:props_tab": [
+    "remote:decoprops1.png"
+  ],
+  "createcasing:tab": [
+    "remote:Encased1.png"
+  ],
+  "createnuclear:main": [
+    "remote:createnuclear1.png"
+  ],
+  "copycats:main": [
+    "remote:copycatsplus1.png",
+    "remote:copycatsplus2.png"
+  ],
+  "copycats:functional": [
+    "remote:copycatsplus1.png",
+    "remote:copycatsplus2.png"
+  ],
+  "createdieselgenerators:cdg_creative_tab": [
+    "remote:Diesel1.png"
+  ],
+  "create_enchantment_industry:base": [
+    "remote:EnchantmentIndustry1.png",
+    "remote:EnchantmentIndustry2.png"
+  ],
+  "escalated:base": [
+    "remote:Escalated1.png"
+  ],
+  "createenderlink:cel_default": [
+    "remote:endertransmission1.png"
+  ],
+  "extra_gauges:main_tab": [
+    "remote:extragauges1.png"
+  ],
+  "bits_n_bobs:bnb_deco": [
+    "remote:bnbBuilding1.png"
+  ],
+  "powergrid:main": [
+    "remote:powergrid1.png"
+  ],
+  "create_optical:co_base": [
+    "remote:optics1.png"
+  ],
+  "dndecor:base": [
+    "remote:designNdecor1.png"
+  ],
+  "create_dragons_plus:base": [
+    "remote:EnchantmentIndustry1.png",
+    "remote:EnchantmentIndustry2.png"
+  ],
+  "create_hypertube:create_hypertubes": [
+    "remote:hypertubes1.png"
+  ],
+  "createprism:main": [
+    "remote:CreatePrisim1.png"
+  ],
+  "create_vibrant_vaults:base": [
+    "remote:vibrantvaults2.png",
+    "remote:vibrantvaults1.png",
+    "remote:vibrantvaults3.png"
+  ],
+  "railways:main": [
+    "remote:SNR_locometal1.png",
+    "remote:SNR_tracks1.png"
+  ],
+  "railways:tracks": [
+    "remote:SNR_tracks1.png"
+  ],
+  "railways:palettes": [
+    "remote:SNR_locometal1.png"
+  ],
+  "pipeorgans:pipe_organs": [
+    "remote:soundofsteam1.png"
+  ],
+  "createendertransmission:base": [
+    "remote:endertransmission1.png"
+  ],
+  "electroenergetics:base": [
+    "remote:ElectroEnergistics1.png"
+  ],
+  "create_aeronautics_toolgun:main": [
+    "remote:Toolgun1.png"
+  ],
+  "drivebywire:base": [
+    "remote:DriveByWire1.png",
+    "remote:drivebywiretypewriter1.png",
+    "remote:drivebywiretypewriter2.png"
+  ],
+  "fluidlogistics:fluidlogistics_tab": [
+    "remote:fluidlogistics1.png"
+  ],
+  "create_things_and_misc:tab": [
+    "remote:miscsandthings1.png",
+    "remote:miscsandthings2.png"
+  ],
+  "petrolsparts:base": [
+    "remote:petrolparts.png"
+  ],
+  "exposure:exposure": [
+    "remote:exposure1.png"
+  ],
+  "sable_kardanwelle:create_cardan_shafts": [
+    "remote:cardanshafts1.png"
+  ],
+  "create_aquatic_ambitions:tab": [
+    "remote:aquaticambitions1.png"
+  ],
+  "create_sa:create_stuff_additions_tab": [
+    "remote:stuffnadditions1.png"
+  ],
+  "create_connected:main": [
+    "remote:CreateConnected.png"
+  ],
+  "createframed:create_framed": [
+    "remote:createframed1.png"
+  ],
+  "interiors:main": [
+    "remote:createinteriors1.png",
+    "remote:createinteriors2.png"
+  ],
+  "dndesires:base_tab": [
+    "remote:dreamsndesires1.png"
+  ]
+}

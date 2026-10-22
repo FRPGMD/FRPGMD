@@ -1,0 +1,18 @@
+filename = 'skin-weathering-neoforge-1.2.2-1.21.1-neoforge.jar'
+name = '[ASW] Adaptive Skin Weathering'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.2'
+
+[download]
+hash = '79c16bef08fa7928564d19c339d8a56316dbbbcd1d3d3338a75c3623665a149c497482f0eafc2f2ee4051b051a772a4ebf06b80d34a8eeb74fc6b136189b99ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N9ck9GFB/versions/L1fyVBGz/skin-weathering-neoforge-1.2.2-1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'N9ck9GFB'
+version = 'L1fyVBGz'

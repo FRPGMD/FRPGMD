@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "suppsquared:item_shelf_dark_oak",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ]
+}

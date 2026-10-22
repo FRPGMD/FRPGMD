@@ -1,0 +1,411 @@
+["Hermes' Sandals"]
+	# Whether the Sandals of Wind movement speed and extra jump ability is enabled
+	# 
+	# Default: true
+	HERMES_SANDALS_WIND_ENABLED = true
+	# Movement speed bonus granted by Hermes' Sandals (0.1 = 10% of base speed)
+	# 
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	HERMES_SANDALS_MOVEMENT_SPEED_BONUS = 0.1
+	# Whether Hermes' Sandals play a sound when performing an extra mid-air jump
+	# 
+	# Default: true
+	HERMES_SANDALS_JUMP_SOUND_ENABLED = true
+	# Whether Hermes' Sandals spawn particles when performing an extra mid-air jump
+	# 
+	# Default: true
+	HERMES_SANDALS_JUMP_PARTICLES_ENABLED = true
+	# Number of extra mid-air jumps granted by Hermes' Sandals
+	# 
+	# Default: 3
+	# Range: 0 ~ 2000
+	HERMES_SANDALS_JUMP_AMOUNT = 3
+	# Armor points granted by Hermes' Sandals
+	# 
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	HERMES_SANDALS_ARMOR = 1.0
+
+["Instruments of Hephaestus"]
+	# Whether the Divine Forge automatic repair ability is enabled
+	# 
+	# Default: true
+	HEPHAESTUS_INSTRUMENTS_DIVINE_FORGE_ENABLED = true
+	# Cooldown (in seconds) between automatic repairs
+	# 
+	# Default: 50.0
+	# Range: 0.0 ~ 36000.0
+	HEPHAESTUS_INSTRUMENTS_REPAIR_COOLDOWN_SECONDS = 50.0
+	# Durability restored each time the Instruments repair an item
+	# 
+	# Default: 30
+	# Range: 1 ~ 100000
+	HEPHAESTUS_INSTRUMENTS_REPAIR_AMOUNT = 30
+	# Repair cooldown reduction (in seconds) after a kill
+	# 
+	# Default: 5.0
+	# Range: 0.0 ~ 36000.0
+	HEPHAESTUS_INSTRUMENTS_KILL_COOLDOWN_REDUCTION_SECONDS = 5.0
+
+["Spear of Ares"]
+	# Whether the Spear of Ares can be thrown
+	# 
+	# Default: true
+	ARES_SPEAR_THROW_ENABLED = true
+	# Duration (in seconds) of Slowness after a pinned entity hits a wall
+	# 
+	# Default: 3.0
+	# Range: 0.0 ~ 3600.0
+	ARES_SPEAR_WALL_SLOWNESS_SECONDS = 3.0
+	# Melee attack damage added by the Spear of Ares
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 1000.0
+	ARES_SPEAR_ATTACK_DAMAGE_BONUS = 8.0
+	# Maximum distance entities can be carried by a thrown Spear of Ares
+	# 
+	# Default: 10.0
+	# Range: 0.0 ~ 128.0
+	ARES_SPEAR_PINNED_ENTITY_DISTANCE = 10.0
+	# Whether the Ares' Descent charged ground ability is enabled
+	# 
+	# Default: true
+	ARES_SPEAR_DESCENT_ENABLED = true
+	# Cooldown (in seconds) of the Spear of Ares ground ability
+	# 
+	# Default: 6.0
+	# Range: 0.0 ~ 3600.0
+	ARES_SPEAR_ABILITY_COOLDOWN_SECONDS = 6.0
+	# Minimum fall distance required to activate the Spear of Ares ground ability
+	# 
+	# Default: 2.5
+	# Range: 0.0 ~ 256.0
+	ARES_SPEAR_ABILITY_MINIMUM_FALL_DISTANCE = 2.5
+	# Attack speed modifier added while holding the Spear of Ares (the player's base attack speed is 4.0)
+	# 
+	# Default: -2.7
+	# Range: -100.0 ~ 100.0
+	ARES_SPEAR_ATTACK_SPEED_MODIFIER = -2.7
+	# Damage dealt to pinned entities when the Spear of Ares hits a wall
+	# 
+	# Default: 6.0
+	# Range: 0.0 ~ 1000.0
+	ARES_SPEAR_WALL_IMPACT_DAMAGE = 6.0
+	# Radius of the Spear of Ares ground ability
+	# 
+	# Default: 3.0
+	# Range: 0.1 ~ 128.0
+	ARES_SPEAR_ABILITY_RADIUS = 3.0
+	# Whether a thrown Spear of Ares pins and carries hit entities
+	# 
+	# Default: true
+	ARES_SPEAR_REAPERS_JAVELIN_ENABLED = true
+	# Cooldown (in seconds) after throwing the Spear of Ares
+	# 
+	# Default: 2.5
+	# Range: 0.0 ~ 3600.0
+	ARES_SPEAR_THROW_COOLDOWN_SECONDS = 2.5
+	# Damage dealt by the summoned spears from the ground ability
+	# 
+	# Default: 15.0
+	# Range: 0.0 ~ 1000.0
+	ARES_SPEAR_ABILITY_DAMAGE = 15.0
+	# Damage dealt when the thrown Spear of Ares hits an entity
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 1000.0
+	ARES_SPEAR_PROJECTILE_DAMAGE = 8.0
+
+["Poppy of Demeter"]
+	# Number of growth accelerations before the Poppy chooses a different block
+	# 
+	# Default: 3
+	# Range: 1 ~ 1000
+	DEMETER_POPPY_GROWTHS_PER_TARGET = 3
+	# Radius in which the Poppy of Demeter searches for growable blocks
+	# 
+	# Default: 5
+	# Range: 1 ~ 32
+	DEMETER_POPPY_RADIUS = 5
+	# Time (in seconds) between growth accelerations
+	# 
+	# Default: 2.0
+	# Range: 0.2 ~ 3600.0
+	DEMETER_POPPY_GROWTH_INTERVAL_SECONDS = 2.0
+	# Whether the Crimson Petals plant growth ability is enabled
+	# 
+	# Default: true
+	DEMETER_POPPY_CRIMSON_PETALS_ENABLED = true
+
+["Bracers of Zeus"]
+	# Whether the Chain Lightning ability is enabled
+	# 
+	# Default: true
+	ZEUS_BRACERS_CHAIN_LIGHTNING_ENABLED = true
+	# Cooldown (in seconds) of the Bracers of Zeus
+	# 
+	# Default: 10.0
+	# Range: 0.0 ~ 3600.0
+	ZEUS_BRACERS_COOLDOWN_SECONDS = 10.0
+	# Minimum duration (in seconds) of the lightning stun
+	# 
+	# Default: 1.5
+	# Range: 0.0 ~ 60.0
+	ZEUS_BRACERS_MINIMUM_STUN_SECONDS = 1.5
+	# Whether lightning bounces from its first target to nearby enemies
+	# 
+	# Default: true
+	ZEUS_BRACERS_LIGHTNING_BOUNCE_ENABLED = true
+	# Maximum duration (in seconds) of the lightning stun
+	# 
+	# Default: 3.5
+	# Range: 0.0 ~ 60.0
+	ZEUS_BRACERS_MAXIMUM_STUN_SECONDS = 3.5
+	# Whether the sky lightning strike of the Bracers of Zeus shakes the camera of nearby players
+	# 
+	# Default: true
+	ZEUS_BRACERS_CAMERA_SHAKE_ENABLED = true
+	# Additional lightning damage dealt by the Bracers of Zeus
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 1000.0
+	ZEUS_BRACERS_DAMAGE = 8.0
+	# Damage multiplier applied to chained lightning after the first target
+	# 
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	ZEUS_BRACERS_CHAIN_DAMAGE_MULTIPLIER = 0.5
+	# Search range around the current chained lightning target
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 128.0
+	ZEUS_BRACERS_CHAIN_RANGE = 8.0
+	# Maximum number of additional targets hit by chained lightning
+	# 
+	# Default: 3
+	# Range: 0 ~ 100
+	ZEUS_BRACERS_CHAIN_JUMPS = 3
+
+["Artemis's Bow"]
+	# Whether the Moonlit Hunt projectile speed and Looting ability is enabled
+	# 
+	# Default: true
+	ARTEMIS_BOW_MOONLIT_HUNT_ENABLED = true
+	# Fraction of the arrow's damage restored as health when hitting one of the shooter's tamed animals (0.35 = 35%)
+	# 
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	ARTEMIS_BOW_TAMED_HEALING_MULTIPLIER = 0.5
+	# Whether the Guardian Arrow tamed animal healing ability is enabled
+	# 
+	# Default: true
+	ARTEMIS_BOW_GUARDIAN_ARROW_ENABLED = true
+	# Arrow speed multiplier for the Bow of Artemis
+	# 
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	ARTEMIS_BOW_PROJECTILE_SPEED_MULTIPLIER = 1.2
+	# Extra Looting levels applied to kills made with the Bow of Artemis
+	# 
+	# Default: 1
+	# Range: 0 ~ 100
+	ARTEMIS_BOW_LOOTING_BONUS = 1
+
+["Poseidon's Trident"]
+	# Whether a thrown Poseidon's Trident creates a damaging splash on impact
+	# 
+	# Default: true
+	POSEIDON_TRIDENT_WRATH_OF_UNDERWATER_ENABLED = true
+	# Damage dealt by the thrown trident's splash
+	# 
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	POSEIDON_TRIDENT_SPLASH_DAMAGE = 10.0
+	# Whether Poseidon's Trident can be thrown
+	# 
+	# Default: true
+	POSEIDON_TRIDENT_THROW_ENABLED = true
+	# Attack speed modifier added while holding Poseidon's Trident (the player's base attack speed is 4.0)
+	# 
+	# Default: -2.8
+	# Range: -100.0 ~ 100.0
+	POSEIDON_TRIDENT_ATTACK_SPEED_MODIFIER = -2.8
+	# Swim speed multiplier bonus while holding Poseidon's Trident (0.4 = 40%)
+	# 
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	POSEIDON_TRIDENT_SWIM_SPEED_BONUS = 0.4
+	# Melee attack damage added by Poseidon's Trident
+	# 
+	# Default: 9.0
+	# Range: 0.0 ~ 1000.0
+	POSEIDON_TRIDENT_ATTACK_DAMAGE_BONUS = 9.0
+	# Radius of the thrown trident's damaging splash
+	# 
+	# Default: 3.5
+	# Range: 0.1 ~ 128.0
+	POSEIDON_TRIDENT_SPLASH_RADIUS = 3.5
+	# Whether the Lord of the Sea swim speed ability is enabled
+	# 
+	# Default: true
+	POSEIDON_TRIDENT_LORD_OF_THE_SEA_ENABLED = true
+	# Damage dealt to the entity directly hit by a thrown Poseidon's Trident
+	# 
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	POSEIDON_TRIDENT_PROJECTILE_DAMAGE = 10.0
+
+["Celestial Parthenon"]
+	# Use datapack biome, start_height and placement values instead of the config below. Enabled and dimension restrictions
+	# still apply
+	# 
+	# Default: false
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_USE_DATAPACK_SETTINGS = false
+	# Number of elite harpies spawned in the second wave
+	# 
+	# Default: 1
+	# Range: 0 ~ 64
+	PARTHENON_SECOND_WAVE_ELITE_HARPIES = 1
+	# Whether Celestial Parthenons generate naturally
+	# 
+	# Default: true
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_GENERATION_ENABLED = true
+	# Maximum generation Y, where the height range is restricted to the dimension's build limits
+	# 
+	# Default: 190
+	# Range: -2032 ~ 2031
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_MAX_HEIGHT = 190
+	# Comma-separated biome ids or biome tags. Use * for all biomes, or leave empty to use the structure's datapack biomes
+	# 
+	# Default:
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_BIOMES = ""
+	# Placement region size in chunks (24 chunks = 384 blocks). Larger values makes the structure spawning rarer
+	# 
+	# Default: 24
+	# Range: 1 ~ 4096
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_SPACING = 24
+	# Number of regular harpies spawned in the second wave
+	# 
+	# Default: 2
+	# Range: 0 ~ 64
+	PARTHENON_SECOND_WAVE_HARPIES = 2
+	# Number of regular harpies spawned in the first wave
+	# 
+	# Default: 2
+	# Range: 0 ~ 64
+	PARTHENON_FIRST_WAVE_HARPIES = 2
+	# Comma-separated dimension ids (minecraft:overworld, parallax:sere, etc.) allowed for natural generation. Use * for all
+	# dimensions, or leave empty to allow none. Biomes and height must also be suitable
+	# 
+	# Default: minecraft:overworld
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_DIMENSIONS = "minecraft:overworld"
+	# Minimum generation Y, where the height range is restricted to the dimension's build limits
+	# 
+	# Default: 155
+	# Range: -2032 ~ 2031
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_MIN_HEIGHT = 155
+	# Minimum separation between placement regions in chunks
+	# 
+	# Default: 8
+	# Range: 0 ~ 4095
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_SEPARATION = 8
+	# Chance of attempting generation in each placement region (1 = 100%, 0 = disabled)
+	# 
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	# 
+	# [!] Requires game restart to take effect.
+	PARTHENON_GENERATION_CHANCE = 1.0
+
+["Persephone's Cup"]
+	# Duration (in seconds) of the Regeneration II effect granted by Persephone's Cup
+	# 
+	# Default: 20.0
+	# Range: 0.0 ~ 3600.0
+	PERSEPHONE_CUP_REGENERATION_SECONDS = 20.0
+	# Soul charges consumed when the Cup prevents death
+	# 
+	# Default: 40
+	# Range: 0 ~ 40
+	PERSEPHONE_CUP_DEATH_PROTECTION_CHARGE_COST = 40
+	# Whether the Soul Harvest soul collection and damage bonus ability is enabled
+	# 
+	# Default: true
+	PERSEPHONE_CUP_SOUL_HARVEST_ENABLED = true
+	# Whether the Spring's Return death protection ability is enabled
+	# 
+	# Default: true
+	PERSEPHONE_CUP_SPRINGS_RETURN_ENABLED = true
+	# Percentage of maximum health restored by the Cup's death protection (0.3 = 30%)
+	# 
+	# Default: 0.3
+	# Range: 0.01 ~ 1.0
+	PERSEPHONE_CUP_RESTORED_HEALTH_PERCENTAGE = 0.3
+	# Additional attack damage granted per stored soul
+	# 
+	# Default: 0.2
+	# Range: 0.0 ~ 100.0
+	PERSEPHONE_CUP_DAMAGE_PER_SOUL = 0.2
+	# Whether Persephone's Cup damage bonus applies to every player weapon attack, including melee and ranged attacks
+	# 
+	# Default: false
+	PERSEPHONE_CUP_DAMAGE_APPLIES_TO_WEAPONS = false
+
+["Helmet of Hades"]
+	# Duration (in seconds) of the Helmet's invisibility after preventing death
+	# 
+	# Default: 30.0
+	# Range: 0.0 ~ 3600.0
+	HELMET_OF_HADES_INVISIBILITY_SECONDS = 30.0
+	# Whether the Soul's Defiance death protection ability is enabled
+	# 
+	# Default: true
+	HELMET_OF_HADES_SOULS_DEFIANCE_ENABLED = true
+	# Cooldown (in seconds) of the Helmet of Hades death protection
+	# 
+	# Default: 80.0
+	# Range: 0.0 ~ 3600.0
+	HELMET_OF_HADES_COOLDOWN_SECONDS = 80.0
+	# Percentage of maximum health restored by the Helmet's death protection (0.5 = 50%)
+	# 
+	# Default: 0.5
+	# Range: 0.01 ~ 1.0
+	HELMET_OF_HADES_RESTORED_HEALTH_PERCENTAGE = 0.5
+	# Armor points granted by the Helmet of Hades
+	# 
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	HELMET_OF_HADES_ARMOR = 2.0
+
+["Aphrodite's Lyre"]
+	# Radius in which Aphrodite's Lyre puts animals in breeding (love mode)
+	# 
+	# Default: 8.0
+	# Range: 0.0 ~ 64.0
+	APHRODITE_LYRE_BREEDING_RADIUS = 8.0
+	# Cooldown (in seconds) after playing Aphrodite's Lyre
+	# 
+	# Default: 5.0
+	# Range: 0.0 ~ 3600.0
+	APHRODITE_LYRE_COOLDOWN_SECONDS = 5.0
+	# Whether the Song of Cythera breeding ability is enabled
+	# 
+	# Default: true
+	APHRODITE_LYRE_SONG_OF_CYTHERA_ENABLED = true

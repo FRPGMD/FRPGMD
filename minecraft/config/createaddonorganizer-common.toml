@@ -1,0 +1,187 @@
+#Use the classic (pre-1.3) organizer menu: centered column, per-row Edit button, no search or sidebar.
+classicOrganizerLayout = true
+#Show Fancy Tab Sections' collapse/expand button on each banner. Off by default.
+showCollapseToggle = false
+#Keep each section's banner pinned to the top while scrolling its items, instead of scrolling away.
+stickySectionBanners = false
+#Set once the banner editor's preview hint is dismissed. Turn off to show it again.
+editorHintSeen = false
+#Where the banner preview sits in the editor: true = under the title, false = above
+#the OK/Cancel buttons.
+bannerEditorPreviewTop = false
+#Pixel chunkiness of the hue/saturation/value gradients in the banner editor. 1 =
+#smooth, higher = blockier.
+# Default: 5
+# Range: 1 ~ 20
+gradientCellSize = 5
+
+#Which addon tabs get absorbed into Create, and where.
+[absorption]
+	#Tab IDs to always absorb under Create, even without a Create dependency.
+	forceInclude = []
+	#Tab IDs to never absorb; they keep their own standalone tab.
+	forceExclude = []
+	#Fold a tab into a chosen Create parent tab. Format: "<addonTabId> > <parentTabId>",
+	#e.g. "somemod:deco > create:palettes".
+	routes = []
+	#Tabs promoted to hub status (can have others folded into them) even without routes
+	#pointing at them yet. Managed via shift+"+" in the creative menu.
+	extraMainSections = []
+
+#Banner, box, and title-text styling for sections.
+[appearance]
+	#Default section banner colour (ARGB int).
+	# Default: -14277082
+	# Range: > -2147483648
+	defaultBannerColor = -14277082
+	#Optional gradient for the default banner, as "<secondHex>|<DIRECTION>|<STYLE>"
+	#(DIRECTION: VERTICAL/HORIZONTAL/DIAGONAL_UP/DIAGONAL_DOWN, STYLE: SMOOTH/DITHER_2X2/
+	#DITHER_4X4/DITHER_TRICOLOR/DITHER_QUADCOLOR). Empty (default) means a flat colour.
+	defaultBannerGradient = ""
+	#Per-section banner colours, keyed by tab ID. Format: "<tabId> = <hex>", optionally a
+	#gradient: "<tabId> = <hex1>|<hex2>|<DIRECTION>|<STYLE>". Accepts #RRGGBB, #AARRGGBB, or
+	#0x-prefixed hex.
+	sectionColors = []
+	#Per-section banner IMAGES, keyed by tab ID; overrides the colour. Format:
+	#"<tabId> = <ref>" ("res:ns:path", "file:name.png", or "remote:name.png").
+	#Managed by the in-game banner editor; banners are 160x17.
+	banners = []
+	#Marks a banner texture as animated (vertical strip of 17px frames), keyed by texture id.
+	#Format: "<textureId> = <frametime>" (ticks). Bundled textures auto-detect via .mcmeta.
+	#Managed by the in-game banner editor.
+	animatedBanners = []
+	#Ignore curated banner pools and always show the full gallery.
+	showAllBanners = false
+	#Your own uploads added to a curated tab's banner pool, keyed by tab ID. Format:
+	#"<tabId> = <ref>". Managed by the in-game banner editor.
+	extraBannerPool = []
+	#Check GitHub once per launch for new/updated community banners and credits. Disable
+	#for offline use.
+	fetchOnlineBanners = true
+	#URL of the remote banner manifest (JSON). Used only when fetchOnlineBanners is true.
+	bannerManifestUrl = "https://cdn.jsdelivr.net/gh/SockyWocky7/createaddonorganizer@master/banners/index.json"
+	#URL of the remote banner-pool manifest (JSON) -- curated banners per tab. Used only
+	#when fetchOnlineBanners is true; edit the file at this URL to update pools without a
+	#mod update.
+	bannerPoolsManifestUrl = "https://cdn.jsdelivr.net/gh/SockyWocky7/createaddonorganizer@master/banners/pools.json"
+	#Check GitHub once per launch for new/updated community text-banner textures. Disable
+	#for offline use.
+	fetchOnlineBoxTextures = true
+	#URL of the remote text-banner manifest (JSON). Used only when fetchOnlineBoxTextures
+	#is true.
+	boxManifestUrl = "https://cdn.jsdelivr.net/gh/SockyWocky7/createaddonorganizer@master/text_banners/index.json"
+	#Draw a semi-transparent box behind section title text for contrast.
+	tintedTextBox = true
+	#Default tinted-box colour (ARGB int).
+	# Default: 1677721600
+	# Range: > -2147483648
+	defaultBoxColor = 1677721600
+	#Per-section tinted-box colours, keyed by tab ID. Same format as sectionColors; alpha
+	#controls opacity.
+	boxColors = []
+	#Per-section contrast-box IMAGES, keyed by tab ID (3-sliced horizontally so any width
+	#fits). Format: "<tabId> = <ref>" ("res:ns:path" or "file:name.png"). Fixed 14px height.
+	#Managed by the in-game box editor.
+	boxTextures = []
+	#How much to darken a per-section contrast-box IMAGE when rendered (0 = no darkening,
+	#1 = fully black). Only applies while a box texture is set.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	defaultBoxDarken = 0.0
+	#Per-section contrast-box image darken overrides, keyed by tab ID.
+	boxDarkens = []
+	#Opacity of a per-section contrast-box IMAGE when rendered (0 = fully transparent,
+	#1 = fully opaque). Only applies while a box texture is set.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	defaultBoxOpacity = 1.0
+	#Per-section contrast-box image opacity overrides, keyed by tab ID.
+	boxOpacities = []
+	#Default section title text colour (ARGB int).
+	# Default: -1
+	# Range: > -2147483648
+	defaultTextColor = -1
+	#Optional gradient for the default text colour, as "<secondHex>|<DIRECTION>".
+	#Text gradients always render smooth.
+	defaultTextGradient = ""
+	#Per-section title text colours, keyed by tab ID. Same format as sectionColors, minus
+	#the STYLE token.
+	textColors = []
+	#Shade title text two-tone: primary colour on top, secondary on bottom of each glyph.
+	twoToneText = true
+	#Default secondary text colour (ARGB int).
+	# Default: -3355444
+	# Range: > -2147483648
+	defaultTextSecondaryColor = -3355444
+	#Optional gradient for the default secondary text colour, as "<secondHex>|<DIRECTION>".
+	defaultTextSecondaryGradient = ""
+	#Per-section secondary text colour overrides, keyed by tab ID. Only used while
+	#twoToneText is on.
+	textSecondaryColors = []
+	#Default vertical split of two-tone text, as a fraction of glyph height from the top
+	#(0 = secondary, 1 = primary).
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	defaultTwoToneSplit = 0.55
+	#Per-section two-tone split overrides, keyed by tab ID. Format: "<tabId> = <fraction>".
+	#Only used while twoToneText is on.
+	textSplits = []
+	#Fraction of the banner's title width text must exceed before scrolling. 1.0 (default)
+	#scrolls only on true overflow; lower values make shorter titles scroll too.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	defaultScrollCutoff = 1.0
+	#Per-section scroll cutoff overrides, keyed by tab ID. Managed from the banner editor's
+	#Primary text panel.
+	scrollCutoffs = []
+	#Draw title text with the vanilla drop shadow by default. Per-section overrides take
+	#precedence.
+	titleTextShadow = true
+	#Per-section drop-shadow on/off overrides, keyed by tab ID. Format: "<tabId> = true"
+	#or "false". Managed from the banner editor's Shadow panel.
+	titleTextShadowSections = []
+	#Default title text outline colour (ARGB int). Starting colour in the banner editor's
+	#Outline panel.
+	# Default: -16777216
+	# Range: > -2147483648
+	defaultTextOutlineColor = -16777216
+	#Optional gradient for the default outline colour, as "<secondHex>|<DIRECTION>".
+	defaultTextOutlineGradient = ""
+	#Per-section text outline colours, keyed by tab ID. An entry's presence enables the
+	#outline for that section. Managed from the banner editor's Outline panel.
+	textOutlineColors = []
+	#Default custom drop-shadow colour (ARGB int), used once a section's shadow is
+	#unlinked from its text colour.
+	# Default: -16777216
+	# Range: > -2147483648
+	defaultTextShadowColor = -16777216
+	#Per-section custom drop-shadow colours, keyed by tab ID. An entry unlinks that shadow
+	#from the primary text colour. Only drawn while titleTextShadow is on.
+	textShadowColors = []
+	#Accent colour for MAIN tabs only, keyed by tab ID. Config-screen only -- tints that
+	#tab's row in the section list, no effect in-game.
+	highlightColors = []
+	#Compute banner/text colours live as a red-to-violet gradient by tab position, instead
+	#of using the manual colour lists. Enabled by the Rainbow preset.
+	rainbowMode = false
+
+#Custom section order and names.
+[organization]
+	#Manual drag order of sections within each parent tab. Unlisted sections are appended
+	#alphabetically.
+	sectionOrder = []
+	#Custom display names, keyed by tab ID. Format: "<tabId> = <name>". Managed by
+	#ctrl+click-to-rename in the section list.
+	sectionNames = []
+	#Sections currently collapsed via the collapse toggle. Only relevant while
+	#showCollapseToggle is on.
+	collapsedSections = []
+
+#The section-index jump list shown on any tab with organized sections
+#(both Fancy Tab Sections tabs and Simulated-family addon tabs).
+[interface]
+	#Visual style of the section-index panel: VANILLA (light
+	#raised panel, default), DARK (flat dark panel), REFURBISHED (beveled side tabs),
+	#BACKPORT (compact textured panel).
+	#Allowed Values: VANILLA, DARK, REFURBISHED, BACKPORT
+	indexPanelStyle = "VANILLA"

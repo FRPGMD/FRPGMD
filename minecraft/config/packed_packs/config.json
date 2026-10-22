@@ -10,8 +10,10 @@
     "additionalFolders": [],
     "foldersModuleByDefault": false,
     "rememberLastViewedProfile": false,
+    "lastViewedProfile": "Безымянный профиль",
     "profileOrder": [
-      "Default"
+      "Default",
+      "Безымянный профиль"
     ]
   },
   "datapacks": {

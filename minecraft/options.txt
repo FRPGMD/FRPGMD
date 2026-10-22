@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/atmospherics:resourcepacks/atmospherics_pack","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/Ashen_16x.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip"]
-incompatibleResourcePacks:["file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","netherexp:jne_retextures","mod/atmospherics:resourcepacks/atmospherics_pack","moonlight:merged_pack","file/Excalibur Mowzie\u0027s Mobs 1.2.zip","file/Ashen_16x.zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen - Corpse Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/§5Untitled §6Punchies §fv1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","file/End Remastered Remastered 1.21.5.zip","file/Angel\u0027s_Font_v0.8.zip","file/Ashen + [Let\u0027s Do] Hearth \u0026 Timber 1.21.1.zip","black_icons"]
+incompatibleResourcePacks:["file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","file/End Remastered Remastered 1.21.5.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -124,6 +124,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.fancytoasts.config_menu:key.keyboard.k
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.corpse.death_history:key.keyboard.u
 key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
 key_accessories.key.open_accessories_screen:key.keyboard.h
@@ -175,7 +176,7 @@ key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.v
-key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_settings:key.keyboard.v
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
@@ -203,6 +204,7 @@ key_key.shouldersurfing.enter_first_person:key.keyboard.unknown
 key_key.shouldersurfing.enter_third_person_front:key.keyboard.unknown
 key_key.shouldersurfing.enter_third_person_back:key.keyboard.unknown
 key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.unknown
+key_key.ponder.ponder:key.keyboard.w
 key_key.icys-better-horses.call:key.keyboard.p
 key_key.icys-better-horses.radial:key.keyboard.r
 key_key.icys-better-horses.manage:key.keyboard.g
@@ -215,10 +217,10 @@ key_key.icys-better-horses.rider_panel:key.keyboard.e:CONTROL
 key_key.icys-better-horses.charge:key.keyboard.b
 key_key.atmospherics.open:key.keyboard.b
 key_gnetum.config.keyMapping:key.keyboard.end
-key_key.weaponmaster_ydm.opengui:key.keyboard.v
+key_key.weaponmaster_ydm.opengui:key.keyboard.keypad.7
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
-key_treechop.key.open_settings_overlay:key.keyboard.n
+key_treechop.key.open_settings_overlay:key.keyboard.unknown
 key_key.inventoryessentials.single_transfer:key.mouse.left:CONTROL
 key_key.inventoryessentials.screen_bulk_drop:key.mouse.left:SHIFT
 key_key.inventoryessentials.sort_inventory:key.mouse.middle
@@ -235,6 +237,13 @@ key_key.kubejsstudio.loot:key.keyboard.unknown
 key_key.kubejsstudio.properties:key.keyboard.unknown
 key_key.kubejsstudio.create:key.keyboard.unknown
 key_key.kubejsstudio.files:key.keyboard.unknown
+key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_create.keyinfo.rotate_menu:key.keyboard.unknown
+key_create.keyinfo.shift_modifier:key.keyboard.left.shift
+key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
+key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.interactic.pickup_item:key.keyboard.unknown
 key_key.villagerretaliation.open_quest_journal:key.keyboard.j
 key_key.villagerretaliation.toggle_quest_tracker:key.keyboard.k
@@ -292,8 +301,9 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
+key_key.punchy.triggerable.trident_inspect:key.keyboard.i
 key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
+key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
 soundCategory_master:0.297355824812178
 soundCategory_music:1.0
 soundCategory_record:1.0

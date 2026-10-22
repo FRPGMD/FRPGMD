@@ -1,0 +1,29 @@
+filename = 'emf_compat_supplementaries_neoforge_1.21.1_1.1.1.jar'
+name = 'EMF Compat: Supplementaries'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = '5e2ac1df5fdce0534a58ea769c2a92ed9b45fcf785b898a19f91a30e8b57c36c636b3c56664da2507d3e528ad078e590ad42ab2d236793909ac45cdae8046087'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z4FSlBqI/versions/HczpDeQN/emf_compat_supplementaries_neoforge_1.21.1_1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'z4FSlBqI'
+version = 'HczpDeQN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hbGct5uU'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4I1XuqiY'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'OPTIONAL'

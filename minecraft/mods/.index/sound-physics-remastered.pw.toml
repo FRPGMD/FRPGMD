@@ -1,20 +1,20 @@
-filename = 'sound-physics-remastered-neoforge-1.21.1-1.5.1.jar'
+filename = 'sound-physics-remastered-neoforge-1.21.1-1.5.2.jar'
 name = 'Sound Physics Remastered'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'neoforge-1.21.1-1.5.1'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'neoforge-1.21.1-1.5.2'
 
 [download]
-hash = 'ff7e9f0b968eeb2ba0e833328a122813cad0434cfe2d5c3d527c1c0d564504f13a737fc05f22d3fea562a2f86568d31b95212bf5347dd10da36cd49ad56143a6'
+hash = '958747dc1914536e357512dd2f0b926f2ee936dace3f9a43a0e8eb51ae6f35b9c7359529ee48d2ac50d190b02b617d94d22eced202ecd3056494c71a4958b14b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/qyVF9oeo/versions/Dd2tmpsk/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar'
+url = 'https://cdn.modrinth.com/data/qyVF9oeo/versions/85fA7L1W/sound-physics-remastered-neoforge-1.21.1-1.5.2.jar'
 
 [update.modrinth]
 mod-id = 'qyVF9oeo'
-version = 'Dd2tmpsk'
+version = '85fA7L1W'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'

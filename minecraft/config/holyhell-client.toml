@@ -1,0 +1,7 @@
+[features]
+	#Choose the size of the model displayed when player has Divine Protection effect
+	#Use 0 to disable the visual, ranges between 0 and 2, and supports decimals
+	#This is a client config so only you will see it and will apply to you and other players as well
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	ring_size = 1.0

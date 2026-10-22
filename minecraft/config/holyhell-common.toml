@@ -1,0 +1,3 @@
+[features]
+	#Enables coffins storing the players inventory, on death if activated. DISABLE if you have any other inventory saving mod like corpses or graves
+	enableCoffins = true

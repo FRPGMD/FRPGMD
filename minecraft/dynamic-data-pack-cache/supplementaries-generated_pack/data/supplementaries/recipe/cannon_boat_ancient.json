@@ -1,0 +1,40 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "supplementaries:quark/cannon_boat_ancient",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "supplementaries:cannon"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "quark:ancient",
+      "type": "moonlight:block_type_swap"
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:oak_boat"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "quark:ancient",
+      "type": "moonlight:block_type_swap"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "cannon_boat"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "cannon_boat"
+    }
+  ]
+}

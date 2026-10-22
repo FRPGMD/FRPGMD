@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"holyhell:stone_cross"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:cat_food_bag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:cat_food"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
