@@ -10,7 +10,7 @@
 	#This is the RATIO of time passing relative to vanilla.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 1.0
+	daySpeed = 0.8
 	#The speed at which time passes during the night.
 	#Night is defined as any time between dayStart (see below) and nightStart (see below).
 	#This is the RATIO of time passing relative to vanilla.
