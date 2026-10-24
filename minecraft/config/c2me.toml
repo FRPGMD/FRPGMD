@@ -47,7 +47,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # 
 # Please preserve quotes so the config don't break
 # 
-threadPoolPriorityPreset = "LOW"
+threadPoolPriorityPreset = "LOWEST"
 # ================================================================
 # (Default: 3) Configures the parallelism of global executor
 globalExecutorParallelism = "default"

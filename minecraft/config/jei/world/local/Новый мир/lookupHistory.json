@@ -1,5 +1,9 @@
 [
   {"version":1},
+  {"ingredient":{"id":"arts_and_crafts:cork_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arts_and_crafts:stripped_cork_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arts_and_crafts:cork_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:fine_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hearth_and_timber:timber_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hearth_and_timber:timber_frame_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"supplementaries:awning"},"type":"item_stack","bookmarkType":"INGREDIENT"},

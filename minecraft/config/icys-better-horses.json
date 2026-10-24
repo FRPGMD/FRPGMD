@@ -8,6 +8,8 @@
   "transparent_horses": "yes",
   "gender_breeding": "yes",
   "cart_pickup": "yes",
+  "plough_foliage": "yes",
+  "plough_crops": "no",
   "leaf_passthrough": "yes",
   "hoof_dust": "no",
   "rear_neigh": "yes",
@@ -83,7 +85,8 @@
     "charge_meter_gap": 4,
     "harness_gauge_side": "left",
     "harness_gauge_gap": 4,
-    "radial_style": "horseshoe"
+    "radial_style": "horseshoe",
+    "ability_banners": "yes"
   },
   "breeding_foods": [
     "minecraft:golden_carrot",
