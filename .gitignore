@@ -34,3 +34,4 @@ minecraft/kubejsstudio/
 minecraft/config/jei/world
 *.disabled
 *.duplicate
+*.bak
