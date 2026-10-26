@@ -13,7 +13,6 @@ minecraft/shaderpacks/
 minecraft/texturepacks/
 minecraft/usercache.json
 minecraft/usernamecache.json
-minecraft/mods/*.disabled
 minecraft/bivrik/
 minecraft/local/
 minecraft/.mixin.out/
@@ -32,3 +31,6 @@ minecraft/config/packetfixer.properties
 minecraft/config/rsls.properties
 minecraft/debug/
 minecraft/kubejsstudio/
+minecraft/config/jei/world
+*.disabled
+*.duplicate
