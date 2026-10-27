@@ -1,0 +1,12 @@
+#Real hours per player's free roll. Offline time counts.
+# Default: 24
+# Range: 1 ~ 8760
+rollCooldownHours = 24
+#Reveal duration in ticks; the result is committed before it starts.
+# Default: 70
+# Range: 20 ~ 200
+rollAnimationDuration = 70
+#Common, Uncommon, Rare, Epic, Legendary, Mythic. Relative weights; all-zero falls back to defaults.
+rarityWeights = [4800, 2800, 1500, 650, 220, 30]
+#Stat range scale for the same six rarities; final effects have hard safety caps.
+statRangeMultipliers = [1.0, 1.2, 1.45, 1.7, 2.0, 2.4]

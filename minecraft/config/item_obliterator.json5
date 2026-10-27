@@ -16,16 +16,12 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-  	  "farm_and_charm:wild_beetroots",
-	  "farm_and_charm:wild_tomatoes",
 	  "farm_and_charm:tomato_bag",
 	  "farm_and_charm:rotten_tomato",
 	  "farm_and_charm:tomato",
 	  "farm_and_charm:tomato_seeds",
 	  "farm_and_charm:onion_bag",
-	  "farm_and_charm:wild_onions",
 	  "farm_and_charm:onion",
-	  "farm_and_charm:wild_potatoes",
 	  "farm_and_charm:wild_emmer",
 	  "furniture:tool_box",
 	  "furniture:bin",
@@ -34,7 +30,6 @@
 	  "farm_and_charm:beetroot_bag",
 	  "farm_and_charm:carrot_bag",
 	  "farm_and_charm:potato_bag",
-	  "farm_and_charm:wild_carrots",
 	  "farm_and_charm:onion",
 	  "farm_and_charm:diamond_cleaver",
 	  "farm_and_charm:netherite_cleaver",
@@ -42,17 +37,17 @@
 	  "farm_and_charm:cat_food_bag",
 	  "farm_and_charm:iron_cleaver",
 	  "candlelight:quartz_counter",
-	"candlelight:quartz_kitchen_sink",
-	"candlelight:quartz_stove",
-	"candlelight:sandstone_counter",
-	"candlelight:sandstone_kitchen_sink",
-	"candlelight:sandstone_stove",
-	"candlelight:bamboo_counter",
-	"candlelight:bamboo_kitchen_sink",
-	"candlelight:bamboo_stove",
-	"candlelight:red_nether_bricks_counter",
-	"candlelight:red_nether_bricks_kitchen_sink",
-	"candlelight:red_nether_bricks_stove"
+	  "candlelight:quartz_kitchen_sink",
+	  "candlelight:quartz_stove",
+	  "candlelight:sandstone_counter",
+	  "candlelight:sandstone_kitchen_sink",
+	  "candlelight:sandstone_stove",
+	  "candlelight:bamboo_counter",
+	  "candlelight:bamboo_kitchen_sink",
+	  "candlelight:bamboo_stove",
+	  "candlelight:red_nether_bricks_counter",
+	  "candlelight:red_nether_bricks_kitchen_sink",
+	  "candlelight:red_nether_bricks_stove"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

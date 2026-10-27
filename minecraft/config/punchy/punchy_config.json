@@ -36,8 +36,12 @@
   "enableBlurGlowAtDark": false,
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
-  "itemBlacklist": [],
-  "blacklistApplyDualHanded": {},
+  "itemBlacklist": [
+    "netherman:azazel_shield"
+  ],
+  "blacklistApplyDualHanded": {
+    "netherman:azazel_shield": true
+  },
   "animationPackSelections": {},
   "animationPackTypeSelections": {},
   "mixSpecificForceOverride": {}

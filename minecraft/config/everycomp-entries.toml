@@ -540,6 +540,11 @@
 			marble_brick = true
 			cracked_marble_brick = true
 
+		[types.cut_block_type.netherman]
+			cobbled_samsonit = true
+			polished_samsonit = true
+			samsonit_bricks = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 

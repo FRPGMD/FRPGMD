@@ -1,0 +1,35 @@
+#Enable Cosmic Entropy rendering.
+enabled = true
+#0 = low (12 cloud / 16 volume steps); 1 = balanced; 2 = high.
+# Default: 1
+# Range: 0 ~ 2
+quality = 1
+#Use SSBOs on OpenGL 4.3+. False forces the OpenGL 3.2 UBO path.
+preferSsbo = true
+#Selective effect bloom. Zero skips all four bloom passes.
+# Default: 0.8
+# Range: 0.0 ~ 2.0
+bloom = 0.8
+#Shared depth-guarded refraction. Zero disables refraction.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+distortion = 1.0
+#Nearest visible effects retained when the budget is exceeded.
+# Default: 96
+# Range: 8 ~ 128
+effectLimit = 96
+# Default: 256
+# Range: 32 ~ 512
+effectDistance = 256
+#Maximum 16-cubed world sections sampled per client tick. No chunk loads are requested.
+# Default: 3
+# Range: 1 ~ 12
+worldSectionsPerTick = 3
+#Snapshot time budget in milliseconds. A single section can exceed this budget.
+# Default: 2
+# Range: 1 ~ 8
+worldSnapshotBudgetMs = 2
+#Maximum estimated consumer target MiB, including history; excludes meshes, textures, buffers and driver overhead.
+# Default: 512
+# Range: 64 ~ 4096
+frameworkTargetBudgetMiB = 512

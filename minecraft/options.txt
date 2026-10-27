@@ -41,7 +41,7 @@ touchscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 hideSplashTexts:false
 mouseSensitivity:0.5
@@ -127,6 +127,7 @@ key_key.modernfix.config:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.corpse.death_history:key.keyboard.u
 key_key.block_factorys_bosses.dodge_roll:key.keyboard.z
+key_key.holyhell.vision_ability:key.keyboard.right.alt
 key_accessories.key.open_accessories_screen:key.keyboard.h
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
@@ -169,6 +170,8 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.hedges_bestiary.mountSpecialKey:key.keyboard.g
+key_key.cinematic.sit:key.keyboard.h
+key_key.cinematic.look:key.keyboard.left.alt
 key_key.mallardguard.guard:key.mouse.right
 key_key.mallardguard.open_config:key.keyboard.right.control
 key_key.push_to_talk:key.keyboard.unknown

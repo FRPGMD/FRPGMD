@@ -1,83 +1,134 @@
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 15.1
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: /mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Linux (amd64) version 7.3.0-2-cachyos-bore-lto
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.7, Microsoft
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.21.1 (NeoForge 21.1.262)
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Config File: /mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/CustomSkinLoader.json
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
-[2026-10-27 13:31:12] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GameProfile
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPIPlus
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: version : 15.1
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 41
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "GameProfile", "type": "GameProfile" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "ElyByAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }]
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
-[2026-10-27 13:31:13] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: Loading kiriusas2's profile.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 1/11 Try to load profile from 'GameProfile'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 2/11 Try to load profile from 'Mojang'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 3/11 Try to load profile from 'LittleSkin'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 4/11 Try to load profile from 'BlessingSkin'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 5/11 Try to load profile from 'ElyBy'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 6/11 Try to load profile from 'TLauncher'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 7/11 Try to load profile from 'GlitchlessGames'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 8/11 Try to load profile from 'LocalSkin'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 9/11 Try to load profile from 'MinecraftCapes'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 10/11 Try to load profile from 'OptiFine'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 11/11 Try to load profile from 'CloakPlus'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GameProfile)/INFO] [CustomSkinLoader Core]: Default profile will be used.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LocalSkin)/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Profile not found.(kiriusas2's profile not found.)
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
-[2026-10-27 13:31:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Profile url not found.
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2 (Exception: java.net.UnknownHostException: games.glitchless.ru)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/INFO] [CustomSkinLoader Core]: Profile not found.
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 111)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 111 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/aa187688bd0854fe3fbae07fcb83b0cafb8f8dac' , Expire: 1793097172)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png","metadata":{"model":"slim"}}}
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/INFO] [CustomSkinLoader Core]: Profile not found.
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 114 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/0c4a8253203d546b7f717c176536557143a68c1e' , Expire: 1793097172)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_kiriusas2.png","metadata":{"model":"slim"}}}
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2026-10-27 13:31:18] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2026-10-27 13:31:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
-[2026-10-27 13:31:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/cee5a23e5214c2691cf6fae7294d056bb9375c4f' , Expire: 1793097169)
-[2026-10-27 13:31:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Content: {}
-[2026-10-27 13:31:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
-[2026-10-27 13:31:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Failed to request http://161.35.130.99/capes/kiriusas2.png (Exception: java.net.SocketTimeoutException: Read timed out)
-[2026-10-27 13:31:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2026-10-27 13:31:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: kiriusas2's profile loaded. (10065ms)
-[2026-10-27 13:31:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: (SkinUrl: http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png , Model: slim , CapeUrl: null  , Expiry: 1793097113)
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 15.1
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: /mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Linux (amd64) version 7.3.0-2-cachyos-bore-lto
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.7, Microsoft
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.21.1 (NeoForge 21.1.262)
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Config File: /mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/CustomSkinLoader.json
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GameProfile
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPIPlus
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: version : 15.1
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 41
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "GameProfile", "type": "GameProfile" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "ElyByAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }]
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2026-10-27 14:22:53] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: Loading kiriusas2's profile.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 1/11 Try to load profile from 'GameProfile'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 2/11 Try to load profile from 'Mojang'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 3/11 Try to load profile from 'LittleSkin'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 4/11 Try to load profile from 'BlessingSkin'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 5/11 Try to load profile from 'ElyBy'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 6/11 Try to load profile from 'TLauncher'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 7/11 Try to load profile from 'GlitchlessGames'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 8/11 Try to load profile from 'LocalSkin'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 9/11 Try to load profile from 'MinecraftCapes'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 10/11 Try to load profile from 'OptiFine'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 11/11 Try to load profile from 'CloakPlus'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LocalSkin)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GameProfile)/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2026-10-27 14:22:53] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 111)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 111 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/aa187688bd0854fe3fbae07fcb83b0cafb8f8dac' , Expire: 1793100264)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png","metadata":{"model":"slim"}}}
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 114 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/0c4a8253203d546b7f717c176536557143a68c1e' , Expire: 1793100266)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_kiriusas2.png","metadata":{"model":"slim"}}}
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Profile not found.(kiriusas2's profile not found.)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2026-10-27 14:22:54] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2026-10-27 14:22:55] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-10-27 14:22:55] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/cee5a23e5214c2691cf6fae7294d056bb9375c4f' , Expire: 1793100266)
+[2026-10-27 14:22:55] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-10-27 14:22:55] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-10-27 14:22:58] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2 (Exception: java.net.UnknownHostException: games.glitchless.ru)
+[2026-10-27 14:22:58] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-10-27 14:23:03] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Failed to request http://161.35.130.99/capes/kiriusas2.png (Exception: java.net.SocketTimeoutException: Read timed out)
+[2026-10-27 14:23:03] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:23:03] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: kiriusas2's profile loaded. (10039ms)
+[2026-10-27 14:23:03] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: (SkinUrl: http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png , Model: slim , CapeUrl: null  , Expiry: 1793100213)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: Loading kiriusas2's profile.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 1/11 Try to load profile from 'GameProfile'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 2/11 Try to load profile from 'Mojang'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GameProfile)/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 3/11 Try to load profile from 'LittleSkin'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 4/11 Try to load profile from 'BlessingSkin'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 5/11 Try to load profile from 'ElyBy'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/kiriusas2.json' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 6/11 Try to load profile from 'TLauncher'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 7/11 Try to load profile from 'GlitchlessGames'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 8/11 Try to load profile from 'LocalSkin'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 9/11 Try to load profile from 'MinecraftCapes'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 10/11 Try to load profile from 'OptiFine'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: 11/11 Try to load profile from 'CloakPlus'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/kiriusas2.png' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LocalSkin)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/DEBUG] [CustomSkinLoader Core]: Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=kiriusas2 (Exception: java.net.UnknownHostException: games.glitchless.ru)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (GlitchlessGames)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 111)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 111 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/aa187688bd0854fe3fbae07fcb83b0cafb8f8dac' , Expire: 1793100468)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (ElyBy)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png","metadata":{"model":"slim"}}}
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (BlessingSkin)/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-10-27 14:26:13] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (OptiFine)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (Mojang)/INFO] [CustomSkinLoader Core]: Profile not found.(kiriusas2's profile not found.)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft' with user agent 'CustomSkinLoader/15.1 (Minecraft/1.21.1; NeoForge/21.1.262; Java/21.0.7)'.
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Payload: ["kiriusas2"]
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 114 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/0c4a8253203d546b7f717c176536557143a68c1e' , Expire: 1793100464)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (TLauncher)/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_kiriusas2.png","metadata":{"model":"slim"}}}
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: '/mnt/ba1e2e13-5042-4c4a-a263-49905ee08a7d/Minecraft/prism/instances/FRPGMD_CONTENT/minecraft/CustomSkinLoader/caches/cee5a23e5214c2691cf6fae7294d056bb9375c4f' , Expire: 1793100465)
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-10-27 14:26:14] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (LittleSkin)/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-10-27 14:26:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2026-10-27 14:26:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2026-10-27 14:26:19] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (MinecraftCapes)/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2026-10-27 14:26:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/DEBUG] [CustomSkinLoader Core]: Failed to request http://161.35.130.99/capes/kiriusas2.png (Exception: java.net.SocketTimeoutException: Read timed out)
+[2026-10-27 14:26:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a> (CloakPlus)/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-10-27 14:26:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: kiriusas2's profile loaded. (10023ms)
+[2026-10-27 14:26:23] [kiriusas2 <ec147bc7-128d-4772-a52b-b72bcc82816a>/INFO] [CustomSkinLoader Core]: (SkinUrl: http://ely.by/storage/skins/a7351fd9c6a73a7fb363c9f577f3e372.png , Model: slim , CapeUrl: null  , Expiry: 1793100413)

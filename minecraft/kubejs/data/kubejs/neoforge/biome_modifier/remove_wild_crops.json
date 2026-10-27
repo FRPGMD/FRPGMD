@@ -1,0 +1,13 @@
+
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#c:is_overworld",
+  "features": [
+    "farm_and_charm:wild_beetroots_chance",
+    "farm_and_charm:wild_potatoes_chance",
+    "farm_and_charm:wild_carrots_chance",
+    "farm_and_charm:wild_onions_chance",
+    "farm_and_charm:wild_tomatoes_chance"
+  ]
+}
+

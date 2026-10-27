@@ -33,7 +33,7 @@
 		#Whether campfire plays its scene (false: the block keeps its usual window).
 		campfire = true
 		#Whether lectern plays its scene (false: the block keeps its usual window).
-		lectern = true
+		lectern = false
 		#Whether beacon plays its scene (false: the block keeps its usual window).
 		beacon = true
 		#Whether jukebox plays its scene (false: the block keeps its usual window).
@@ -69,7 +69,7 @@
 	#0: cinematic entry; 1: quick on a recent return; 2: quick on every entry. -1 keeps the old quickReturn setting.
 	# Default: -1
 	# Range: -1 ~ 2
-	quickMode = 1
+	quickMode = 2
 	#For how many seconds after stepping away coming back to the same station is quick.
 	# Default: 12
 	# Range: 5 ~ 30
@@ -81,7 +81,7 @@
 	#Looking round from behind while at work (Left Alt, rebindable): false while the key is held, true pressed on and off.
 	lookToggles = false
 	#Black bars at the top and bottom while the camera moves in and out.
-	letterbox = true
+	letterbox = false
 	#The camera breathes slightly and drifts a little towards the cursor while working.
 	livingCamera = true
 	#The camera trembles at big moments (a hammer blow, a spell, the beacon lighting up).
@@ -93,7 +93,7 @@
 	#On a server without Cinematic Interactions, show local scenes over supported vanilla menus. Set this from the main menu; it takes effect on the next connection. Other stations keep their vanilla behavior.
 	clientOnlyMode = false
 	#Whether the server list has already shown the client-only mode note.
-	serverHintSeen = false
+	serverHintSeen = true
 
 [developer]
 	#Show the local station layout editors and enable their G shortcut. Saved layouts apply even when this is false.
