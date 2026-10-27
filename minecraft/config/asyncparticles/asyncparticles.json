@@ -15,7 +15,7 @@
     "tickWeatherAsync": true,
     "deferredTextureTick": true,
     "failPerSecLimit": 5,
-    "failBehavior": "RAISE_CRASH",
+    "failBehavior": "MARK_AS_SYNC",
     "suppressCME": false,
     "syncAnimationClasses": [],
     "syncParticleClasses": [
@@ -27,7 +27,7 @@
     "gpuAcceleration": true,
     "appendNewParticlesToRenderer": true,
     "computeExecutionStage": "LEVEL_RENDERING",
-    "tickRendererOnMainThread": false,
+    "tickRendererOnMainThread": true,
     "cullWeathers": true
   },
   "valkyrienSkies": {
@@ -36,12 +36,6 @@
   },
   "sable": {
     "fixParticleLights": true
-  },
-  "polytone": {
-    "takeover": true,
-    "asyncTick": true,
-    "gpuOnlyAsyncTick": false,
-    "gpuRendering": true
   },
   "create": {
     "rainEffect": "ALWAYS",
