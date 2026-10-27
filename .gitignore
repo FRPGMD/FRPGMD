@@ -22,6 +22,7 @@ minecraft/config/spark/
 minecraft/.qmenu_opened.marker
 minecraft/fabricloader.log
 minecraft/options.txt
+minecraft/CustomSkinLoader/
 minecraft/configureddefaults/README.md
 -minecraft/mods/.index/
 instance.cfg

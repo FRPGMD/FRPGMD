@@ -1,9 +1,0 @@
-{
-  "id" : "aa39d6975cbc47d9bc7e8fb7507273e2",
-  "name" : "fluffyuncle",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc5MzAxOTc0NTM1NiwKICAicHJvZmlsZUlkIiA6ICJhYTM5ZDY5NzVjYmM0N2Q5YmM3ZThmYjc1MDcyNzNlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJmbHVmZnl1bmNsZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZGNlZmIwMTY3NjU1MWNiY2RiM2Q5M2Y4YjZiMzQyY2Y5NzQ1OTEwZDEzZmQyMzYxMmM2MTQ5OTAzMGQ4MDg3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
-  } ],
-  "profileActions" : [ ]
-}
