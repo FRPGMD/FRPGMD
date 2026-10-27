@@ -1,0 +1,161 @@
+{
+  "emptyHand": {
+   "keep_trigger_arm_tuning": true,
+   "disable_sprint_lateral_tilt": true,
+    "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "customAnimation":[
+         {
+            "type":"hand_in",
+            "name":"backpack_hand_in"
+         },
+         {
+            "type":"hand_out",
+            "name":"backpack_hand_out"
+         },
+         {
+            "type":"mining",
+            "name":"hand_mining",
+            "stop_immediate":true
+         },
+         {
+            "type":"useItem",
+            "name":"emptyhand_container_interact"
+         },
+         {
+            "type":"inspect",
+            "name":"hand_inspect"
+         },
+         {
+            "type":"attack",
+            "var_1":"attack",
+            "critical_hit":"hand_attack_critical"
+         },
+         {
+            "type":"interaction",
+            "items":[
+               "minecraft:oak_door",
+               "minecraft:spruce_door",
+               "minecraft:birch_door",
+               "minecraft:jungle_door",
+               "minecraft:acacia_door",
+               "minecraft:dark_oak_door",
+               "minecraft:mangrove_door",
+               "minecraft:cherry_door",
+               "minecraft:bamboo_door",
+               "minecraft:crimson_door",
+               "minecraft:warped_door",
+               "minecraft:iron_door"
+            ],
+            "blockState":{
+               "open":true
+            },
+            "animation":"emptyhand_door_open_interact"
+         },
+         {
+            "type":"interaction",
+            "items":[
+               "minecraft:oak_door",
+               "minecraft:spruce_door",
+               "minecraft:birch_door",
+               "minecraft:jungle_door",
+               "minecraft:acacia_door",
+               "minecraft:dark_oak_door",
+               "minecraft:mangrove_door",
+               "minecraft:cherry_door",
+               "minecraft:bamboo_door",
+               "minecraft:crimson_door",
+               "minecraft:warped_door",
+               "minecraft:iron_door"
+            ],
+            "blockState":{
+               "open":false
+            },
+            "animation":"emptyhand_door_close_interact"
+         },
+         {
+            "type":"interaction",
+            "items":[
+               "minecraft:oak_trapdoor",
+               "minecraft:spruce_trapdoor",
+               "minecraft:birch_trapdoor",
+               "minecraft:jungle_trapdoor",
+               "minecraft:acacia_trapdoor",
+               "minecraft:dark_oak_trapdoor",
+               "minecraft:mangrove_trapdoor",
+               "minecraft:cherry_trapdoor",
+               "minecraft:bamboo_trapdoor",
+               "minecraft:crimson_trapdoor",
+               "minecraft:warped_trapdoor",
+               "minecraft:iron_trapdoor"
+            ],
+            "blockState":{
+               "open":true
+            },
+            "animation":"emptyhand_trapdoor_open_interact"
+         },
+         {
+            "type":"interaction",
+            "items":[
+               "minecraft:oak_trapdoor",
+               "minecraft:spruce_trapdoor",
+               "minecraft:birch_trapdoor",
+               "minecraft:jungle_trapdoor",
+               "minecraft:acacia_trapdoor",
+               "minecraft:dark_oak_trapdoor",
+               "minecraft:mangrove_trapdoor",
+               "minecraft:cherry_trapdoor",
+               "minecraft:bamboo_trapdoor",
+               "minecraft:crimson_trapdoor",
+               "minecraft:warped_trapdoor",
+               "minecraft:iron_trapdoor"
+            ],
+            "blockState":{
+               "open":false
+            },
+            "animation":"emptyhand_trapdoor_close_interact"
+         },
+         {
+            "type":"interaction",
+            "items":[
+               "minecraft:chest",
+               "minecraft:trapped_chest",
+               "minecraft:ender_chest",
+               "minecraft:copper_chest",
+               "minecraft:exposed_copper_chest",
+               "minecraft:weathered_copper_chest",
+               "minecraft:oxidized_copper_chest",
+               "minecraft:waxed_copper_chest",
+               "minecraft:waxed_exposed_copper_chest",
+               "minecraft:waxed_weathered_copper_chest",
+               "minecraft:waxed_oxidized_copper_chest"
+            ],
+            "animation":"emptyhand_chest_open_interact"
+         }
+      ]
+   }
+}

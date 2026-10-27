@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"axis=y": [
+			{"model": "block/stripped_poplar_log", "weight":3},
+			{"model": "block/stripped_poplar_log1", "weight":3},
+			{"model": "block/stripped_poplar_log2", "weight":1}
+		],
+		"axis=z": [
+			{"model": "block/stripped_poplar_log", "x": 90, "weight":3},
+			{"model": "block/stripped_poplar_log1", "x": 90, "weight":3},
+			{"model": "block/stripped_poplar_log2", "x": 90, "weight":1}
+		],
+		"axis=x": [
+			{"model": "block/stripped_poplar_log", "x": 90, "y": 90, "weight":3},
+			{"model": "block/stripped_poplar_log1", "x": 90, "y": 90, "weight":3},
+			{"model": "block/stripped_poplar_log2", "x": 90, "y": 90, "weight":1}
+		]
+	}
+}

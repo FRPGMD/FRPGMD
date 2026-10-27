@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "block/sulfur"},
+			{"model": "block/sulfur1"},
+			{"model": "block/sulfur2"},
+			{"model": "block/sulfur3"}
+		]
+	}
+}

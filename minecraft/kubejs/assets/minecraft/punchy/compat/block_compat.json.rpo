@@ -1,0 +1,7 @@
+{
+    condition: "untitledPunchies.gameplay.throwingAnimation.default",
+    fallback: [
+        "assets/minecraft/punchy/rpo/block_compat.json",
+        "assets/minecraft/punchy/compat/variants/block_compat.json"
+    ]
+}

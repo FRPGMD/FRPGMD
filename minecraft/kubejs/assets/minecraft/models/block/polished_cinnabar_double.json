@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"particle": "block/polished_cinnabar",
+		"down": "block/polished_cinnabar",
+		"up": "block/polished_cinnabar",
+		"north": "block/polished_cinnabar_double",
+		"east": "block/polished_cinnabar_double",
+		"south": "block/polished_cinnabar_double",
+		"west": "block/polished_cinnabar_double"
+	}
+}

@@ -1,0 +1,179 @@
+{
+   "itemSpecific":{
+      "minecraft:wheat_seeds": {
+         "kind": "INGREDIENT",
+         "customAnimation": [
+         {
+            "type": "useItem",
+            "name": "seed"
+         }
+         ],
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": 6.0,
+          "rotZ": 17.0,
+          "pivotX": 0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      }
+    },
+      "minecraft:pumpkin_seeds": {
+         "kind": "INGREDIENT",
+         "customAnimation": [
+         {
+            "type": "useItem",
+            "name": "seed"
+         }
+         ],
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": 6.0,
+          "rotZ": 17.0,
+          "pivotX": 0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      }
+    },
+      "minecraft:melon_seeds": {
+         "kind": "INGREDIENT",
+         "customAnimation": [
+         {
+            "type": "useItem",
+            "name": "seed"
+         }
+         ],
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": 6.0,
+          "rotZ": 17.0,
+          "pivotX": 0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      }
+    },
+      "minecraft:beetroot_seeds": {
+         "kind": "INGREDIENT",
+         "customAnimation": [
+         {
+            "type": "useItem",
+            "name": "seed"
+         }
+         ],
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": 6.0,
+          "rotZ": 17.0,
+          "pivotX": 0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      }
+    },
+      "minecraft:torchflower_seeds": {
+         "kind": "INGREDIENT",
+         "customAnimation": [
+         {
+            "type": "useItem",
+            "name": "seed"
+         }
+         ],
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": 6.0,
+          "rotZ": 17.0,
+          "pivotX": 0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      }
+    }
+  }
+}

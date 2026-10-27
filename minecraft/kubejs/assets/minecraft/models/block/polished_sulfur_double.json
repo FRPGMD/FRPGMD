@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"particle": "block/polished_sulfur",
+		"down": "block/polished_sulfur",
+		"up": "block/polished_sulfur",
+		"north": "block/polished_sulfur_double",
+		"east": "block/polished_sulfur_double",
+		"south": "block/polished_sulfur_double",
+		"west": "block/polished_sulfur_double"
+	}
+}

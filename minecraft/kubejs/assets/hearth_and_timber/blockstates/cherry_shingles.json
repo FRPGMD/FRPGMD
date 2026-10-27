@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "hearth_and_timber:block/cherry_shingles"},
+			{"model": "hearth_and_timber:block/cherry_shingles1"},
+			{"model": "hearth_and_timber:block/cherry_shingles2"}
+		]
+	}
+}

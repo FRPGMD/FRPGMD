@@ -1,0 +1,24 @@
+{
+    condition: "AngelsFont.Style.FontDesign.SignatureEdition & AngelsFont.Style.Glare & AngelsFont.Style.GlareAmount.Subtle & AngelsFont.Style.Shading",
+    fallback: [
+      "assets/minecraft/textures/font/signature_edition/glare/ascii_subtle.png",
+      "assets/minecraft/textures/font/signature_edition/glare/ascii_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/glare/ascii_intense.png",
+      "assets/minecraft/textures/font/signature_edition/glare/ascii_extreme.png",
+      "assets/minecraft/textures/font/signature_edition/shading/ascii.png",
+      "assets/minecraft/textures/font/signature_edition/clean/ascii.png",
+      "assets/minecraft/textures/font/signature_edition/full/ascii_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/full/ascii_intense.png",
+      "assets/minecraft/textures/font/signature_edition/full/ascii_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/ascii_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/ascii_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/ascii_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/ascii_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/shading/ascii.png",
+      "assets/minecraft/textures/font/lucid_edition/clean/ascii.png",
+      "assets/minecraft/textures/font/lucid_edition/full/ascii_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/full/ascii_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/full/ascii_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/full/ascii_extreme.png"
+    ]
+}

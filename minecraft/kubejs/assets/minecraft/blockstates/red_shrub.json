@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"": [
+			{"model": "block/red_shrub"},
+			{"model": "block/red_shrub1"}
+		]
+	}
+}

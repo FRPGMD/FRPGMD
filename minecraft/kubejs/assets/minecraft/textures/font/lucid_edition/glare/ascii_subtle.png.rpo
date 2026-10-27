@@ -1,0 +1,3 @@
+{
+    condition: "AngelsFont.Style.FontDesign.LucidEdition & AngelsFont.Style.Glare & AngelsFont.Style.GlareAmount.Subtle & !AngelsFont.Style.Shading"
+}

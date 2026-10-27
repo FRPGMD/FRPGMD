@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=double": [
+			{"model": "block/green_wool_double"}
+		]
+	}
+}

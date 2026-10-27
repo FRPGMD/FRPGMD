@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "type=double": [
+			{"model": "block/poplar_double"}
+		],
+		"type=bottom": [
+			{"model": "block/poplar_slab"},
+			{"model": "block/poplar_slab1"},
+			{"model": "block/poplar_slab2"}
+		],
+		"type=top": [
+			{"model": "block/poplar_slab_top"},
+			{"model": "block/poplar_slab_top1"},
+			{"model": "block/poplar_slab_top2"}
+		]
+	}
+}

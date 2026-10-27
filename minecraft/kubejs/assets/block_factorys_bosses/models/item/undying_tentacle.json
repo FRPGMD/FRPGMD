@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "block_factorys_bosses:item/2d_undying_tentacle"
+  },
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "block_factorys_bosses:item/3d_undying_tentacle"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "block_factorys_bosses:item/2d_undying_tentacle"
+    },
+    "ground": {
+      "parent": "block_factorys_bosses:item/2d_undying_tentacle"
+    },
+    "fixed": {
+      "parent": "block_factorys_bosses:item/2d_undying_tentacle"
+    }
+  }
+}

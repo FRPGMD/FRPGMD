@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=double": [
+			{"model": "block/cyan_wool_double"}
+		]
+	}
+}

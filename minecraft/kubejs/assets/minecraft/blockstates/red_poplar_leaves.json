@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{"model": "block/red_poplar_leaves"},
+			{"model": "block/red_poplar_leaves1"},
+			{"model": "block/red_poplar_leaves", "y": 90},
+			{"model": "block/red_poplar_leaves1", "y": 90}
+		]
+	}
+}

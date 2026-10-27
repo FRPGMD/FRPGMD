@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "bb_main",
+			"id": "bb_main",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 22, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "horns",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-7, 29, -2, 2, 2, 2], "textureOffset": [22, 24]},
+						{"coordinates": [5, 29, -2, 2, 2, 2], "textureOffset": [22, 24]},
+						{"coordinates": [4, 27, -2, 3, 2, 2], "textureOffset": [22, 28]},
+						{"coordinates": [-7, 27, -2, 3, 2, 2], "textureOffset": [22, 28]}
+					]
+				}
+			]
+		},
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		}
+	]
+}

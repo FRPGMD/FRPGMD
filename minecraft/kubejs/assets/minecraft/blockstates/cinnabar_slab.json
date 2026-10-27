@@ -1,0 +1,21 @@
+{
+	"variants": {
+		"type=double": [
+			{"model": "block/cinnabar_double"}
+		],
+		"type=bottom": [
+			{"model": "block/cinnabar_slab", "weight": 3},
+			{"model": "block/cinnabar_slab1", "weight": 3},
+			{"model": "block/cinnabar_slab2", "weight": 2},
+			{"model": "block/cinnabar_slab3", "weight": 2},
+			{"model": "block/cinnabar_slab4", "weight": 1}
+		],
+		"type=top": [
+			{"model": "block/cinnabar_slab_top", "weight": 3},
+			{"model": "block/cinnabar_slab_top1", "weight": 3},
+			{"model": "block/cinnabar_slab_top2", "weight": 2},
+			{"model": "block/cinnabar_slab_top3", "weight": 2},
+			{"model": "block/cinnabar_slab_top4", "weight": 1}
+		]
+	}
+}

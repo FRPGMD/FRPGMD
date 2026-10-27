@@ -1,0 +1,42 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/sweet_berries"
+		},
+		"on_true": {
+			"type": "minecraft:range_dispatch",
+		"entries": [
+			{
+				"model": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/eating_animations/sweet_berries_0"
+				},
+			"threshold": 0.33
+			},
+			{
+				"model": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/eating_animations/sweet_berries_1"
+			},
+			"threshold": 0.66
+			},
+			{
+				"model": {
+				"type": "minecraft:model",
+				"model": "minecraft:item/eating_animations/sweet_berries_2"
+			},
+			"threshold": 1.2
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/sweet_berries"
+		},
+		"property": "minecraft:use_duration",
+		"scale": 0.05
+		},
+		"property": "minecraft:using_item"
+	}
+}

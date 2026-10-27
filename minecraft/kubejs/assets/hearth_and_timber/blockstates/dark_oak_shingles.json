@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "hearth_and_timber:block/dark_oak_shingles"},
+			{"model": "hearth_and_timber:block/dark_oak_shingles1"},
+			{"model": "hearth_and_timber:block/dark_oak_shingles2"}
+		]
+	}
+}

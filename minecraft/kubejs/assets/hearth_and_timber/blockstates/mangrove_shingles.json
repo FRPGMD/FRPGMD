@@ -1,0 +1,9 @@
+{
+	"variants": {
+		"": [
+			{"model": "hearth_and_timber:block/mangrove_shingles"},
+			{"model": "hearth_and_timber:block/mangrove_shingles1"},
+			{"model": "hearth_and_timber:block/mangrove_shingles2"}
+		]
+	}
+}

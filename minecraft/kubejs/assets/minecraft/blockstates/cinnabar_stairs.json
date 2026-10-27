@@ -1,0 +1,284 @@
+{
+	"variants": {
+		"facing=east,half=bottom,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=bottom,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "weight":1}
+		],
+		"facing=east,half=bottom,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=bottom,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "weight":1}
+		],
+		"facing=east,half=bottom,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "weight":1}
+		],
+		"facing=east,half=top,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=top,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=top,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=top,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=east,half=top,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "x": 180, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=bottom,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=bottom,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 270, "uvlock": true, "weight":3},	
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=bottom,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=bottom,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=bottom,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=top,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=top,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=top,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=top,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "uvlock": true, "weight":1}
+		],
+		"facing=north,half=top,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "x": 180, "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=bottom,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "weight":1}
+		],
+		"facing=south,half=bottom,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=bottom,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "weight":1}
+		],
+		"facing=south,half=bottom,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=bottom,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=top,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=top,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=top,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=top,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=south,half=top,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "x": 180, "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "x": 180, "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "x": 180, "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=bottom,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=bottom,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=bottom,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 90, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 90, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 90, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=bottom,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=bottom,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=top,shape=inner_left": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=top,shape=inner_right": [
+			{"model": "minecraft:block/cinnabar_stairs_inner", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner1", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_inner2", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner3", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_inner4", "x": 180, "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=top,shape=outer_left": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 180, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=top,shape=outer_right": [
+			{"model": "minecraft:block/cinnabar_stairs_outer", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer1", "x": 180, "y": 270, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs_outer2", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer3", "x": 180, "y": 270, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs_outer4", "x": 180, "y": 270, "uvlock": true, "weight":1}
+		],
+		"facing=west,half=top,shape=straight": [
+			{"model": "minecraft:block/cinnabar_stairs", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs1", "x": 180, "y": 180, "uvlock": true, "weight":3},
+			{"model": "minecraft:block/cinnabar_stairs2", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs3", "x": 180, "y": 180, "uvlock": true, "weight":2},
+			{"model": "minecraft:block/cinnabar_stairs4", "x": 180, "y": 180, "uvlock": true, "weight":1}
+		]
+	}
+}

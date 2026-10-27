@@ -1,0 +1,24 @@
+{
+    condition: "AngelsFont.Style.FontDesign.SignatureEdition & AngelsFont.Style.Glare & AngelsFont.Style.GlareAmount.Subtle & AngelsFont.Style.Shading",
+    fallback: [
+      "assets/minecraft/textures/font/signature_edition/glare/accented_subtle.png",
+      "assets/minecraft/textures/font/signature_edition/glare/accented_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/glare/accented_intense.png",
+      "assets/minecraft/textures/font/signature_edition/glare/accented_extreme.png",
+      "assets/minecraft/textures/font/signature_edition/shading/accented.png",
+      "assets/minecraft/textures/font/signature_edition/clean/accented.png",
+      "assets/minecraft/textures/font/signature_edition/full/accented_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/full/accented_intense.png",
+      "assets/minecraft/textures/font/signature_edition/full/accented_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/accented_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/accented_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/accented_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/accented_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/shading/accented.png",
+      "assets/minecraft/textures/font/lucid_edition/clean/accented.png",
+      "assets/minecraft/textures/font/lucid_edition/full/accented_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/full/accented_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/full/accented_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/full/accented_extreme.png"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    condition: "AngelsFont.Style.FontDesign.SignatureEdition & !AngelsFont.Style.Glare & AngelsFont.Style.Shading"
+}

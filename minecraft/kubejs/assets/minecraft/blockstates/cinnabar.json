@@ -1,0 +1,11 @@
+{
+	"variants": {
+		"": [
+			{"model": "block/cinnabar", "weight": 3},
+			{"model": "block/cinnabar1", "weight": 3},
+			{"model": "block/cinnabar2", "weight": 2},
+			{"model": "block/cinnabar3", "weight": 2},
+			{"model": "block/cinnabar4", "weight": 1}
+		]
+	}
+}

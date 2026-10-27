@@ -1,0 +1,153 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "block_factorys_bosses:textures/entities/soul_skeleton.png",
+	"models": [
+		{
+			"part": "torso_r2",
+			"id": "torso_r2",
+			"invertAxis": "xy",
+			"translate": [0, -15.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-4, 14.7, -2, 8, 2, 4], "textureOffset": [24, 32], "sizeAdd": 0.15}
+			]
+		},
+		{
+			"part": "all",
+			"id": "all",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"scale": 1
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [2, -13.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-3, 0, -1, 2, 14.7, 2], "textureOffset": [32, 43]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-4.9, -24.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [2.8, 24, -1, 14, 2, 2], "textureOffset": [32, 0]}
+			]
+		},
+		{
+			"part": "torso",
+			"id": "torso",
+			"invertAxis": "xy",
+			"translate": [0, -13.9, 0.4],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-4, 14.7, -2, 8, 12, 4], "textureOffset": [0, 32]},
+				{"coordinates": [-4, 19.7, -2, 8, 7, 4], "textureOffset": [32, 20], "sizeAdd": 0.25}
+			]
+		},
+		{
+			"part": "torso_r1",
+			"id": "torso_r1",
+			"invertAxis": "xy",
+			"translate": [0, -16.2, 2],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-2, 13.7, -2.5, 4, 5, 1], "textureOffset": [40, 46]}
+			]
+		},
+		{
+			"part": "sword_r1",
+			"id": "sword_r1",
+			"invertAxis": "xy",
+			"translate": [-14.3, -24.5, -3],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [13.3, 24, 2, 2, 2, 2], "textureOffset": [8, 48]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -25.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-4, 26.7, -4, 8, 8, 8], "textureOffset": [0, 0], "sizeAdd": -0.25},
+				{"coordinates": [-4, 26.7, -4, 8, 8, 8], "textureOffset": [0, 16]}
+			],
+			"submodels": [
+				{
+					"id": "head_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [4, 31, -2, 3, 2, 2], "textureOffset": [0, 60]},
+						{"coordinates": [-7, 31, -2, 3, 2, 2], "textureOffset": [0, 60]},
+						{"coordinates": [-7, 33, -2, 2, 2, 2], "textureOffset": [0, 56]},
+						{"coordinates": [5, 33, -2, 2, 2, 2], "textureOffset": [0, 56]}
+					]
+				}
+			]
+		},
+		{
+			"part": "sword",
+			"id": "sword",
+			"invertAxis": "xy",
+			"translate": [-14.3, -25, -0.7778],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [13.3, 24.5, -1, 2, 1, 4], "textureOffset": [44, 38]},
+				{"coordinates": [11.3, 24.5, -3, 6, 1, 2], "textureOffset": [40, 43]},
+				{"coordinates": [13.8, 25, -17, 1, 0, 2], "textureOffset": [45, 32]},
+				{"coordinates": [12.8, 25, -15, 3, 0, 2], "textureOffset": [16, 48]},
+				{"coordinates": [11.8, 25, -13, 5, 0, 10], "textureOffset": [40, 46]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -13.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [1, 0, -1, 2, 14.7, 2], "textureOffset": [24, 43]}
+			]
+		},
+		{
+			"part": "skirt",
+			"id": "skirt",
+			"invertAxis": "xy",
+			"translate": [0, -13.7, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-4, 8.7, -2, 8, 8, 4], "textureOffset": [32, 4], "sizeAdd": 0.01}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [4.7667, -24.9, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-16.8, 24.2, -1, 14, 2, 2], "textureOffset": [32, 16]},
+				{"coordinates": [-12.5, 24.2, -1, 2, 2, 2], "textureOffset": [0, 48], "sizeAdd": 0.25},
+				{"coordinates": [-14.5, 26.2, -2, 6, 1, 4], "textureOffset": [24, 38], "sizeAdd": 0.15}
+			]
+		},
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"scale": 1
+		}
+	]
+}

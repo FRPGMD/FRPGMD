@@ -1,0 +1,45 @@
+{
+  "itemSpecific": {
+    "minecraft:totem_of_undying": {
+      "kind": "INGREDIENT",
+      "customItemAnimations": [
+        {
+          "type": "falling",
+          "name": "animation.shubba_duck.fall",
+          "isJavaBlock": true
+        },
+        {
+          "type": "idle",
+          "name": "animation.shubba_duck.idle",
+          "isJavaBlock": true
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 0.49999988,
+          "offX": -0.45999983,
+          "offY": -0.09999999,
+          "offZ": -0.37999994,
+          "rotX": 0.0,
+          "rotY": 109.0,
+          "rotZ": 0.0,
+          "pivotX": -0.049999997,
+          "pivotY": 0.14999998,
+          "pivotZ": 0.09999999
+        },
+        "left": {
+          "scale": 0.49999988,
+          "offX": -0.45999998,
+          "offY": -0.09999999,
+          "offZ": -0.37999994,
+          "rotX": 0.0,
+          "rotY": -109.0,
+          "rotZ": -0.0,
+          "pivotX": 0.049999997,
+          "pivotY": 0.14999998,
+          "pivotZ": 0.09999999
+        }
+      }
+    }
+  }
+}

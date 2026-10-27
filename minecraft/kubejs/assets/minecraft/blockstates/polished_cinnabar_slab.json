@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=double": [
+			{"model": "block/polished_cinnabar_double"}
+		],
+		"type=bottom": [
+			{"model": "block/polished_cinnabar_slab"}
+		],
+		"type=top": [
+			{"model": "block/polished_cinnabar_slab_top"}
+		]
+	}
+}

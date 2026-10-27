@@ -1,0 +1,24 @@
+{
+    condition: "AngelsFont.Style.FontDesign.SignatureEdition & AngelsFont.Style.Glare & AngelsFont.Style.GlareAmount.Subtle & AngelsFont.Style.Shading",
+    fallback: [
+      "assets/minecraft/textures/font/signature_edition/glare/nonlatin_european_subtle.png",
+      "assets/minecraft/textures/font/signature_edition/glare/nonlatin_european_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/glare/nonlatin_european_intense.png",
+      "assets/minecraft/textures/font/signature_edition/glare/nonlatin_european_extreme.png",
+      "assets/minecraft/textures/font/signature_edition/shading/nonlatin_european.png",
+      "assets/minecraft/textures/font/signature_edition/clean/nonlatin_european.png",
+      "assets/minecraft/textures/font/signature_edition/full/nonlatin_european_noticeable.png",
+      "assets/minecraft/textures/font/signature_edition/full/nonlatin_european_intense.png",
+      "assets/minecraft/textures/font/signature_edition/full/nonlatin_european_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/nonlatin_european_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/nonlatin_european_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/nonlatin_european_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/glare/nonlatin_european_extreme.png",
+      "assets/minecraft/textures/font/lucid_edition/shading/nonlatin_european.png",
+      "assets/minecraft/textures/font/lucid_edition/clean/nonlatin_european.png",
+      "assets/minecraft/textures/font/lucid_edition/full/nonlatin_european_subtle.png",
+      "assets/minecraft/textures/font/lucid_edition/full/nonlatin_european_noticeable.png",
+      "assets/minecraft/textures/font/lucid_edition/full/nonlatin_european_intense.png",
+      "assets/minecraft/textures/font/lucid_edition/full/nonlatin_european_extreme.png"
+    ]
+}

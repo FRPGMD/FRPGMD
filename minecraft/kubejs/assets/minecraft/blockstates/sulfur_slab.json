@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"type=double": [
+			{"model": "block/sulfur_double"},
+			{"model": "block/sulfur_double1"}
+		],
+		"type=bottom": [
+			{"model": "block/sulfur_slab"},
+			{"model": "block/sulfur_slab1"},
+			{"model": "block/sulfur_slab2"},
+			{"model": "block/sulfur_slab3"}
+		],
+		"type=top": [
+			{"model": "block/sulfur_slab_top"},
+			{"model": "block/sulfur_slab_top1"},
+			{"model": "block/sulfur_slab_top2"},
+			{"model": "block/sulfur_slab_top3"}
+		]
+	}
+}

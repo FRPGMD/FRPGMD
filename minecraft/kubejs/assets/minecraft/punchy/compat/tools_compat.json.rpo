@@ -1,0 +1,6 @@
+{
+    condition: "untitledPunchies.gameplay.screenShake.disable",
+    fallback: [
+        "assets/minecraft/punchy/rpo/screen_shake_compat.json"
+    ]
+}

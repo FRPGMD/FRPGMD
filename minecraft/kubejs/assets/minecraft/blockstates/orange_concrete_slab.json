@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=double": [
+			{"model": "block/orange_concrete_double"}
+		]
+	}
+}
