@@ -1,0 +1,11 @@
+#Allow new wandering dwarf patrols, including command spawns. Existing patrols finish normally.
+enableWanderingPatrols = true
+#Allow dwarves to generate gem requests. Disabling hides requests and clears active requests within one second of ticking.
+enableGemRequests = true
+#Allow custom idle animations and social interactions between dwarves. Gameplay animations remain enabled.
+enableDwarfSocialAnimations = true
+#Allow automatic dwarf colony alerts using the drum. Manual drum use, sound and gathering remain enabled.
+enableDrumAlerts = true
+enableIdleAnimations = true
+enableDwarfInteractions = true
+enableAiLod = true

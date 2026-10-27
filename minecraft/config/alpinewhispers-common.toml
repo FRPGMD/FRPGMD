@@ -1,0 +1,112 @@
+[fog]
+	#Mist in snowy biomes, thicker in the morning, at night, in snowfall and in valleys
+	enabled = true
+	#Overall fog strength in percent, 100 is the default, 200 doubles the thickening
+	# Default: 100
+	# Range: 0 ~ 200
+	strengthPercent = 100
+	#Where the fog starts, in % of the render distance
+	# Default: 0
+	# Range: 0 ~ 100
+	startPercent = 0
+	#How far you can see in the light haze that always hangs over snowy biomes, in % of the render distance
+	# Default: 70
+	# Range: 1 ~ 100
+	hazeEndPercent = 70
+	#Mist from late night until shortly after sunrise
+	morning = true
+	#How far you can see in morning mist, in % of the render distance
+	# Default: 40
+	# Range: 1 ~ 100
+	morningEndPercent = 40
+	#Cold mist settles in after dusk
+	night = true
+	#How far you can see at night, in % of the render distance
+	# Default: 35
+	# Range: 1 ~ 100
+	nightEndPercent = 35
+	#Snowfall and blizzards swallow the view
+	snowfall = true
+	#How far you can see in snowfall, in % of the render distance
+	# Default: 30
+	# Range: 1 ~ 100
+	snowfallEndPercent = 30
+	#How far you can see in a blizzard during thunderstorms, in % of the render distance
+	# Default: 12
+	# Range: 1 ~ 100
+	blizzardEndPercent = 12
+	#Thick mist gathers in valleys and hollows at night and in the morning
+	hollows = true
+	#How far you can see in a misty valley, in % of the render distance
+	# Default: 20
+	# Range: 1 ~ 100
+	hollowEndPercent = 20
+	#How much thicker the fog is in Groves, in percent
+	# Default: 30
+	# Range: 0 ~ 90
+	groveThickeningPercent = 30
+
+[weather]
+	#Gentle snow drifts through Groves in clear weather
+	groveSnow = true
+	#How heavy the drifting snow in Groves is, in percent of normal snowfall
+	# Default: 15
+	# Range: 1 ~ 100
+	groveSnowStrength = 15
+	#Snow slides down steep slopes in Groves
+	avalanches = true
+	#Quiet wind and distant avalanche sounds in Groves
+	groveAmbience = true
+	#Needles drift down from spruce and Arolla pine leaves
+	fallingNeedles = true
+
+[bathtub]
+	#How long a bathtub takes to fill, in seconds
+	# Default: 45
+	# Range: 1 ~ 300
+	fillSeconds = 45
+	#A full bathtub washes off harmful effects
+	cleansesEffects = true
+	#Zombies in a full bathtub turn into Drowned
+	drownsZombies = true
+	#Warm bath water steams
+	steam = true
+
+[starTopper]
+	#A star on top of a decorated tree sends waves of sparkles through its lights at night
+	treeLights = true
+	#A soft chime plays with the light waves
+	chime = true
+
+[infoOverlay]
+	#Info overlay when looking at a privy
+	showPrivyInfo = true
+
+#Spawning in cold biomes (#alpinewhispers:reindeer_habitat). Changes apply after restarting the world
+[spawning]
+	#Spawn weight of reindeer, 0 disables them. Vanilla sheep use 12
+	# Default: 22
+	# Range: 0 ~ 100
+	reindeerWeight = 22
+	#Smallest reindeer herd
+	# Default: 3
+	# Range: 1 ~ 16
+	reindeerMinGroup = 3
+	#Largest reindeer herd
+	# Default: 5
+	# Range: 1 ~ 16
+	reindeerMaxGroup = 5
+	#Spawn weight of alpine sheep, 0 disables them
+	# Default: 18
+	# Range: 0 ~ 100
+	alpineSheepWeight = 18
+	#Smallest alpine sheep flock
+	# Default: 3
+	# Range: 1 ~ 16
+	alpineSheepMinGroup = 3
+	#Largest alpine sheep flock
+	# Default: 5
+	# Range: 1 ~ 16
+	alpineSheepMaxGroup = 5
+	#Remove vanilla sheep and cows from these biomes
+	replaceVanillaFarmAnimals = true

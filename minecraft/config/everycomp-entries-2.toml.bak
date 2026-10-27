@@ -488,6 +488,44 @@
 			stone_tile = true
 			blackstone_tile = true
 
+		[types.cut_block_type.hearth_and_timber]
+			oak_shingle = true
+			spruce_shingle = true
+			birch_shingle = true
+			jungle_shingle = true
+			acacia_shingle = true
+			dark_oak_shingle = true
+			mangrove_shingle = true
+			cherry_shingle = true
+			pale_oak_shingle = true
+			terracotta_shingle = true
+			patchwork_shingle = true
+			splitstone = true
+			mossy_splitstone = true
+			covered_rubblestone = true
+			plastered_rubblestone = true
+			pointed_rubblestone = true
+			groutless_rubblestone = true
+			thatch = true
+			weathered_thatch = true
+			drying_thatch = true
+			aged_thatch = true
+			waxed_thatch = true
+			waxed_weathered_thatch = true
+			waxed_drying_thatch = true
+			waxed_aged_thatch = true
+			aspen_shingle = true
+			larch_shingle = true
+			baobab_shingle = true
+			cypress_shingle = true
+			ebony_shingle = true
+			chestnut_shingle = true
+			fan_palm_shingle = true
+			fir_shingle = true
+			swamp_oak_shingle = true
+			swamp_cypress_shingle = true
+			cactus_shingle = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -587,35 +625,6 @@
 
 		[types.cake.nomansland]
 			fruit_cake = true
-
-		[types.cake.createfood]
-			apple_cream_cake = true
-			berry_cream_cake = true
-			berry_cream_cake_chorus_fruit = true
-			berry_cream_cake_glow_berry = true
-			berry_cream_cake_sweet_berry = true
-			chocolate_cream_cake = true
-			chocolate_cream_cake_butterscotch = true
-			chocolate_cream_cake_caramel = true
-			chocolate_cream_cake_chocolate = true
-			chocolate_cream_cake_dark_chocolate = true
-			chocolate_cream_cake_toffee = true
-			chocolate_cream_cake_white_chocolate = true
-			chocolate_cream_chocolate_cake = true
-			chorus_fruit_cream_cake = true
-			chorus_fruit_cream_cake_chorus_fruit = true
-			chorus_fruit_cream_cake_glow_berry = true
-			chorus_fruit_cream_cake_sweet_berry = true
-			cream_cake = true
-			cream_cake_chorus_fruit = true
-			cream_cake_glow_berry = true
-			cream_chocolate_cake = true
-			glow_berry_cream_cake = true
-			glow_berry_cream_cake_chorus_fruit = true
-			glow_berry_cream_cake_glow_berry = true
-			glow_berry_cream_cake_sweet_berry = true
-			melon_cream_cake = true
-			ube_cream_ube_cake = true
 
 		[types.lantern.candlelight]
 			lamp = true

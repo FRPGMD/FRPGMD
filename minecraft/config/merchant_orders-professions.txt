@@ -1,0 +1,22 @@
+# Merchant Orders - registered villager profession IDs
+# Generated on world/server startup. Reference only; edit merchant_orders-common.toml to change settings.
+# Copy the ID before the tab into trades.excludedProfessions.
+# Status applies only to the order catalog. Vanilla none/nitwit entries may have no trades.
+# merchant_orders:custom is the virtual group for custom terminal trades.
+lilis_pottery:clayworker	ALLOWED
+merchant_orders:custom	ALLOWED
+minecraft:armorer	ALLOWED
+minecraft:butcher	ALLOWED
+minecraft:cartographer	ALLOWED
+minecraft:cleric	ALLOWED
+minecraft:farmer	ALLOWED
+minecraft:fisherman	ALLOWED
+minecraft:fletcher	ALLOWED
+minecraft:leatherworker	ALLOWED
+minecraft:librarian	ALLOWED
+minecraft:mason	ALLOWED
+minecraft:nitwit	ALLOWED
+minecraft:none	ALLOWED
+minecraft:shepherd	ALLOWED
+minecraft:toolsmith	ALLOWED
+minecraft:weaponsmith	ALLOWED

@@ -1,0 +1,574 @@
+{
+  "version": 1,
+  "selected": [
+    0,
+    0,
+    0
+  ],
+  "profiles": [
+    [
+      {
+        "input": {
+          "u": 0.0,
+          "v": -2.5,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": -0.375,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": -2.5,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": -0.375,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      }
+    ],
+    [
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      }
+    ],
+    [
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      },
+      {
+        "input": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "fuel": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "result": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "cooking": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        },
+        "burning": {
+          "u": 0.0,
+          "v": 0.0,
+          "width": 1.0,
+          "height": 1.0,
+          "out": 0.0,
+          "itemU": 0.0,
+          "itemV": 0.0,
+          "itemScale": 1.0,
+          "clickWidth": 1.0,
+          "clickHeight": 1.0
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+filename = 'MerchantOrders-NeoForge-1.21.1-1.2.0.jar'
+name = 'Merchant Orders'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MerchantOrders-NeoForge-1.21.1-1.2.0.jar'
+
+[download]
+hash = '65a3bbb7c723cb0187f7486f4acc3ba660ae4155'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9331353
+project-id = 1753041

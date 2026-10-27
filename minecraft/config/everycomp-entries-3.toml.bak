@@ -488,18 +488,6 @@
 			stone_tile = true
 			blackstone_tile = true
 
-		[types.cut_block_type.cataclysm]
-			polished_end_stone = true
-			purpur_tile = true
-			polished_obsidian = true
-			obsidian_brick = true
-			chorus = true
-			frosted_stone_brick = true
-			stone_tile = true
-			azure_seastone = true
-			azure_seastone_brick = true
-			polished_azure_seastone = true
-
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -543,9 +531,6 @@
 			holly = true
 			chestnut = true
 			pine = true
-
-		[types.wood_type.cataclysm]
-			chorus = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true

@@ -1,0 +1,104 @@
+# ============================================================
+#                 MERCHANT ORDERS - CUSTOM TRADES
+# ============================================================
+# Custom exchanges for the terminal. Real villagers are unaffected.
+
+# WARNING: Be careful about the trades you add. Generating a map to
+# a structure can trigger a structure search, using the same lookup
+# mechanism as /locate. This may temporarily stall the server while
+# the search runs. We recommend avoiding trades that generate
+# structure or explorer maps, or otherwise search for structures.
+
+# Enabled trades join the shared pool for their specified level
+# and are rolled alongside vanilla and modded offers.
+# Adding a trade does NOT guarantee that it appears in the catalog.
+# All custom trades share one virtual profession: custom.
+# The first selection pass allows up to 4 offers per level from
+# this group. The usual fallback passes may relax this limit if
+# there are not enough other candidates to fill the catalog.
+# offersPerTier in the main config controls the total catalog size.
+# Profession filters identify this group as merchant_orders:custom.
+# This is a terminal selection group, not a real villager profession.
+#
+# ADDING A TRADE: Copy an entire [[trades]] block and edit its fields.
+# id       - MUST BE UNIQUE FOR EACH TRADE, even disabled entries!
+#            Use lowercase letters a-z, digits, underscores or hyphens.
+# enabled  - true: enable this trade; false: disable this trade.
+# level    - Pool level, 1-5. Applies only to this exact level.
+# cost     - What the player GIVES in the first payment slot.
+# cost_b   - Additional payment in the second slot. Optional.
+# result   - What the player RECEIVES.
+# max_uses - Exchanges available before restocking, from 1 to 32767.
+# xp       - Merchant Orders progression XP per exchange, from 1 to 20.
+# All fields except cost_b are required, including disabled entries.
+# item  - Full item registry ID: "minecraft:emerald" or "modid:item".
+# count - Amount from 1 to the item's maximum stack size.
+# Item components, NBT and item tags are not supported in this format.
+# Payment uses ordinary items without extra components/NBT.
+#
+# LEVELS: 1 - Novice; 2 - Apprentice; 3 - Journeyman;
+#         4 - Expert; 5 - Master.
+#
+# Changes are read on world/server startup and at the next catalog
+# cycle (catalogRefreshDays). Opening a menu or using /reload does
+# not apply edits during the current cycle. Restarting applies them
+# immediately. Invalid TOML or invalid updates keep the last working
+# configuration. On the first load, invalid entries are skipped.
+# See the server log for error details.
+# ============================================================
+
+# Global switch: false disables ALL custom trades, regardless of
+# the enabled setting inside individual entries.
+custom_trades_enabled = true
+
+# LEVEL 1: Give 24 cobblestone -> receive 1 emerald.
+[[trades]]
+id = "cobblestone_for_emerald"
+enabled = true
+level = 1
+cost = { item = "minecraft:cobblestone", count = 24 }
+result = { item = "minecraft:emerald", count = 1 }
+max_uses = 16
+xp = 1
+
+# LEVEL 2: Give 12 emeralds -> receive 16 iron ingots.
+[[trades]]
+id = "iron_bundle"
+enabled = true
+level = 2
+cost = { item = "minecraft:emerald", count = 12 }
+result = { item = "minecraft:iron_ingot", count = 16 }
+max_uses = 8
+xp = 5
+
+# LEVEL 3: Give 6 emeralds AND 1 book -> receive 3 bookshelves.
+[[trades]]
+id = "bookshelf_exchange"
+enabled = true
+level = 3
+cost = { item = "minecraft:emerald", count = 6 }
+cost_b = { item = "minecraft:book", count = 1 }
+result = { item = "minecraft:bookshelf", count = 3 }
+max_uses = 6
+xp = 10
+
+# LEVEL 4: Give 16 emeralds -> receive 1 diamond.
+[[trades]]
+id = "diamond_purchase"
+enabled = true
+level = 4
+cost = { item = "minecraft:emerald", count = 16 }
+result = { item = "minecraft:diamond", count = 1 }
+max_uses = 3
+xp = 15
+
+# LEVEL 5: Give 32 emeralds AND 8 diamonds -> receive 1 netherite scrap.
+[[trades]]
+id = "netherite_scrap_exchange"
+enabled = true
+level = 5
+cost = { item = "minecraft:emerald", count = 32 }
+cost_b = { item = "minecraft:diamond", count = 8 }
+result = { item = "minecraft:netherite_scrap", count = 1 }
+max_uses = 1
+xp = 20

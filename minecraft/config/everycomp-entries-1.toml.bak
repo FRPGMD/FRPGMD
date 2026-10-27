@@ -488,6 +488,53 @@
 			stone_tile = true
 			blackstone_tile = true
 
+		[types.cut_block_type.hearth_and_timber]
+			oak_shingle = true
+			spruce_shingle = true
+			birch_shingle = true
+			jungle_shingle = true
+			acacia_shingle = true
+			dark_oak_shingle = true
+			mangrove_shingle = true
+			cherry_shingle = true
+			pale_oak_shingle = true
+			terracotta_shingle = true
+			patchwork_shingle = true
+			splitstone = true
+			mossy_splitstone = true
+			covered_rubblestone = true
+			plastered_rubblestone = true
+			pointed_rubblestone = true
+			groutless_rubblestone = true
+			thatch = true
+			weathered_thatch = true
+			drying_thatch = true
+			aged_thatch = true
+			waxed_thatch = true
+			waxed_weathered_thatch = true
+			waxed_drying_thatch = true
+			waxed_aged_thatch = true
+			aspen_shingle = true
+			larch_shingle = true
+			baobab_shingle = true
+			cypress_shingle = true
+			ebony_shingle = true
+			chestnut_shingle = true
+			fan_palm_shingle = true
+			fir_shingle = true
+			swamp_oak_shingle = true
+			swamp_cypress_shingle = true
+			cactus_shingle = true
+			arolla_pine_shingle = true
+
+		[types.cut_block_type.alpinewhispers]
+			alpine_gneiss = true
+			alpine_gneiss_brick = true
+			layered_alpine_gneiss_brick = true
+			mossy_alpine_gneiss_brick = true
+			mossy_layered_alpine_gneiss_brick = true
+			arolla_pine = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -531,6 +578,9 @@
 			holly = true
 			chestnut = true
 			pine = true
+
+		[types.wood_type.alpinewhispers]
+			arolla_pine = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -584,6 +634,9 @@
 			chestnut = true
 			pine = true
 			flowering_acacia = true
+
+		[types.leaves_type.alpinewhispers]
+			arolla_pine = true
 
 		[types.cake.nomansland]
 			fruit_cake = true

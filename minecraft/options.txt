@@ -48,9 +48,9 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","netherexp:jne_retextures","mod/atmospherics:resourcepacks/atmospherics_pack","moonlight:merged_pack","file/Excalibur Mowzie\u0027s Mobs 1.2.zip","file/Ashen_16x.zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen - Corpse Compat.zip","file/Os\u0027 Colorful Grasses (Tall).zip","file/§5Untitled §6Punchies §fv1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","file/End Remastered Remastered 1.21.5.zip","file/Angel\u0027s_Font_v0.8.zip","file/Ashen + [Let\u0027s Do] Hearth \u0026 Timber 1.21.1.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","black_icons"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","netherexp:jne_retextures","mod/atmospherics:resourcepacks/atmospherics_pack","moonlight:merged_pack","file/Excalibur Mowzie\u0027s Mobs 1.2.zip","file/Ashen_16x.zip","file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/Ashen - Corpse Compat.zip","file/§5Untitled §6Punchies §fv1.1.zip","continuity:default","continuity:glass_pane_culling_fix","file/JustExpressions_v1.2.1.zip","file/FA+Player-v1.1.zip","file/End Remastered Remastered 1.21.5.zip","file/Angel\u0027s_Font_v0.8.zip","file/Ashen + [Let\u0027s Do] Hearth \u0026 Timber 1.21.1.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip","black_icons","file/Os\u0027 Colorful Grasses (Tall).zip"]
 incompatibleResourcePacks:["file/Farmer\u0027s Delight Refabricated Ashen Compat.zip","file/End Remastered Remastered 1.21.5.zip","file/rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip"]
-lastServer:
+lastServer:10.99.16.177:25565
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
@@ -77,7 +77,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
@@ -99,7 +99,7 @@ key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
-key_key.playerlist:key.keyboard.tab
+key_key.playerlist:key.keyboard.grave.accent
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
@@ -228,7 +228,9 @@ key_key.inventoryessentials.sort_inventory:key.mouse.middle
 key_key.inventoryessentials.restock_container:key.keyboard.unknown
 key_key.inventoryessentials.restock_inventory:key.keyboard.unknown
 key_key.inventoryessentials.dump_to_container:key.keyboard.unknown
-key_key.antique_atlas.open:key.keyboard.m
+key_placebo.toggleTrails:key.keyboard.keypad.9
+key_placebo.toggleWings:key.keyboard.keypad.8
+key_key.antique_atlas.open:key.keyboard.tab
 key_key.handycam.toggle_effects:key.keyboard.f10
 key_key.kubejs.kubedex:key.keyboard.k
 key_key.kubejsstudio.open:key.keyboard.k
@@ -246,6 +248,7 @@ key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.interactic.pickup_item:key.keyboard.unknown
+key_key.toastcontrol.clear:key.keyboard.j
 key_key.villagerretaliation.open_quest_journal:key.keyboard.j
 key_key.villagerretaliation.toggle_quest_tracker:key.keyboard.k
 key_key.villagerretaliation.toggle_blueprint_placement_lock:key.keyboard.unknown
@@ -257,7 +260,7 @@ key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.emote.no:key.keyboard.unknown
+key_quark.emote.no:key.keyboard.keypad.1
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
 key_quark.emote.salute:key.keyboard.unknown
@@ -267,7 +270,7 @@ key_quark.emote.think:key.keyboard.unknown
 key_quark.emote.point:key.keyboard.unknown
 key_quark.emote.shrug:key.keyboard.unknown
 key_quark.emote.headbang:key.keyboard.unknown
-key_quark.emote.weep:key.keyboard.unknown
+key_quark.emote.weep:key.keyboard.keypad.4
 key_quark.emote.facepalm:key.keyboard.unknown
 key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
 key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
@@ -302,9 +305,9 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
-key_key.punchy.triggerable.trident_inspect:key.keyboard.i
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
+key_key.punchy.triggerable.trident_inspect:key.keyboard.i
+key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 soundCategory_master:0.297355824812178
 soundCategory_music:1.0
 soundCategory_record:1.0

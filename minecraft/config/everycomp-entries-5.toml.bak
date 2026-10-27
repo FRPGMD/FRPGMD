@@ -19,6 +19,10 @@
 		[entries.wood_type.vanillabackport]
 			shelf = true
 
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
 		[entries.leaves_type.quark]
 			hedge = true
 			leaf_carpet = true
@@ -400,6 +404,102 @@
 			dry_mossy_cobblestone_brick = true
 			dry_mossy_cobblestone_tile = true
 
+		[types.cut_block_type.create]
+			copper_shingle = true
+			exposed_copper_shingle = true
+			weathered_copper_shingle = true
+			oxidized_copper_shingle = true
+			waxed_copper_shingle = true
+			waxed_exposed_copper_shingle = true
+			waxed_weathered_copper_shingle = true
+			waxed_oxidized_copper_shingle = true
+			copper_tile = true
+			exposed_copper_tile = true
+			weathered_copper_tile = true
+			oxidized_copper_tile = true
+			waxed_copper_tile = true
+			waxed_exposed_copper_tile = true
+			waxed_weathered_copper_tile = true
+			waxed_oxidized_copper_tile = true
+			cut_granite = true
+			polished_cut_granite = true
+			cut_granite_brick = true
+			small_granite_brick = true
+			cut_diorite = true
+			polished_cut_diorite = true
+			cut_diorite_brick = true
+			small_diorite_brick = true
+			cut_andesite = true
+			polished_cut_andesite = true
+			cut_andesite_brick = true
+			small_andesite_brick = true
+			cut_calcite = true
+			polished_cut_calcite = true
+			cut_calcite_brick = true
+			small_calcite_brick = true
+			cut_dripstone = true
+			polished_cut_dripstone = true
+			cut_dripstone_brick = true
+			small_dripstone_brick = true
+			cut_deepslate = true
+			polished_cut_deepslate = true
+			cut_deepslate_brick = true
+			small_deepslate_brick = true
+			cut_tuff = true
+			polished_cut_tuff = true
+			cut_tuff_brick = true
+			small_tuff_brick = true
+			cut_asurine = true
+			polished_cut_asurine = true
+			cut_asurine_brick = true
+			small_asurine_brick = true
+			cut_crimsite = true
+			polished_cut_crimsite = true
+			cut_crimsite_brick = true
+			small_crimsite_brick = true
+			cut_limestone = true
+			polished_cut_limestone = true
+			cut_limestone_brick = true
+			small_limestone_brick = true
+			cut_ochrum = true
+			polished_cut_ochrum = true
+			cut_ochrum_brick = true
+			small_ochrum_brick = true
+			cut_scoria = true
+			polished_cut_scoria = true
+			cut_scoria_brick = true
+			small_scoria_brick = true
+			cut_scorchia = true
+			polished_cut_scorchia = true
+			cut_scorchia_brick = true
+			small_scorchia_brick = true
+			cut_veridium = true
+			polished_cut_veridium = true
+			cut_veridium_brick = true
+			small_veridium_brick = true
+
+		[types.cut_block_type.mowziesmobs]
+			painted_acacia = true
+
+		[types.cut_block_type.supplementaries]
+			fine_wood = true
+			lapis_bricks = true
+			ash_bricks = true
+			stone_tile = true
+			blackstone_tile = true
+
+		[types.cut_block_type.cataclysm]
+			polished_end_stone = true
+			purpur_tile = true
+			polished_obsidian = true
+			obsidian_brick = true
+			chorus = true
+			frosted_stone_brick = true
+			stone_tile = true
+			azure_seastone = true
+			azure_seastone_brick = true
+			polished_azure_seastone = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -443,6 +543,9 @@
 			holly = true
 			chestnut = true
 			pine = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -496,3 +599,23 @@
 			chestnut = true
 			pine = true
 			flowering_acacia = true
+
+		[types.cake.nomansland]
+			fruit_cake = true
+
+		[types.lantern.candlelight]
+			lamp = true
+
+		[types.lantern.darkerdepths]
+			glowshroom_lantern = true
+
+		[types.lantern.netherexp]
+			treacherous_lantern = true
+
+		[types.lantern.suppsquared]
+			copper_lantern = true
+			brass_lantern = true
+			crimson_lantern = true
+
+		[types.lantern.windswept]
+			ice_lantern = true

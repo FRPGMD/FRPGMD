@@ -525,6 +525,20 @@
 			swamp_oak_shingle = true
 			swamp_cypress_shingle = true
 			cactus_shingle = true
+			arolla_pine_shingle = true
+
+		[types.cut_block_type.alpinewhispers]
+			alpine_gneiss = true
+			alpine_gneiss_brick = true
+			layered_alpine_gneiss_brick = true
+			mossy_alpine_gneiss_brick = true
+			mossy_layered_alpine_gneiss_brick = true
+			arolla_pine = true
+
+		[types.cut_block_type.holyhell]
+			marble = true
+			marble_brick = true
+			cracked_marble_brick = true
 
 		[types.wood_type.arts_and_crafts]
 			cork = true
@@ -569,6 +583,9 @@
 			holly = true
 			chestnut = true
 			pine = true
+
+		[types.wood_type.alpinewhispers]
+			arolla_pine = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -622,6 +639,9 @@
 			chestnut = true
 			pine = true
 			flowering_acacia = true
+
+		[types.leaves_type.alpinewhispers]
+			arolla_pine = true
 
 		[types.cake.nomansland]
 			fruit_cake = true

@@ -1,0 +1,10 @@
+#Hunger and saturation of the food items. Changes need a game restart.
+[Food]
+	#Hunger points restored by each bite of Cooked Reindeer Dish. 2 points = 1 drumstick.
+	# Default: 6
+	# Range: 0 ~ 20
+	reindeerDishNutrition = 6
+	#Saturation given by each bite of Cooked Reindeer Dish, multiplied with its hunger points.
+	# Default: 0.8
+	# Range: 0.0 ~ 2.0
+	reindeerDishSaturation = 0.8

@@ -3562,6 +3562,46 @@
         "endDistance": 1.0,
         "color": 16777215
       }
+    },
+    "windswept:lavender_fields": {
+      "enabled": true,
+      "fogColor": 12638463,
+      "skyColor": 8168959,
+      "cloudColor": 16777215,
+      "nightSkyColor": 0,
+      "nightFogColor": 3820902,
+      "nightCloudColor": 526361,
+      "intensity": 1.0,
+      "fogDensity": 1.0,
+      "startDistance": 2.0,
+      "endDistance": 150.0,
+      "nightStartDistance": 2.0,
+      "nightEndDistance": 120.0,
+      "nightFogDensity": 1.0,
+      "haze": {
+        "enabled": true,
+        "color": 15398143,
+        "nightColor": 3866805,
+        "strength": 2.0,
+        "bottomY": -64.0,
+        "middleY": -5.0,
+        "topY": 9.0,
+        "radius": 30.0,
+        "nightStrength": 2.0,
+        "nightBottomY": -64.0,
+        "nightMiddleY": -5.0,
+        "nightTopY": 9.0,
+        "nightRadius": 30.0
+      },
+      "airHaze": {
+        "enabled": true,
+        "intensity": 1.0,
+        "spawnRate": 1.0,
+        "size": 1.0,
+        "startDistance": 1.0,
+        "endDistance": 1.0,
+        "color": 16777215
+      }
     }
   }
 }

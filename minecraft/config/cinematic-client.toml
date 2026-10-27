@@ -1,0 +1,100 @@
+[scenes]
+	#When a block's work cannot be reached from where the player stands (too high, too far, covered),
+	#true opens the block's own window instead of the scene; false only says why, over the crosshair.
+	heightLogic = true
+
+	[scenes.blocks]
+		#Whether table plays its scene (false: the block keeps its usual window).
+		table = true
+		#Whether furnace plays its scene (false: the block keeps its usual window).
+		furnace = true
+		#Whether smoker plays its scene (false: the block keeps its usual window).
+		smoker = true
+		#Whether blast_furnace plays its scene (false: the block keeps its usual window).
+		blast_furnace = true
+		#Whether enchanting plays its scene (false: the block keeps its usual window).
+		enchanting = true
+		#Whether anvil plays its scene (false: the block keeps its usual window).
+		anvil = true
+		#Whether grindstone plays its scene (false: the block keeps its usual window).
+		grindstone = true
+		#Whether smithing plays its scene (false: the block keeps its usual window).
+		smithing = true
+		#Whether stonecutter plays its scene (false: the block keeps its usual window).
+		stonecutter = true
+		#Whether loom plays its scene (false: the block keeps its usual window).
+		loom = true
+		#Whether cartography plays its scene (false: the block keeps its usual window).
+		cartography = true
+		#Whether brewing plays its scene (false: the block keeps its usual window).
+		brewing = true
+		#Whether crafter plays its scene (false: the block keeps its usual window).
+		crafter = true
+		#Whether campfire plays its scene (false: the block keeps its usual window).
+		campfire = true
+		#Whether lectern plays its scene (false: the block keeps its usual window).
+		lectern = true
+		#Whether beacon plays its scene (false: the block keeps its usual window).
+		beacon = true
+		#Whether jukebox plays its scene (false: the block keeps its usual window).
+		jukebox = true
+		#Whether chiseled_bookshelf plays its scene (false: the block keeps its usual window).
+		chiseled_bookshelf = true
+
+[interface]
+	#The line of controls at the bottom of the screen during a scene.
+	controlHints = true
+	#The "[H] Sit by the fire" invitation under the crosshair when looking at a campfire (the key works either way).
+	campfireInvite = true
+
+[camera]
+	#How fast the camera leans in to the block once the player has stepped up to it, in percent (100: 1.2 s).
+	# Default: 100
+	# Range: 50 ~ 200
+	approachSpeed = 100
+	#How fast the player steps away and the camera comes back to the eyes, in percent (100: about a second).
+	# Default: 100
+	# Range: 50 ~ 200
+	leaveSpeed = 100
+	#How far the camera leans in from the eyes towards the block, in percent (0: it stays at the eyes, looking at the work).
+	# Default: 100
+	# Range: 0 ~ 100
+	leanStrength = 100
+	#How much the view narrows on the work in a scene, in percent (0: the field of view stays your own).
+	# Default: 100
+	# Range: 0 ~ 100
+	sceneZoom = 100
+	#Coming back to the same station soon after stepping away, the way in is short: a quick lean, no bars.
+	quickReturn = true
+	#0: cinematic entry; 1: quick on a recent return; 2: quick on every entry. -1 keeps the old quickReturn setting.
+	# Default: -1
+	# Range: -1 ~ 2
+	quickMode = 1
+	#For how many seconds after stepping away coming back to the same station is quick.
+	# Default: 12
+	# Range: 5 ~ 30
+	quickWindow = 12
+	#0: original stretching arms; 1: natural reach; 2: floating forearms.
+	# Default: 0
+	# Range: 0 ~ 2
+	armStyle = 0
+	#Looking round from behind while at work (Left Alt, rebindable): false while the key is held, true pressed on and off.
+	lookToggles = false
+	#Black bars at the top and bottom while the camera moves in and out.
+	letterbox = true
+	#The camera breathes slightly and drifts a little towards the cursor while working.
+	livingCamera = true
+	#The camera trembles at big moments (a hammer blow, a spell, the beacon lighting up).
+	cameraShake = true
+	#The screen flashes at big moments (the light of a spell, white-hot metal).
+	screenFlash = true
+
+[multiplayer]
+	#On a server without Cinematic Interactions, show local scenes over supported vanilla menus. Set this from the main menu; it takes effect on the next connection. Other stations keep their vanilla behavior.
+	clientOnlyMode = false
+	#Whether the server list has already shown the client-only mode note.
+	serverHintSeen = false
+
+[developer]
+	#Show the local station layout editors and enable their G shortcut. Saved layouts apply even when this is false.
+	developerMode = false
