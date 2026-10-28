@@ -1,0 +1,79 @@
+{
+  "item.create_factory.honey_glazed_berries": "Ягоды в медовой глазури",
+  "item.create_factory.nectar_glazed_berries": "Ягоды в нектарной глазури",
+
+  "item.create_factory.chocolate_roll": "Шоколадный рулет",
+  "item.create_factory.caramel_roll": "Карамельный рулет",
+  "item.create_factory.dark_chocolate_roll": "Рулет из тёмного шоколада",
+  "item.create_factory.honey_roll": "Медовый рулет",
+  "item.create_factory.ruby_chocolate_roll": "Рулет из рубинового шоколада",
+  "item.create_factory.white_chocolate_roll": "Рулет из белого шоколада",
+  "item.create_factory.sweet_berries_jam_roll": "Рулет с вареньем из сладких ягод",
+  "item.create_factory.glow_berries_jam_roll": "Рулет с вареньем из светящихся ягод",
+  "item.create_factory.spread_roll": "Рулет с шоколадно-ореховой пастой",
+
+  "item.create_factory.chocolate_apple": "Яблоко в шоколаде",
+  "item.create_factory.caramel_apple": "Яблоко в карамели",
+  "item.create_factory.dark_chocolate_apple": "Яблоко в тёмном шоколаде",
+  "item.create_factory.ruby_chocolate_apple": "Яблоко в рубиновом шоколаде",
+  "item.create_factory.white_chocolate_apple": "Яблоко в белом шоколаде",
+  "item.create_factory.spread_apple": "Яблоко с шоколадно-ореховой пастой",
+  "item.create_factory.nectar_apple": "Яблоко с нектаром",
+
+  "item.create_factory.chocolate_waffle": "Шоколадная вафля",
+  "item.create_factory.caramel_waffle": "Карамельная вафля",
+  "item.create_factory.dark_chocolate_waffle": "Вафля с тёмным шоколадом",
+  "item.create_factory.honey_waffle": "Медовая вафля",
+  "item.create_factory.ruby_chocolate_waffle": "Вафля с рубиновым шоколадом",
+  "item.create_factory.white_chocolate_waffle": "Вафля с белым шоколадом",
+  "item.create_factory.sweet_berries_jam_waffle": "Вафля с вареньем из сладких ягод",
+  "item.create_factory.glow_berries_jam_waffle": "Вафля с вареньем из светящихся ягод",
+  "item.create_factory.spread_waffle": "Вафля с шоколадно-ореховой пастой",
+
+  "item.create_factory.waffle": "Вафля",
+  "item.create_factory.uncooked_waffle": "Сырая вафля",
+  "item.create_factory.cake_paste": "Тесто для торта",
+
+  "block.create_factory.sweet_berries_jam": "Варенье из сладких ягод",
+  "fluid.create_factory.sweet_berries_jam": "Варенье из сладких ягод",
+  "item.create_factory.sweet_berries_jam_bucket": "Ведро варенья из сладких ягод",
+
+  "block.create_factory.glow_berries_jam": "Варенье из светящихся ягод",
+  "fluid.create_factory.glow_berries_jam": "Варенье из светящихся ягод",
+  "item.create_factory.glow_berries_jam_bucket": "Ведро варенья из светящихся ягод",
+
+  "block.create_factory.spread": "Шоколадно-ореховая паста",
+  "fluid.create_factory.spread": "Шоколадно-ореховая паста",
+  "item.create_factory.spread_bucket": "Ведро шоколадно-ореховой пасты",
+
+  "block.create_factory.nectar": "Нектар",
+  "fluid.create_factory.nectar": "Нектар",
+  "item.create_factory.nectar_bucket": "Ведро нектара",
+
+  "tooltip.create_factory.jar.hold": "Удерживайте [",
+  "tooltip.create_factory.jar.contents": "] для просмотра содержимого",
+  "gui.goggles.fluid_container.empty": "Пусто",
+
+  "gui.goggles.fluid_container": "Информация о ёмкости для жидкости:",
+
+  "jei.create_factory.jar_dipping": "Окунание в банку",
+
+  "block.create_factory.white_jar": "Белая банка",
+  "block.create_factory.red_jar": "Красная банка",
+  "block.create_factory.orange_jar": "Оранжевая банка",
+  "block.create_factory.yellow_jar": "Жёлтая банка",
+  "block.create_factory.lime_jar": "Лаймовая банка",
+  "block.create_factory.green_jar": "Зелёная банка",
+  "block.create_factory.light_blue_jar": "Голубая банка",
+  "block.create_factory.blue_jar": "Синяя банка",
+  "block.create_factory.cyan_jar": "Бирюзовая банка",
+  "block.create_factory.purple_jar": "Фиолетовая банка",
+  "block.create_factory.magenta_jar": "Пурпурная банка",
+  "block.create_factory.pink_jar": "Розовая банка",
+  "block.create_factory.black_jar": "Чёрная банка",
+  "block.create_factory.light_gray_jar": "Светло-серая банка",
+  "block.create_factory.gray_jar": "Серая банка",
+  "block.create_factory.brown_jar": "Коричневая банка",
+
+  "creativetab.createfactory_tab": "Create: Фабрика"
+}

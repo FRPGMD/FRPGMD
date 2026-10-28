@@ -1,0 +1,1 @@
+minecraft/mods/enderscape-fabric-2.1.0+mc1.21.1.jar filter=lfs diff=lfs merge=lfs -text

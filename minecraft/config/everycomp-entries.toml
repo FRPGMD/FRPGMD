@@ -555,6 +555,8 @@
 			celestial = true
 			murublight_brick = true
 			murublight = true
+			etched_alluring_magnia = true
+			etched_repulsive_magnia = true
 
 		[types.cut_block_type.the_beyond]
 			portelain = true
@@ -693,3 +695,4 @@
 
 		[types.lantern.enderscape]
 			bulb_lantern = true
+			void_lantern = true

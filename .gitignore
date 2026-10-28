@@ -33,6 +33,9 @@ minecraft/config/rsls.properties
 minecraft/debug/
 minecraft/kubejsstudio/
 minecraft/config/jei/world
+minecraft/fancymenu_data
+minecraft/dynamic-data-pack-cache
+minecraft/dynamic-resource-pack-cache
 *.disabled
 *.duplicate
 *.bak
