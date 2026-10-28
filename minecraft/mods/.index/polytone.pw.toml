@@ -1,18 +1,18 @@
-filename = 'polytone-1.21-5.2.1-neoforge.jar'
+filename = 'polytone-1.21-5.3.2-neoforge.jar'
 name = 'Polytone'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21-5.2.1'
+x-prismlauncher-version-number = '1.21-5.3.2'
 
 [download]
-hash = 'a414c85b9196cae14042a12d4ae2464038603a2e4a0657cf6dee5e7f57d471914b8510d942d5e1b6a085c2e0e5863401f6691b69f38ef389818c5a402ad22e88'
+hash = '6cba39209e9c44a2e051ba6f74fd332583e771e8a4341f7ef22a0710672db0bf72a0e3ff2f2a0dfd27c582bcb3c29d7dc9031988b77fb3daa68666bda1c3b829'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3qAYkBMB/versions/rUVuJTya/polytone-1.21-5.2.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/3qAYkBMB/versions/rG3ZSKiV/polytone-1.21-5.3.2-neoforge.jar'
 
 [update.modrinth]
 mod-id = '3qAYkBMB'
-version = 'rUVuJTya'
+version = 'rG3ZSKiV'

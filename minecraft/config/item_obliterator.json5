@@ -47,7 +47,11 @@
 	  "candlelight:bamboo_stove",
 	  "candlelight:red_nether_bricks_counter",
 	  "candlelight:red_nether_bricks_kitchen_sink",
-	  "candlelight:red_nether_bricks_stove"
+	  "candlelight:red_nether_bricks_stove",
+	  "alpinewhispers:arolla_pine_bathtub",
+	  "alpinewhispers:arolla_pine_privy",
+	  "alpinewhispers:arolla_pine_washbasin",
+	  "alpinewhispers:arolla_pine_sink"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

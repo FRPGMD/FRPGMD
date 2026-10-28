@@ -1,19 +1,19 @@
-filename = 'Cinematic Interaction-NeoForge-1.21.1-0.18.28.jar'
+filename = 'Cinematic Interaction-NeoForge-1.21.1-0.18.30.jar'
 name = 'Cinematic Interactions'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'Cinematic Interaction-NeoForge-Beta-1.21.1-0.18.28.jar'
+x-prismlauncher-version-number = 'Cinematic Interaction-NeoForge-Beta-1.21.1-0.18.30.jar'
 
 [download]
-hash = 'a6aaec6ec8b110fe3ab665fd5b16ad5169954460'
+hash = '6ce24a0d4ebd7bd34e2c41ed5e3bea6d34fe58b6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9323971
+file-id = 9345403
 project-id = 1743441
 
 [[x-prismlauncher-dependencies]]

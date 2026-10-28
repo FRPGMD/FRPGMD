@@ -1,18 +1,18 @@
-filename = 'Platform-neoforge-1.21.1-1.4.1.jar'
+filename = 'Platform-neoforge-1.21.1-1.4.2.jar'
 name = 'Platform'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.1'
+x-prismlauncher-version-number = '1.4.2'
 
 [download]
-hash = 'a8de25431aa28cbbbef58b648d0275d880bbd326dfef9c9747e3a2a1fc277bedabfa858fa3640ac0f43d4870a2946bab20c1c3108a463ac953ad8becd36adfb9'
+hash = '24f9640cc830ffc9b921f89187aaa2ee41aeb9949b36a9ab11b94313c9f4eebb94e5aa7ee3089237f677d3c72aa860bb2bf332c900030c8f7dd5bbcc25ece73a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/i6fiqm5y/versions/QHFLNdoG/Platform-neoforge-1.21.1-1.4.1.jar'
+url = 'https://cdn.modrinth.com/data/i6fiqm5y/versions/rh4p4ixM/Platform-neoforge-1.21.1-1.4.2.jar'
 
 [update.modrinth]
 mod-id = 'i6fiqm5y'
-version = 'QHFLNdoG'
+version = 'rh4p4ixM'

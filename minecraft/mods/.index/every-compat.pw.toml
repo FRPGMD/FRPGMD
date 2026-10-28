@@ -1,127 +1,35 @@
-filename = 'everycomp-1.21-2.11.55-neoforge.jar'
-name = 'Every Compat (Wood Good)'
-side = 'both'
+filename = 'everycomp-1.21-2.11.56-neoforge.jar'
+name = 'Every Compat'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21-2.11.55'
+x-prismlauncher-version-number = '1.21-2.11.56'
 
 [download]
-hash = '1f473f0aaf34ba5c08f3f8a33c49dceed02eee89088ec53ab731cad98c86791caabaed8740646ee4506bd695383b738c8e5ab0f0d8bdbf74c5ce9e02cf5e933a'
+hash = 'aec664b4298fbe97cb20b2295cf461158d2ee21c87344d0bf85ee12d9e5bdb68dc7cb4296774b9a736c80cf5e6b231a7e14921661baa7edd92372265bb44e6f9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/lBHGIP1q/everycomp-1.21-2.11.55-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/vUy0myYU/everycomp-1.21-2.11.56-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'eiktJyw1'
-version = 'lBHGIP1q'
+version = 'vUy0myYU'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'ulloLmqG'
+addonId = 'twkfQtEc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aQ7h7gal'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'M7N4aD7O'
+addonId = 'uYwn8IP5'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '2vsx0HYf'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'BOCJKD49'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'w4an97C2'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'n2fvCDlM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'C341qvJ5'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'HKKqmr2p'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Tkikq67H'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'X0EQDtMs'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'kNxa8z3e'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'RG50cUrX'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'sTqfznK6'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'eiXYWB7J'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'rv1sovni'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'R2OftAxM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '2raGoXFz'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '6uw892ih'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'VRLhWB91'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'dtWC90iB'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'cO40ZIg3'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'pJmCFF0p'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'aRYbAuWe'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'wvMc8AJt'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Nw0MStSd'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'BAscRYKm'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'GURcjz8O'
+addonId = 'AXNDNPpm'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -133,55 +41,7 @@ addonId = 'sMKSn3I6'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'uYwn8IP5'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'jA6GVA7Y'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'XRnFyRWZ'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'B8jaH3P1'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'aQ7h7gal'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'v259p1An'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AtUSM5mt'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'xejiztgi'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'twkfQtEc'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'GmwLse2I'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'oHGMwNDR'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'hevpK888'
+addonId = 'aRYbAuWe'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -189,15 +49,135 @@ addonId = 't6BIRVZn'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'GURcjz8O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2raGoXFz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jA6GVA7Y'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VRLhWB91'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'n2fvCDlM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'w4an97C2'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HKKqmr2p'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2vsx0HYf'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'M7N4aD7O'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RG50cUrX'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'eiXYWB7J'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oHGMwNDR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'dtWC90iB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '20zpzIT1'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'OSDpLd82'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6uw892ih'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XRnFyRWZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'NSnRfjks'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'AXNDNPpm'
+addonId = 'R2OftAxM'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'vt0VyseM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BOCJKD49'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pJmCFF0p'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'C341qvJ5'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tkikq67H'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'X0EQDtMs'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hevpK888'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sTqfznK6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'wvMc8AJt'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kNxa8z3e'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'B8jaH3P1'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'v259p1An'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ulloLmqG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rv1sovni'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -209,7 +189,11 @@ addonId = 'qmCh2PxS'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '20zpzIT1'
+addonId = 'Nw0MStSd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'xejiztgi'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -217,5 +201,21 @@ addonId = 'qnQsVE2z'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'OSDpLd82'
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AtUSM5mt'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GmwLse2I'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cO40ZIg3'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BAscRYKm'
 type = 'OPTIONAL'

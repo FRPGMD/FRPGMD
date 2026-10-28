@@ -1,7 +1,7 @@
 [scenes]
 	#When a block's work cannot be reached from where the player stands (too high, too far, covered),
 	#true opens the block's own window instead of the scene; false only says why, over the crosshair.
-	heightLogic = true
+	heightLogic = false
 
 	[scenes.blocks]
 		#Whether table plays its scene (false: the block keeps its usual window).
@@ -33,7 +33,7 @@
 		#Whether campfire plays its scene (false: the block keeps its usual window).
 		campfire = true
 		#Whether lectern plays its scene (false: the block keeps its usual window).
-		lectern = false
+		lectern = true
 		#Whether beacon plays its scene (false: the block keeps its usual window).
 		beacon = true
 		#Whether jukebox plays its scene (false: the block keeps its usual window).
@@ -51,19 +51,19 @@
 	#How fast the camera leans in to the block once the player has stepped up to it, in percent (100: 1.2 s).
 	# Default: 100
 	# Range: 50 ~ 200
-	approachSpeed = 100
+	approachSpeed = 160
 	#How fast the player steps away and the camera comes back to the eyes, in percent (100: about a second).
 	# Default: 100
 	# Range: 50 ~ 200
-	leaveSpeed = 100
+	leaveSpeed = 160
 	#How far the camera leans in from the eyes towards the block, in percent (0: it stays at the eyes, looking at the work).
 	# Default: 100
 	# Range: 0 ~ 100
-	leanStrength = 100
+	leanStrength = 70
 	#How much the view narrows on the work in a scene, in percent (0: the field of view stays your own).
 	# Default: 100
 	# Range: 0 ~ 100
-	sceneZoom = 100
+	sceneZoom = 60
 	#Coming back to the same station soon after stepping away, the way in is short: a quick lean, no bars.
 	quickReturn = true
 	#0: cinematic entry; 1: quick on a recent return; 2: quick on every entry. -1 keeps the old quickReturn setting.
@@ -74,7 +74,7 @@
 	# Default: 12
 	# Range: 5 ~ 30
 	quickWindow = 12
-	#0: original stretching arms; 1: natural reach; 2: floating forearms.
+	#0: original stretching arms; 1: short natural reach with a gentle camera lean; 2: floating forearms.
 	# Default: 0
 	# Range: 0 ~ 2
 	armStyle = 0
@@ -88,11 +88,13 @@
 	cameraShake = true
 	#The screen flashes at big moments (the light of a spell, white-hot metal).
 	screenFlash = true
+	#Turns the letterbox bars, the breathing camera, the shake and the flashes off at once, whatever they are set to.
+	reduceMotion = false
 
 [multiplayer]
 	#On a server without Cinematic Interactions, show local scenes over supported vanilla menus. Set this from the main menu; it takes effect on the next connection. Other stations keep their vanilla behavior.
 	clientOnlyMode = false
-	#Whether the server list has already shown the client-only mode note.
+	#Whether the server list has already shown its note about the client-only mode (it shows once).
 	serverHintSeen = true
 
 [developer]

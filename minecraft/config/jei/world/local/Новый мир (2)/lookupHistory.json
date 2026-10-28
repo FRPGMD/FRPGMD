@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"holyhell:baptized_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"holyhell:enhanced_silk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:simple_tomato_soup"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:onion"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"farm_and_charm:roasted_corn"},"type":"item_stack","bookmarkType":"INGREDIENT"},

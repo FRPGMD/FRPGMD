@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1793100055018
+  last_edited_time = 1793187739925
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:0965b596-fb5a-45b0-b949-4d7ba81b16f5-1793099998166] = [groups:][instances:]
+  [loading_requirement_container_meta:4dee3170-b976-469b-91a5-3843268254c2-1793187728392] = [groups:][instances:]
 }
 
 menu_background {
@@ -380,9 +380,10 @@ element {
   auto_sizing_base_gui_width = 640
   auto_sizing_base_gui_height = 360
   sticky_anchor = false
-  anchor_point = mid-centered
+  anchor_point = element
+  anchor_point_element = progress_bar
   x = -317
-  y = -102
+  y = -152
   width = 527
   height = 145
   stay_on_screen = true

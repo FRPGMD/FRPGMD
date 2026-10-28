@@ -535,16 +535,6 @@
 			mossy_layered_alpine_gneiss_brick = true
 			arolla_pine = true
 
-		[types.cut_block_type.holyhell]
-			marble = true
-			marble_brick = true
-			cracked_marble_brick = true
-
-		[types.cut_block_type.netherman]
-			cobbled_samsonit = true
-			polished_samsonit = true
-			samsonit_bricks = true
-
 		[types.cut_block_type.enderscape]
 			end_stone = true
 			polished_end_stone = true

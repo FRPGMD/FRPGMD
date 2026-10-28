@@ -1,6 +1,6 @@
 [lectern]
 	#Improved lectern screen allowing to edit font of a book while on it
-	improved_screen = true
+	improved_screen = false
 
 [fireball]
 	#Cooldown for fire & dragon charges in ticks
@@ -134,6 +134,8 @@
 	dye_blocks = false
 	#Prevents entities from taking suffocation damage while riding another entity
 	passenger_no_suffocation = false
+	#Following pets teleport with you instantly when you teleport
+	pets_follow_teleports = true
 
 [torch]
 	#Allows torches to set entities on fire
@@ -148,3 +150,7 @@
 [lily_pad]
 	#Allows lilypads to have any block placed ontop
 	better_lilypads = true
+
+[bubble_column]
+	#Makes bubble columns to extend up through grate like blocks (amendments:bubble_column_passable tag)
+	bubble_column_grates = true
