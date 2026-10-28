@@ -1,0 +1,18 @@
+filename = 'isleweaver-0.0.3b-InDev.jar'
+name = 'The Beyond - Isleweaver Addon'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.0.3b-InDev'
+
+[download]
+hash = '3f034a81d22453ff7afcf7dd0060e85e0a1dc27e146e70fe0bb0aaa948c2ee0671006116a514353bdcff9a95e1bea3a1ab9596bdf4afad0e4783ff5a555071fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/erNCpdqn/versions/vsuc3Sww/isleweaver-0.0.3b-InDev.jar'
+
+[update.modrinth]
+mod-id = 'erNCpdqn'
+version = 'vsuc3Sww'

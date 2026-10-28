@@ -545,6 +545,34 @@
 			polished_samsonit = true
 			samsonit_bricks = true
 
+		[types.cut_block_type.enderscape]
+			end_stone = true
+			polished_end_stone = true
+			mirestone = true
+			polished_mirestone = true
+			mirestone_brick = true
+			veradite = true
+			polished_veradite = true
+			veradite_brick = true
+			kurodite = true
+			polished_kurodite = true
+			kurodite_brick = true
+			shadoline_block = true
+			cut_shadoline = true
+			purpur_tile = true
+			veiled = true
+			celestial_brick = true
+			celestial = true
+			murublight_brick = true
+			murublight = true
+
+		[types.cut_block_type.the_beyond]
+			portelain = true
+			brittle_metal = true
+			pearl = true
+			pearl_brick = true
+			cobbled_pearl_brick = true
+
 		[types.wood_type.arts_and_crafts]
 			cork = true
 
@@ -591,6 +619,11 @@
 
 		[types.wood_type.alpinewhispers]
 			arolla_pine = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
 
 		[types.leaves_type.arts_and_crafts]
 			cork = true
@@ -667,3 +700,6 @@
 
 		[types.lantern.windswept]
 			ice_lantern = true
+
+		[types.lantern.enderscape]
+			bulb_lantern = true

@@ -1,25 +1,25 @@
-filename = 'nomansland-1.6.2.jar'
+filename = 'nomansland-1.6.3.jar'
 name = "No Man's Land"
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.6.2'
+x-prismlauncher-version-number = '1.6.3'
 
 [download]
-hash = 'c7da5e70bcf09933b6cacc8d383e840be78079a41a646cbc121863360c224ec3ffc9139568cfd3d0f350513208cd6b4dbdd3fc742d4495610e204f3339ffe00e'
+hash = '44cd94888052e8af3cd1fbe3d8f286df01a7cf42a3e723ae14a1cbe4b1f595978f419602ca486f630631a509810c174377ccc51130df998ae39bb9490c047eef'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/kjZCvAn6/versions/yDQCtLNp/nomansland-1.6.2.jar'
+url = 'https://cdn.modrinth.com/data/kjZCvAn6/versions/xEOvRePP/nomansland-1.6.3.jar'
 
 [update.modrinth]
 mod-id = 'kjZCvAn6'
-version = 'yDQCtLNp'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'cU1kDASI'
-type = 'EMBEDDED'
+version = 'xEOvRePP'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'iGEl6Crx'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cU1kDASI'
+type = 'EMBEDDED'

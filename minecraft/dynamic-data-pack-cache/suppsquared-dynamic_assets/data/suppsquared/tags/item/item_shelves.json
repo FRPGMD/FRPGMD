@@ -15,6 +15,8 @@
     "suppsquared:darkerdepths/item_shelf_petrified",
     "suppsquared:mynethersdelight/item_shelf_powdery",
     "suppsquared:quark/item_shelf_azalea",
+    "suppsquared:quark/item_shelf_ancient",
+    "suppsquared:quark/item_shelf_blossom",
     "suppsquared:item_shelf_pale_oak",
     "suppsquared:item_shelf_poplar",
     "suppsquared:arts_and_crafts/item_shelf_cork",
@@ -36,8 +38,9 @@
     "suppsquared:windswept/item_shelf_holly",
     "suppsquared:windswept/item_shelf_chestnut",
     "suppsquared:windswept/item_shelf_pine",
-    "suppsquared:quark/item_shelf_ancient",
-    "suppsquared:quark/item_shelf_blossom"
+    "suppsquared:enderscape/item_shelf_veiled",
+    "suppsquared:enderscape/item_shelf_celestial",
+    "suppsquared:enderscape/item_shelf_murublight"
   ],
   "remove": []
 }
