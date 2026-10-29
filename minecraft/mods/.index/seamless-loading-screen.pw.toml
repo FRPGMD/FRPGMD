@@ -1,0 +1,18 @@
+filename = 'seamless-loading-screen-2.2.1+1.21-neoforge.jar'
+name = 'Seamless Loading Screen'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Seamless Loading Screen 2.2.1 for 1.21'
+
+[download]
+hash = '0e53c533a9032d337ee59740ed228a0002db500e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5774794
+project-id = 429926

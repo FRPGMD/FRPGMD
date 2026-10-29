@@ -304,9 +304,9 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
 key_key.punchy.triggerable.trident_inspect:key.keyboard.i
+key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 soundCategory_master:0.297355824812178
 soundCategory_music:1.0
 soundCategory_record:1.0

@@ -8,7 +8,7 @@
 		#Animated half-heart FPS limit. 0 = unlimited and fully smooth.
 		# Default: 0
 		# Range: 0 ~ 240
-		animationFPS = 0
+		animationFPS = 30
 		#Minimum opacity of the animated heart.
 		# Default: 0.3
 		# Range: 0.0 ~ 1.0
