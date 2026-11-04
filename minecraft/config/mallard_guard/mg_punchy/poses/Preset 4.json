@@ -1,11 +1,22 @@
 {
   "id": "preset4",
   "name": "Preset 4",
-  "enabled": true,
+  "enabled": false,
   "preset": true,
-  "deleted": false,
+  "deleted": true,
+  "nativeHands": false,
+  "nativeSupport": false,
+  "companionMode": 0,
+  "otherItemValues": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
   "values": [
-    1,
+    0,
     68,
     19,
     -24,
@@ -30,7 +41,7 @@
     100
   ],
   "parriedValues": [
-    1,
+    0,
     68,
     19,
     -24,

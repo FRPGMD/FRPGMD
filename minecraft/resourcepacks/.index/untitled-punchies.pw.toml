@@ -1,0 +1,18 @@
+filename = '§5Untitled §6Punchies §fv1.1.zip'
+name = 'Untitled Punchy'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1', '1.21.5', '1.21.11', '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.1'
+
+[download]
+hash = 'bdaa1673b2ad6e421198793c327c1f06679db9592bf6ac39b46d4285b58fc4d4c6a220146bd297f1cd542981e3771fbe453c2d3241e88cfe80dcfc1246a4b5ec'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NmfLbiMs/versions/hjmQDDlS/§5Untitled §6Punchies §fv1.1.zip'
+
+[update.modrinth]
+mod-id = 'NmfLbiMs'
+version = 'hjmQDDlS'

@@ -1,5 +1,7 @@
 {
   "punchy_sword_inspect_old": "key.keyboard.j",
   "punchy_sword_inspect_rework": "key.keyboard.g",
-  "trident_inspect": "key.keyboard.i"
+  "trident_inspect": "key.keyboard.i",
+  "sword_inspect_old": "key.keyboard.j",
+  "sword_inspect_rework": "key.keyboard.g"
 }

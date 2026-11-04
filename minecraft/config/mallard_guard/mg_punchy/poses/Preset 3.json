@@ -4,6 +4,17 @@
   "enabled": true,
   "preset": true,
   "deleted": false,
+  "nativeHands": false,
+  "nativeSupport": false,
+  "companionMode": 0,
+  "otherItemValues": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
   "values": [
     1,
     8,

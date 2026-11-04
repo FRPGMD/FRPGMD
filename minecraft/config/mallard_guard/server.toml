@@ -1,90 +1,90 @@
-#Mallard Guard config format revision. This changes only when settings or their defaults change.
-# Default: 105
+#Mallard Guard config format revision.
+# Default: 130
 # Range: > 0
 configRevision = 105
 
 [mobs]
-	#Wait after the reserved tactical stance end before another tactical attempt. Default: 100 ticks.
+	#Wait after the reserved tactical stance end before another tactical attempt.
 	# Default: 100
 	# Range: 20 ~ 1200
 	tacticalCooldownTicks = 100
-	#Maximum approach or pressure stance duration, randomly 1 second through this value. One continuous parry window. Default: 2 seconds.
+	#Maximum approach or pressure stance duration, randomly 1 second through this value. One continuous parry window.
 	# Default: 2
 	# Range: 1 ~ 10
 	approachMaxSeconds = 2
-	#Mob Spark Debris color. Default: #FFFFFF.
+	#Mob Spark Debris color.
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	sparkDebrisColor = 16777215
-	#Chance to add assigned equipment to a fresh whitelisted vanilla humanoid. Existing melee gear and occupied armor slots are preserved. Independent of Difficulty. Default: 50%.
+	#Chance to add assigned equipment to a fresh whitelisted vanilla humanoid. Existing melee gear and occupied armor slots are preserved. Independent of Difficulty.
 	# Default: 50
 	# Range: 0 ~ 100
 	gearChance = 80
-	#Return damage on perfect mob parries using the perfect server multiplier, or shield retaliation for shields. Default: true.
+	#Return damage on perfect mob parries using the perfect server multiplier, or shield retaliation for shields.
 	perfectRetaliation = true
-	#Mob tracer color near disappearance; also colors the end of its impact. Default: #FFFFFF.
+	#Mob tracer color near disappearance; also colors the end of its impact.
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	tracerEndColor = 16777215
-	#Perfect timing at the start of each mob stance. Remaining stance time is regular parry. 0 disables perfect. Default: 15 ticks.
+	#Perfect timing at the start of each mob stance. Remaining stance time is regular parry. 0 disables perfect.
 	# Default: 15
 	# Range: 0 ~ 20
 	perfectTicks = 15
-	#Chance per scheduled combat decision (every 2-4 seconds) to begin tactical guarding. Scaled by difficulty and limited by its cooldown. 0 disables. Default: 100%.
+	#Chance per scheduled combat decision (every 2-4 seconds) to begin tactical guarding. Scaled by difficulty and limited by its cooldown. 0 disables.
 	# Default: 100
 	# Range: 0 ~ 100
 	tacticalChance = 100
-	#Chance to rush after a successful parry, scaled by difficulty. Otherwise the mob lowers guard or attempts one follow-up stance. Default: 100%.
+	#Chance to rush after a successful parry, scaled by difficulty. Otherwise the mob lowers guard or attempts one follow-up stance.
 	# Default: 100
 	# Range: 0 ~ 100
 	rushChance = 100
 	#Only these exact entity IDs can guard or receive generated gear. Comma-separated; bosses remain excluded. Empty means none.
 	whitelist = "irons_spellbooks:keeper,minecraft:zombie_villager,minecraft:zombified_piglin,minecraft:villager,minecraft:pillager,minecraft:piglin,minecraft:piglin_brute,minecraft:vindicator,minecraft:wither_skeleton,quark:forgotten,minecraft:zombie,minecraft:skeleton,acolyte:human_warrior,acolyte:human_mage,acolyte:demon,acolyte:demon_archer,acolyte:demon_warrior,acolyte:demon_mage,acolyte:human_archer,acolyte:human,acolyte:lieutenant"
-	#Maximum tactical stance duration, randomly 1 second through this value. One continuous parry window; no repeated raises. Default: 2 seconds.
+	#Maximum tactical stance duration, randomly 1 second through this value. One continuous parry window; no repeated raises.
 	# Default: 2
 	# Range: 1 ~ 10
 	tacticalMaxSeconds = 2
-	#Allow whitelisted non-boss humanoids with eligible weapons or shields to guard. Empty hands, bows and crossbows do not qualify. Default: false.
+	#Allow whitelisted non-boss humanoids with eligible weapons or shields to guard. Empty hands, bows and crossbows do not qualify.
 	enabled = true
-	#Random close-approach trigger distance from 1 block through this maximum. Default: 3 blocks.
+	#Random close-approach trigger distance from 1 block through this maximum.
 	# Default: 3
 	# Range: 1 ~ 5
 	approachDistance = 3
-	#Allowed mob spawn equipment. IDs, #tags, @mods and ! exceptions use the shared assignment rules. Only usable equipment enters the gear pool. Default: vanilla armor and swords/pickaxes/shovels/hoes, without netherite or turtle helmets.
+	#Allowed mob spawn equipment. IDs, #tags, @mods and ! exceptions use the shared assignment rules. Only usable equipment enters the gear pool.
 	gearWhitelist = "minecraft:leather_helmet,minecraft:leather_chestplate,minecraft:leather_leggings,minecraft:leather_boots,minecraft:chainmail_helmet,minecraft:chainmail_chestplate,minecraft:chainmail_leggings,minecraft:chainmail_boots,minecraft:iron_helmet,minecraft:iron_chestplate,minecraft:iron_leggings,minecraft:iron_boots,minecraft:golden_helmet,minecraft:golden_chestplate,minecraft:golden_leggings,minecraft:golden_boots,minecraft:diamond_helmet,minecraft:diamond_chestplate,minecraft:diamond_leggings,minecraft:diamond_boots,minecraft:wooden_sword,minecraft:wooden_pickaxe,minecraft:wooden_shovel,minecraft:wooden_hoe,minecraft:stone_sword,minecraft:stone_pickaxe,minecraft:stone_shovel,minecraft:stone_hoe,minecraft:iron_sword,minecraft:iron_pickaxe,minecraft:iron_shovel,minecraft:iron_hoe,minecraft:golden_sword,minecraft:golden_pickaxe,minecraft:golden_shovel,minecraft:golden_hoe,minecraft:diamond_sword,minecraft:diamond_pickaxe,minecraft:diamond_shovel,minecraft:diamond_hoe,minecraft:iron_axe,minecraft:golden_axe,minecraft:copper_spear,minecraft:iron_spear,minecraft:golden_spear,minecraft:diamond_spear,block_factorys_bosses:warrior_sword,block_factorys_bosses:dagger,minecraft:stone_spear,minecraft:copper_sword,irons_spellbooks:graybeard_staff,nomansdelight:cleaver,bakery:bread_knife,farmersdelight:iron_knife,farmersdelight:diamond_knife,farmersdelight:golden_knife,nomansland:ancestral_oath_sword,minecraft:copper_axe,minecraft:copper_shovel,minecraft:copper_pickaxe,irons_spellbooks:wandering_magician_leggings,bakery:rolling_pin,farm_and_charm:iron_cleaver,farm_and_charm:pitchfork,minecraft:copper_helmet,minecraft:copper_chestplate,minecraft:copper_leggings,minecraft:copper_boots,create:copper_diving_helmet,irons_spellbooks:wandering_magician_boots,minecraft:wooden_spear"
-	#Maximum rush after a successful mob parry; ends after one melee attempt. 0 disables rushing. Default: 20 ticks.
+	#Maximum rush after a successful mob parry; ends after one melee attempt. 0 disables rushing.
 	# Default: 20
 	# Range: 0 ~ 40
 	counterTicks = 20
-	#Return damage on regular mob parries using the regular server multiplier. Shield regular parries return no damage. Default: true.
+	#Return damage on regular mob parries using the regular server multiplier. Shield regular parries return no damage.
 	regularRetaliation = true
-	#Chance to raise guard on the first close approach to a target, within the randomly chosen approach distance. Scaled by mob guard difficulty. 0 disables. Default: 100%.
+	#Chance to raise guard on the first close approach to a target, within the randomly chosen approach distance. Scaled by mob guard difficulty. 0 disables.
 	# Default: 100
 	# Range: 0 ~ 100
 	approachChance = 100
-	#Movement speed retained while a mob guards. Independent of player guarding speed. 100% causes no guard slowdown; 0% prevents deliberate movement. Default: 100%.
+	#Movement speed retained while a mob guards. Independent of player guarding speed. 100% causes no guard slowdown; 0% prevents deliberate movement.
 	# Default: 100
 	# Range: 0 ~ 100
 	guardMovement = 100
-	#Mob Flying Sparks base color. Default: #FFFFFF.
+	#Mob Flying Sparks base color.
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	flyingSparkColor = 16777215
-	#Scales all chance-based mob guard decisions, including rush and repeat guard. 100% uses normal chances; 50% halves them; 0 prevents new decisions. Gear chance and timing are independent. Default: 100%.
+	#Scales all chance-based mob guard decisions, including rush and repeat guard. 100% uses normal chances; 50% halves them; 0 prevents new decisions. Gear chance and timing are independent.
 	# Default: 100
 	# Range: 0 ~ 100
 	guardDifficulty = 100
-	#Landed damaging combat hits needed for a pressure-based guarding attempt. Does not limit approach or tactical guarding. Default: 1. The hit that triggers the stance still deals damage; the mob can parry subsequent attacks.
+	#Landed damaging combat hits needed for a pressure-based guarding attempt. Does not limit approach or tactical guarding. The hit that triggers the stance still deals damage; the mob can parry subsequent attacks.
 	# Default: 1
 	# Range: 1 ~ 3
 	hitsBeforeGuard = 1
-	#Mob tracer color halfway through fading; also colors the middle of its impact. Default: #FFFFFF.
+	#Mob tracer color halfway through fading; also colors the middle of its impact.
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	tracerMiddleColor = 16777215
-	#Disallowed mob spawn equipment; overrides the whitelist. Default: empty. Items absent from the whitelist are not generated.
+	#Disallowed mob spawn equipment; overrides the whitelist. Items absent from the whitelist are not generated.
 	gearBlacklist = ""
-	#Mob tracer color at spawn; also colors the beginning of its impact. Default: #FFFFFF.
+	#Mob tracer color at spawn; also colors the beginning of its impact.
 	# Default: 16777215
 	# Range: 0 ~ 16777215
 	tracerStartColor = 16777215
@@ -94,16 +94,16 @@ configRevision = 105
 	# Default: 10
 	# Range: 0 ~ 30
 	perfectDamage = 10
-	#Recharge after the last allowed shield or weapon block. Shields also receive an item cooldown; weapons remain usable for attacking. At least the normal parry recharge applies. Default 100 ticks = 5 seconds.
+	#Recharge after the last allowed shield or weapon block. Shields also receive an item cooldown; weapons remain usable for attacking. At least the normal parry recharge applies.
 	# Default: 100
 	# Range: 1 ~ 200
 	breakTicks = 100
-	#Shield perfect parry window, in ticks. 0 disables shield perfect parries; cannot exceed total shield parry ticks. Default: 2 ticks. Shield Expansion shields use their own total window and always keep a regular part.
+	#Shield perfect parry window, in ticks. 0 disables shield perfect parries; cannot exceed total shield parry ticks. Shield Expansion shields use their own total window and always keep a regular part.
 	# Default: 2
 	# Range: 0 ~ 10
 	perfectTicks = 2
-	#Total shield parry window, including perfect ticks. Default: 6 ticks (2 perfect, then 4 regular). Blocking follows without restarting shield use.
-	# Default: 6
+	#Total shield parry window, including perfect ticks. Blocking follows without restarting shield use.
+	# Default: 4
 	# Range: 1 ~ 10
 	parryTicks = 6
 	#Enable shield perfect-parry area effects without changing their stored angle.
@@ -132,7 +132,7 @@ configRevision = 105
 	rechargeTicks = 10
 	#Exact item block limits: mod:item=count, separated by commas. Overrides Shield Expansion counts and ordinary shield/weapon limits. 0 allows unlimited blocks; valid counts are 0–100.
 	itemBlockCounts = ""
-	#Time in ticks that normal targets hit by a shield perfect parry cannot voluntarily move or attack; 0 disables the stun.
+	#Shield perfect parry stun, in ticks: real shields stun every target in their cone, other shield-type items stun only the attacker. Stunned targets cannot move or attack; 0 disables the stun.
 	# Default: 30
 	# Range: 0 ~ 100
 	stunTicks = 30
@@ -173,7 +173,7 @@ configRevision = 105
 	# Range: 0 ~ 63
 	dontEnforceMask = 0
 	#Client defaults shared by the server; changed through the Enforce configuration screen.
-	defaults = "1,1,0,3,100,100,0,0,0,0,0,1,100,65,130,65,6,125,2,6,125,2,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,400,200,400,400,0,0,0,95,0,1,400,186,110,200,101,30,1,1,200,6,0,1,1,0,0,1,1,17,13,-28,7,-14,74,10,25,-16,23,30,-18,0,0,0,36,-7,-19,150,360,2,150,1,91,10,-30,22,-6,-10,-5,5,3,10,-8,-18,0,0,0,55,9,13,150,360,2,150,1,8,100,-12,-23,11,54,-5,8,3,10,-8,-18,0,0,0,38,-29,11,150,360,2,150,1,68,19,-24,4,-33,80,-5,8,3,10,-8,-18,0,0,0,24,180,10,150,360,3,100,1,39,3,-34,-39,-10,43,-26,24,45,-54,-11,-66,0,0,0,0,-8,10,150,360,2,100,1,100,100,100,100,4,1,100,100,100,100,9,1,100,100,100,100,5,1,100,100,100,100,5,1,100,100,100,100,6,50,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,2,16777215,0,80,50,16777215,100,16777215,16777215,16777215,125,2,250,8,100,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,20,30,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,60,0,80,2,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,16777215,16711680,82,55,6,6,0,6,1,1,6,5000,5000,6,100"
+	defaults = "1,1,0,3,100,100,0,0,0,0,0,1,100,65,130,65,6,125,2,6,125,2,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,130,180,400,400,0,0,0,95,0,1,400,186,110,200,101,30,1,1,200,6,0,1,1,0,0,1,1,17,13,-28,7,-14,74,10,25,-16,23,30,-18,0,0,0,36,-7,-19,150,360,2,150,1,91,10,-30,22,-6,-10,-5,5,3,10,-8,-18,0,0,0,55,9,13,150,360,2,150,1,8,100,-12,-23,11,54,-5,8,3,10,-8,-18,0,0,0,38,-29,11,150,360,2,150,1,68,19,-24,4,-33,80,-5,8,3,10,-8,-18,0,0,0,24,180,10,150,360,3,100,1,39,3,-34,-39,-10,43,-26,24,45,-54,-11,-66,0,0,0,0,-8,10,150,360,2,100,1,100,100,100,100,4,1,100,100,100,100,9,1,100,100,100,100,5,1,100,100,100,100,5,1,100,100,100,100,6,50,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,2,16777215,0,80,50,16777215,100,16777215,16777215,16777215,125,2,250,8,100,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,20,30,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,60,0,80,2,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,16777215,16711680,82,55,6,6,0,6,1,1,6,5000,5000,6,100"
 	#Apply server chosen client defaults when players connect and lock categories without a Don't Enforce exception.
 	enabled = true
 
@@ -206,7 +206,7 @@ configRevision = 105
 	defenderKnockback = true
 	#Allow the blast from a long fall parry to break terrain. Disable to prevent terrain damage.
 	fallBlastBreaksBlocks = true
-	#Parry projectile entities. Regular parries deflect them randomly; perfect parries send them toward the original owner.
+	#Parry projectile entities. Regular parries send them forward near your view; perfect parries send them straight back to the original owner.
 	parryProjectiles = true
 	#Allow held block to reduce explosion damage by the normal block reduction.
 	blockExplosions = true
@@ -215,7 +215,7 @@ configRevision = 105
 	#Parry falls while looking at least 40 degrees down.
 	fallParry = true
 	#Fall parry launch strength as a percentage of Parry It's default. Perfect falls launch twice as far. 0 disables launch.
-	# Default: 10
+	# Default: 20
 	# Range: 0 ~ 200
 	fallLaunchPower = 10
 	#Push strength for the defender in percent; shield parries use half the configured strength. 0 disables both.
@@ -231,11 +231,11 @@ configRevision = 105
 	#Return damage on parries. Off preserves both damage multipliers.
 	retaliationEnabled = true
 	#Regular parry damage returned as a fraction of the incoming damage. This damage adds no knockback; attacker pushback is separate. 0 disables it; 2 doubles it.
-	# Default: 0.4
+	# Default: 0.0
 	# Range: 0.0 ~ 2.0
 	parryRetaliation = 0.4
-	#Maximum angle from the player's view direction; 180 allows the front half, 360 allows attacks from any direction.
-	# Default: 180
+	#Full width of the parry cone around the camera view direction, in degrees; 180 covers the front half, 360 allows any direction.
+	# Default: 90
 	# Range: 0 ~ 360
 	facingAngle = 180
 	#Wear in tenths of a percent of maximum durability per regular or follow-up parry. 2 means 0.2%; rounded up. 0 disables wear.
@@ -243,7 +243,7 @@ configRevision = 105
 	# Range: 0 ~ 100
 	parryWear = 2
 	#Perfect parry damage returned as a fraction of the incoming damage. This damage adds no knockback; attacker pushback is separate. 0 disables it; 2 doubles it.
-	# Default: 0.8
+	# Default: 0.5
 	# Range: 0.0 ~ 2.0
 	perfectRetaliation = 0.8
 	#Wear in tenths of a percent of maximum durability per perfect parry. 1 means 0.1%; rounded up. 0 disables wear.
@@ -264,29 +264,29 @@ configRevision = 105
 	blockReduction = 0.5
 
 [timing]
-	#Perfect parry duration for tools; zero disables perfect parries. Default: 2 ticks.
+	#Perfect parry duration for tools; zero disables perfect parries.
 	# Default: 2
 	# Range: 0 ~ 10
 	perfectTicks = 2
-	#Total weapon parry duration, including perfect ticks. Default: 6 ticks (2 perfect, then 4 regular).
-	# Default: 6
+	#Total weapon parry duration, including perfect ticks.
+	# Default: 4
 	# Range: 1 ~ 10
 	parryTicks = 6
-	#Time before another attempt; continues during held guard.
+	#Time before another attempt, counted from leaving guard.
 	# Default: 10
 	# Range: 1 ~ 60
 	rechargeTicks = 10
 
 [parried]
 	#When your attack is parried: 0 off, 1 stun, 2 guard break, 3 both. Both applies the guard-break penalty and stun together, using their separate durations.
-	# Default: 1
+	# Default: 3
 	# Range: 0 ~ 3
 	reaction = 1
-	#Recharge penalty in Guard Break or Both mode. 20 ticks = one second. Default: 15 ticks.
+	#Recharge penalty in Guard Break or Both mode. 20 ticks = one second.
 	# Default: 15
 	# Range: 0 ~ 60
 	guardBreakTicks = 15
-	#Duration in Stun or Both mode. Stops movement, attack and guarding; 20 ticks = one second. Default: 15 ticks.
+	#Duration in Stun or Both mode. Stops movement, attack and guarding; 20 ticks = one second.
 	# Default: 15
 	# Range: 0 ~ 60
 	stunTicks = 15
@@ -301,12 +301,12 @@ configRevision = 105
 	# Range: 0 ~ 5
 	toolMaxBlocks = 3
 	#Automatically learned projectile entity ID to damage type ID associations. Updated after players are hit; used to honor modded projectile source rules at impact.
-	observedProjectileSources = "minecraft:arrow=minecraft:arrow,block_factorys_bosses:blazing_fire_ball=minecraft:arrow,nomansland:explosive=minecraft:player_explosion,holyhell:angel_projectile=minecraft:thrown,olympusmythology:harpy_projectile=minecraft:mob_projectile,irons_spellbooks:icicle=irons_spellbooks:ice_magic,irons_spellbooks:firebolt=irons_spellbooks:fire_magic"
+	observedProjectileSources = "minecraft:arrow=minecraft:arrow,block_factorys_bosses:blazing_fire_ball=minecraft:arrow,nomansland:explosive=minecraft:player_explosion,holyhell:angel_projectile=minecraft:thrown,olympusmythology:harpy_projectile=minecraft:mob_projectile,irons_spellbooks:icicle=irons_spellbooks:ice_magic,irons_spellbooks:firebolt=irons_spellbooks:fire_magic,irons_spellbooks:small_fireball=irons_spellbooks:fire_magic,irons_spellbooks:magma_ball=irons_spellbooks:fire_magic,irons_spellbooks:fire_field=irons_spellbooks:fire_field,irons_spellbooks:fire_breath=irons_spellbooks:fire_magic"
 	#Keep weapons and shields guarding after the parry window while the guard key is held. Off also lowers shields after successful parries.
 	block = true
 	#Per-damage-type parry rules, stored as damage_type_id=1 or =0, separated by commas. Configure in game.
 	damageRules = "minecraft:generic_kill=1,minecraft:arrow=1,minecraft:lava=0,minecraft:hot_floor=0"
-	#Players and guarding mobs restore health once per successful parry attempt. Blocking and follow-up safety hits do not heal. Off by default.
+	#Players and guarding mobs restore health once per successful parry attempt. Blocking and follow-up safety hits do not heal.
 	parryHealing = false
 	#Hearts restored by a perfect parry; regular parries restore half. 0 disables healing.
 	# Default: 1
@@ -316,9 +316,9 @@ configRevision = 105
 [items]
 	#Allow eligible items with a hold-to-use action to guard. Whitelisted items and universal guard are also allowed.
 	allowUsableItems = false
-	#When either eligible hand holds a shield: 0 Random, 1 Shield, 2 Default (player main hand). Falls back to the other eligible hand. Force Crouch Off-Hand overrides this.
-	# Default: 2
-	# Range: 0 ~ 2
+	#When either eligible hand holds a shield: 0 Random, 1 Shield, 2 Falls back within the eligible hands. Keybind selects shield mechanics for assigned tools; normal Guard keeps their weapon parry. Actual shields work through either key.
+	# Default: 3
+	# Range: 0 ~ 3
 	shieldParryPriority = 2
 	#Off: recognized weapons and shields plus extra allowed items may guard. On: all held items except excluded items may guard. Empty hands use a separate toggle.
 	allowAnyItem = false
@@ -332,13 +332,15 @@ configRevision = 105
 	includedItems = ""
 	#Item IDs, #tags, @mod namespaces, or ID/tag keywords excluded from shield recognition. Takes priority over shield tags and whitelist.
 	shieldBlacklist = ""
-	#When enabled, food and drinks in either hand take priority over guard, even if the other hand holds a weapon. Enabled by default.
+	#When enabled, food and drinks in either hand take priority over guard, even if the other hand holds a weapon.
 	consumablePriority = true
-	#Crouching selects the eligible offhand before other hand priorities.
+	#Crouching guards with the offhand whenever it can guard, overriding every other hand priority, including Shield Mode.
 	forceCrouchOffhand = true
 	#When on, an item with an active vanilla or modded cooldown cannot enter the guard stance. Another eligible hand can still guard.
 	cooldownPreventsGuard = true
-	#Allow guarding with an empty hand. Separate from allowing all held items; off by default.
+	#Allow guarding with an empty hand. Separate from allowing all held items.
 	allowEmptyHand = false
-	#Extra item IDs, #tags, @mod namespaces, or ID/tag keywords treated as shields. Built-in shields and blocking items are detected automatically. A whitelist or blacklist can still restrict them.
+	#Extra item IDs, #tags, @mod namespaces, or ID/tag keywords using shield mechanics. Assigned weapons keep their normal guarding animations. Built-in shields and blocking items are detected automatically. A whitelist or blacklist can still restrict them.
 	shieldItems = ""
+	#When on, guarding waits until the attack swing has fully recharged.
+	attackCooldownPreventsGuard = true

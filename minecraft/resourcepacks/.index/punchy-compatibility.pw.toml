@@ -1,0 +1,18 @@
+filename = 'Modded Swords x Punchy- 1.20.1 - 1.21.1 v1.5.2.zip'
+name = 'Modded Swords x Punchy! Compatibility'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.5.2'
+
+[download]
+hash = 'ece01f7929dbe397d9e7e8d4f49704eb8e7c6204de75965eeda436d907c2ea34e6f23150890dd083f385d934b2e2af66801d0c8a9b790fa11d15bb2c739ca0e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dJ0eaUH6/versions/uAIEPgpB/Modded Swords x Punchy%21 1.20.1 - 1.21.1 v1.5.2.zip'
+
+[update.modrinth]
+mod-id = 'dJ0eaUH6'
+version = 'uAIEPgpB'

@@ -1,20 +1,20 @@
-filename = 'icys-better-horses-2.1.7-neo-1.21.1.jar'
+filename = 'icys-better-horses-2.1.8-neo-1.21.1.jar'
 name = "Icy's Better Horses"
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.1.7'
+x-prismlauncher-version-number = '2.1.8'
 
 [download]
-hash = 'a39e1afac6a33ec785a92eda2cb2d1f5c212dd91a80945b0207fb32090e7684ad366cb5090992fa2a9d90d4ae27872ad36c63e563b548f90d5d730286d7ab044'
+hash = 'a020fe74ea3c6ae4bb0e137d0fe1effcb3717128f5b67d33ca771f4921e958809cf04ddbb4d037f5326162e421d16b7342ffa19c6ed5e0ff093d5832be825119'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/XlUm5I57/versions/vfSQ99Gl/icys-better-horses-2.1.7-neo-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/XlUm5I57/versions/hIDmOrOO/icys-better-horses-2.1.8-neo-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'XlUm5I57'
-version = 'vfSQ99Gl'
+version = 'hIDmOrOO'
 
 [[x-prismlauncher-dependencies]]
 addonId = '692GClaE'

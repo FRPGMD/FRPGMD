@@ -1,33 +1,33 @@
-filename = 'cirrus-neoforge-1.21.1-1.4.1.jar'
+filename = 'cirrus-neoforge-1.21.1-1.4.2.jar'
 name = 'Cirrus'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.1'
+x-prismlauncher-version-number = '1.4.2'
 
 [download]
-hash = '85b8796a77e624ac443324df876605d60c577b5c255736c030eeac8a885248b4e026c69b5779212332a2c6373f4a998d8b5c760be98ceec91051b3df2a095360'
+hash = '36915180cd74e94f2279959dc711d5ef61d89286539adac06c8b5fabf83bc0e468f3ef4a51bbdd8393366763fb9ad69faed5a217e656b4ce035bc07b087c72bd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/SJDzFJH7/versions/gQSzD7br/cirrus-neoforge-1.21.1-1.4.1.jar'
+url = 'https://cdn.modrinth.com/data/SJDzFJH7/versions/VHN0gvNp/cirrus-neoforge-1.21.1-1.4.2.jar'
 
 [update.modrinth]
 mod-id = 'SJDzFJH7'
-version = 'gQSzD7br'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Xkw3TXqP'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
-type = 'REQUIRED'
+version = 'VHN0gvNp'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'uCdwusMi'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xkw3TXqP'
 type = 'OPTIONAL'

@@ -1,20 +1,20 @@
-filename = 'modonomicon-1.21.1-neoforge-1.120.8.jar'
+filename = 'modonomicon-1.21.1-neoforge-1.123.0.jar'
 name = 'Modonomicon'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.120.8'
+x-prismlauncher-version-number = '1.21.1-1.123.0'
 
 [download]
-hash = '82e4790123de54df701f80eb1680aa91d2fdce10598d82e012fa80d423f432815178edd5fa2020f7aea40011b80283eb635408fb08d099109183ebfe0d59d59c'
+hash = 'e9569d3ba39caefb4776a1d9d99d2045f2e6ca4ca26a7e609aa99d0d8e9c696a0c8e9d68df0e9a2b41dc513de8f36e5ea91f8f26db781b8279b2a6a96f95291e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/692GClaE/versions/buU1Nx5q/modonomicon-1.21.1-neoforge-1.120.8.jar'
+url = 'https://cdn.modrinth.com/data/692GClaE/versions/OKyLanIn/modonomicon-1.21.1-neoforge-1.123.0.jar'
 
 [update.modrinth]
 mod-id = '692GClaE'
-version = 'buU1Nx5q'
+version = 'OKyLanIn'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'u6dRKJwZ'

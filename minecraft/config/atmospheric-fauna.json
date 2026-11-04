@@ -11,7 +11,9 @@
     "spawnAroundSpectators": true
   },
   "visuals": {
-    "enableBirdDistanceFadeOut": true
+    "enableBirdDistanceFadeOut": true,
+    "enableHitParticles": true,
+    "enableSpyglassInteraction": true
   },
   "birds": {
     "maxActiveBirds": 100,

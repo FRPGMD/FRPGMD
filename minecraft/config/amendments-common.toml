@@ -154,3 +154,9 @@
 [bubble_column]
 	#Makes bubble columns to extend up through grate like blocks (amendments:bubble_column_passable tag)
 	bubble_column_grates = true
+
+[container_pickup]
+	#Makes oicked up items go straight into a container held in your offhand (like bundle or shulker). Tag amendments:held_pickup_blacklist
+	#Allowed Values: OFF, OFFHAND, BOTH, MAIN_HAND
+	held_container_pickup = "OFFHAND"
+	pickup_sound = true
