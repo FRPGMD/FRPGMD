@@ -1,18 +1,18 @@
-filename = 'mezz_config-1.21.1-neoforge-0.6.10-standalone.jar'
+filename = 'mezz_config-1.21.1-neoforge-0.6.11-standalone.jar'
 name = 'MezzConfig'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.6.10'
+x-prismlauncher-version-number = '0.6.11'
 
 [download]
-hash = 'f9848590311ae1f2c9a20efcfd7485846a011deccf85c2eee17cbed141b8d88f3e62e3733bbf0cd6b0714f59deca5470f50780750358d3ae2b1fd6597b209ccb'
+hash = '38731fd657625548920c6f30c5d38e88d515888eb7d6f687a8b78d91e5ee18d6c16298432fddb8ae62f05128e560357a7c36f067d1a278c23d44d403534f9b9a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/7tEfOcA7/versions/sL7Ghaz1/mezz_config-1.21.1-neoforge-0.6.10-standalone.jar'
+url = 'https://cdn.modrinth.com/data/7tEfOcA7/versions/sPQlt1iR/mezz_config-1.21.1-neoforge-0.6.11-standalone.jar'
 
 [update.modrinth]
 mod-id = '7tEfOcA7'
-version = 'sL7Ghaz1'
+version = 'sPQlt1iR'

@@ -1,0 +1,107 @@
+#Show the "[H] Work at..." hint under the crosshair on blocks set to KEY.
+invitation = true
+#At a Weighted Ejector, the view follows what it throws.
+followLaunches = true
+#Farthest launch target the view follows, in blocks.
+# Default: 32
+# Range: 8 ~ 64
+watchReach = 32
+#With an Extendo Grip on a big crafter wall, show a map of the part in view.
+wallMap = true
+#With an Extendo Grip on a big crafter wall, resting the cursor at a screen edge turns the view.
+edgeTurn = true
+#Small camera kicks on press strokes, impacts and launches.
+cameraJolts = true
+#A soft flash when something is made.
+resultFlashes = true
+#Play the scenes on servers without this add-on (applies the next time you join).
+clientMode = false
+
+[scenes]
+	#How the depot scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	depot = "KEY"
+	#How the pressing scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	pressing = "USE"
+	#How the valve_handle scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	valve_handle = "USE"
+	#How the mechanical_crafter scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	mechanical_crafter = "USE"
+	#How the hand_crank scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	hand_crank = "USE"
+	#How the basin scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	basin = "USE"
+	#How the blaze_burner scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	blaze_burner = "USE"
+	#How the spouting scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	spouting = "USE"
+	#How the deploying scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	deploying = "USE"
+	#How the fan_processing scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	fan_processing = "USE"
+	#How the item_drain scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	item_drain = "USE"
+	#How the deployer scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	deployer = "USE"
+	#How the millstone scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	millstone = "USE"
+	#How the mechanical_saw scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	mechanical_saw = "USE"
+	#How the weighted_ejector scene starts: USE = right-click, KEY = press H (right-click stays normal), OFF = no scene.
+	#Allowed Values: USE, KEY, OFF
+	weighted_ejector = "USE"
+
+[particles]
+	#All scene particles on or off.
+	enabled = true
+	#How many particles spawn, in percent.
+	# Default: 100
+	# Range: 0 ~ 100
+	amount = 100
+	#Use fewer particles when Minecraft's Particles option is lowered.
+	followGame = true
+
+	[particles.blocks]
+		#Particles in the depot scene.
+		depot = true
+		#Particles in the pressing scene.
+		pressing = true
+		#Particles in the valve_handle scene.
+		valve_handle = true
+		#Particles in the mechanical_crafter scene.
+		mechanical_crafter = true
+		#Particles in the hand_crank scene.
+		hand_crank = true
+		#Particles in the basin scene.
+		basin = true
+		#Particles in the blaze_burner scene.
+		blaze_burner = true
+		#Particles in the spouting scene.
+		spouting = true
+		#Particles in the deploying scene.
+		deploying = true
+		#Particles in the fan_processing scene.
+		fan_processing = true
+		#Particles in the item_drain scene.
+		item_drain = true
+		#Particles in the deployer scene.
+		deployer = true
+		#Particles in the millstone scene.
+		millstone = true
+		#Particles in the mechanical_saw scene.
+		mechanical_saw = true
+		#Particles in the weighted_ejector scene.
+		weighted_ejector = true

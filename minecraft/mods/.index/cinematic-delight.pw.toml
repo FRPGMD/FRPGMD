@@ -1,0 +1,25 @@
+filename = 'cinematic-delight-0.2.0-neoforge1.21.1.jar'
+name = 'Cinematic Delight'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cinematic-delight-0.2.0-neoforge1.21.1.jar'
+
+[download]
+hash = '36332e2283ae443ffc16da04d2c30a190af45b04'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9434078
+project-id = 1776645
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1743441'
+type = 'OPTIONAL'

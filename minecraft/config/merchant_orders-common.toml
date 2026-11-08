@@ -51,6 +51,12 @@ saleCooldownDays = 3
 		townsAndTowers = true
 		#Enable optional Repurposed Structures village integration when that mod is installed.
 		repurposedStructures = true
+		#Place one order board outdoors near paths in Integrated Villages. Airship and Pirate villages are excluded.
+		#Uses villageSpawnChancePercent. Unsafe or flooded locations are skipped.
+		integratedVillages = true
+		#Integrated Villages structure paths allowed to receive boards.
+		#Remove a village type to disable it. Only bundled, verified template layouts are supported.
+		integratedVillageTypes = ["cabin_village", "clockwork_village", "kutcha_village", "marketstead_village", "mediterranean_village", "mossy_mounds", "oasis_village", "sunken_village", "tavern_village"]
 
 [progression]
 	#Total accumulated XP required for tiers 1 through 5.

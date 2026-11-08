@@ -1,20 +1,20 @@
-filename = 'sleep_tight-1.21-1.6.3-neoforge.jar'
+filename = 'sleep_tight-1.21-1.6.4-neoforge.jar'
 name = 'Sleep Tight'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21-1.6.3'
+x-prismlauncher-version-number = '1.21-1.6.4'
 
 [download]
-hash = '3da009bba2281a733d0cfb4d718496a1cec448eedb9b6d6fb1da7db413865a83c56d2ae57450edd702a79debaaa6e51c91d4985eaaacee62d342bf85e28f003b'
+hash = '157c96c32a2d7f200544f7be220b91902ca3e75c22bf41596bf233b5e010335d73b48137e1c3efc3413414a4a79f72c724d2885172013e748e7d1e950bf573c1'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/tNai0h2Y/versions/wZf65KFu/sleep_tight-1.21-1.6.3-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/tNai0h2Y/versions/NYkiLTMl/sleep_tight-1.21-1.6.4-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'tNai0h2Y'
-version = 'wZf65KFu'
+version = 'NYkiLTMl'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'twkfQtEc'

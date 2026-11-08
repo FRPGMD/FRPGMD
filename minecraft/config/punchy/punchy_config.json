@@ -1,9 +1,9 @@
 {
   "renderArmorArmsFP": false,
-  "interactiveStuffCompat": false,
+  "interactiveStuffCompat": true,
   "spatialGuiCompat": true,
   "bettercombatCompat": true,
-  "swordBlockingCompat": false,
+  "swordBlockingCompat": true,
   "animationSpeed": 5.5,
   "enableMod": true,
   "enableTuning": false,
@@ -45,5 +45,6 @@
   },
   "animationPackSelections": {},
   "animationPackTypeSelections": {},
-  "mixSpecificForceOverride": {}
+  "mixSpecificForceOverride": {},
+  "compatDefaults": true
 }

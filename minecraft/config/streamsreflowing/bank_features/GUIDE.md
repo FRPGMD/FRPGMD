@@ -64,7 +64,7 @@ Two rules:
 - A ring whose size is not zero is never thinner than **one block**. A brook keeps its waterline.
 - A pattern is never finer than **two blocks**. Blobs on a brook are small specks.
 
-A lake or sea shore counts as a stream **32 blocks wide**. It is painted under the water only
+A lake or sea shore counts as a stream **12 blocks wide**. It is painted under the water only
 (the bed and the waterline).
 
 ### 3.2 Where the file goes
@@ -107,7 +107,7 @@ This is one bank, cut through. The water is on the left.
 | Ring | What it covers | How its size is measured | Default |
 |---|---|---|---|
 | `bed` | the floor under the water | no size: everything below the waterline strip | — |
-| `waterline` | a band hugging the water surface | UP and DOWN from the surface: `below` under it, `above` onto the bank | `below` 10, `above` 0 |
+| `waterline` | a band hugging the water surface | UP and DOWN from the surface: `below` under it, `above` onto the bank; `reach` stops it that far OUT from the water's edge | `below` 10, `above` 0, `reach` 10 |
 | `bank` | the cut slope beside the water | OUTWARD from the water's edge | `reach` 100, or 50 with a `top_bank` |
 | `top_bank` | a second band, further out | OUTWARD from where `bank` stopped | `reach` the rest of the cut |
 | `rings: [ ... ]` | any number of further bands | OUTWARD from where the last one stopped | `reach` required |
@@ -176,6 +176,7 @@ A bare block or list is the short form. The object form adds more:
 | `reach`, `above`, `below` | see 3.3 | The ring's size, in percent of the stream's width. |
 | `pattern` | `blobs` | How a list is mixed: `blobs` (patches), `bands` (stripes along the stream), `speckle` (a random pick per column). |
 | `scale` | `30` | The patch size or the stripe width, in percent of the stream's width. |
+| `blob_size` | none | The patch size or the stripe width in blocks, the same on a brook and a river. Wins over `scale`. |
 | `edge_noise` | `0.3` | How softly the ring's outer edge blends into the next ring. 0 = a sharp line. 1 = very soft. |
 | `overrides` | none | Swap the ring's blocks where the stream is a certain way (3.6). |
 | `features` | none | Scenery placed in this ring (3.7). |
@@ -203,7 +204,7 @@ first one whose roll succeeds paints the column. If none does, the ring's own bl
 | `when` | required | Properties and comparisons. All must hold. Comparisons: `"> 0.3"`, `">= 0.3"`, `"< 0.3"`, `"<= 0.3"`. |
 | `fade` | `0.1` | At the threshold the override claims half the columns. `fade` past it, all of them. |
 | `block` | required | The sticker's block or list. |
-| `pattern`, `scale` | the ring's | As for a ring. |
+| `pattern`, `scale`, `blob_size` | the ring's | As for a ring. |
 
 Every property runs from 0 to 1:
 
@@ -496,7 +497,7 @@ Do these steps to make a datapack for your bank files.
 |---|---|
 | Change the bank blocks in one biome | Make a bank style with `biomes` or `tags` and `bed`/`waterline`/`bank`. |
 | Two bank zones | Add `top_bank`. `bank` takes the inner half of the cut, `top_bank` the rest. |
-| Patches instead of a random mix | A list of blocks is patches already. Set `scale` for the patch size. |
+| Patches instead of a random mix | A list of blocks is patches already. Set `scale` (percent of the width) or `blob_size` (blocks) for the patch size. |
 | Stripes along the stream | `"pattern": "bands"` on the ring. |
 | Rock on steep reaches, sand near the mouth | An `overrides` entry with `"when": { "slope": "> 0.5" }` or `{ "to_mouth": "< 0.2" }`. |
 | Gravel on the inside of bends | `"when": { "bend": "> 0.2", "side": "inner" }`. |

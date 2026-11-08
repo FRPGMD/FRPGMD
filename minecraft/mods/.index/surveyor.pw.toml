@@ -1,6 +1,6 @@
 filename = 'surveyor-1.2.4+1.21.jar'
 name = 'Surveyor Map Framework'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

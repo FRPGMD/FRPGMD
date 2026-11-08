@@ -1,18 +1,18 @@
-filename = 'jeioptimizer-1.21.1-1.2.1-19.64.jar'
+filename = 'jeioptimizer-1.21.1-1.2.2-19.70.jar'
 name = 'JEIOptimizer'
-side = 'client'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.1-19.64'
+x-prismlauncher-version-number = '1.2.2-19.70'
 
 [download]
-hash = '4ad1f39397274aec68faf9bd6f4491e92d893c0445c109c9c83148e60b512da7cbb867147c31c342fa93f9a4ea26e9688a237f94b5b5a74497cfdebe0ef9393d'
+hash = '17b3f35e19d03631c8f1696a23578b5b3f47d1ed55c600860b67efe4e6e66bc13001a597edffaa312382bed8e2bf358ba474eb638f6e618d75521802ca44b529'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/GRvMb5oF/versions/LUw5btcz/jeioptimizer-1.21.1-1.2.1-19.64.jar'
+url = 'https://cdn.modrinth.com/data/GRvMb5oF/versions/bcRknsDO/jeioptimizer-1.21.1-1.2.2-19.70.jar'
 
 [update.modrinth]
 mod-id = 'GRvMb5oF'
-version = 'LUw5btcz'
+version = 'bcRknsDO'

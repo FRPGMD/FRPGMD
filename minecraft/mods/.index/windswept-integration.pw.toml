@@ -1,0 +1,21 @@
+filename = 'windswept_integration-1.21.1-2.0.0.jar'
+name = 'Windswept Integration'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'windswept_integration-1.21.1-2.0.0.jar'
+
+[download]
+hash = '6710acc36016e660cd893fe630a404c89eff7297'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9155921
+project-id = 1343980
+
+[[x-prismlauncher-dependencies]]
+addonId = '636321'
+type = 'REQUIRED'

@@ -1,0 +1,23 @@
+[content_overlap]
+	#Disables Environmental Pine in worldgen & loot
+	"Disable Environmental Pine" = true
+	#Disables Ecologics Snow Brick recipes
+	"Disable Ecologics Snow Bricks" = true
+	#Disables Blast from the Past Snow Brick recipes
+	"Disable Blast from the Past Snow Bricks" = true
+
+[tweaks]
+	#Allows crafting Magenta Dye from Lavender
+	"Lavender Dye Recipe" = true
+	#Allows Chilled and Strays to spawn in Blast from the Past's Frostbite Forest
+	"Frostbite Forest Mobs" = false
+	#Whether Chilled (and Strays) should spawn instead of Zombies and Skeletons in YUNG's Frosted Caves
+	"Frosted Caves Chilled" = true
+	#Prevents Creepers, Spiders and Bats from spawning in YUNG's Frosted Caves
+	"Disable Non-frosty Mobs" = false
+
+[custom_content]
+	#More durable brush variant that makes suspicious blocks drop xp when brushed
+	"Elder Brush" = false
+	#Carpet for Blast from the Past's Chilly Moss
+	"Chilly Moss Carpet" = false
