@@ -183,7 +183,10 @@ key_key.jei.cheatOneItem:key.mouse.left
 key_key.jei.cheatOneItem2:key.mouse.right
 key_key.jei.cheatItemStack:key.mouse.left:SHIFT
 key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.cheatOneItemToInventory:key.mouse.right:ALT
+key_key.jei.cheatItemStackToInventory:key.mouse.left:ALT
 key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.toggleHideIngredientsWhenNotSearching:key.mouse.right:CONTROL
 key_key.jei.toggleEditMode:key.keyboard.unknown
 key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
 key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
@@ -275,6 +278,7 @@ key_create.keyinfo.rotate_menu:key.keyboard.unknown
 key_create.keyinfo.shift_modifier:key.keyboard.left.shift
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
+key_key.cinecreate.work:key.keyboard.h
 key_key.duckylib.series_home:key.keyboard.right.control
 key_key.mallardguard.guard:key.mouse.right
 key_key.mallardguard.shield_guard:key.keyboard.unknown
@@ -311,7 +315,7 @@ key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
 key_key.punchy.triggerable.trident_inspect:key.keyboard.i
 soundCategory_master:0.47515262157097554
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
