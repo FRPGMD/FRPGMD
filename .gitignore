@@ -4,6 +4,7 @@ minecraft/crash-reports/
 minecraft/data/
 minecraft/downloads/
 minecraft/dynamic-resource-pack-cache/
+minecraft/dynamic-data-pack-cache/
 minecraft/logs/
 minecraft/moonlight-global-datapacks/
 minecraft/saves/
@@ -24,6 +25,9 @@ minecraft/fabricloader.log
 minecraft/options.txt
 minecraft/CustomSkinLoader/
 minecraft/configureddefaults/README.md
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/streamsreflowing-stall-*.txt
 -minecraft/mods/.index/
 instance.cfg
 minecraft/config/asyncparticles/asyncparticles-mixin.properties
